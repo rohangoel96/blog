@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<center>I like to see new things, do stuff, and take pictures.<br>Photographs, I believe are the best way to preserve our favorite memories and experiences - which otherwise get lost in our over burdened brains.<br>Pretty sure that as a visitor, you think that website deserves to be voted as the most useless thing online - but this is primarily for myself - to relive my <strong>MemExp</strong>s :)</center> 
+<center>I like to see new things, do stuff, and take pictures.<br>Photographs, I believe are the best way to preserve our favorite memories and experiences - which otherwise get lost in our over burdened brains.<br>Pretty sure that as a visitor, you think that website deserves to be voted as the most useless thing online - but this probably is for myself - to relive my <strong>MemExp</strong>s :)</center> 
 
 {% assign thisyear = 'now' | date: "%Y" %}
 {% assign firstyear = true %}

@@ -138,3 +138,14 @@ li { padding-left: 20px; }
 .tl-title-right {
   margin-left: 30px;
 }
+
+p.center {
+  text-align: center;
+}
+
+.potrait-image{
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin: 75px 0;
+}
