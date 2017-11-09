@@ -1,0 +1,24 @@
+safe:        false
+port:        8000
+
+source:      .
+destination: ./_site
+
+future:      true
+lsi:         false
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink:   /:year/:month/:title
+
+title:       MemExp
+description: Rohan Goel's Memories and Experiences
+author:      Rohan Goel
+email:       rohangoel0296@gmail.com
+
+exclude:     [_site]
+
+collections:
+  travels:
+    # name: Travels
+    # url: /travels/
+    output: true
+    permalink: /:title/

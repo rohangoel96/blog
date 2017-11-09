@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author }}">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/skeleton.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/custom.css">
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns header">
+        <h1>{{ site.title }}</h1>
+        <h2>{{ site.description }}</h1>
+      </div>
+    </div>
+    <div class="row rownav">
+      <ul class="twelve columns nav">
+<!--         <li><a href="{{site.baseurl}}/">Home</a></li> -->
+        <li><a href="http://rohangoel96.github.io" target="_blank">About Me</a></li>
+        <li><a href="mailto:rohangoel0296@gmail.com" target="_blank">Contact Me</a></li>
+<!--         <li><a href="{{site.baseurl}}/software/">Software</a></li> -->
+      </ul>
+    </div>
+  </div>
+ 
+  {{ content }}
+
+  <div class="container">
+    <div class="row rownav" style="margin-top: 0px;">
+      <ul class="twelve columns nav">
+        <!-- <li><a href="{{site.baseurl}}/">Home</a></li> -->
+        <li><a href="http://rohangoel96.github.io" target="_blank">About Me</a></li>
+        <li><a href="mailto:rohangoel0296@gmail.com" target="_blank">Contact Me</a></li>
+        <!-- <li><a href="{{site.baseurl}}/software/">Software</a></li> -->
+      </ul>
+    </div>
+    <div class="row" style="margin-bottom: 0px;padding-bottom: 30px;">
+      <div class="two columns">&nbsp;</div>
+      <div class="eight columns" id="contact" style="text-align:center;">
+        <strong>Rohan Goel</strong><br />
+        rohangoel0296@gmail.com
+        </div>
+      <div class="two columns">&nbsp;</div>
+    </div>
+  </div>
+</body>
+
+</html>
