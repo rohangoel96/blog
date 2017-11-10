@@ -9,7 +9,10 @@ permalink:
 publish: yes
 ---
 
-
+<center><i>
+Located in the French Riviera, on the south east coast of France on the Mediterranean Sea, at the foot of the Alps, Nice is the second-largest French city on the Mediterranean coast. This coastline was one of the first modern resort areas. It began as a winter health resort for the British upper class at the end of the 18th century.
+</i></center>
+<br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-nice/cover.jpg" alt="">Nice was definitely the 'nice'st part of the infamous French Riveria with it's pebble beaches - something which totally amazed me. <br>PS: Had to climb 300 stairs for this amazing view</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-nice/1.jpg">Pebbles <3</p>
@@ -25,3 +28,5 @@ publish: yes
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-nice/5.jpg" class="potrait-image">A good candid?????? The first decent candid I posses in my 21.5 years of existense! Merci @MukulRawat</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-nice/7.jpg">Oui! I totally love Nice. You can't be luckier than the people living in such bliss :)</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-nice/8.jpg">Memories shared with @MukulRawat @PratimaGurung @JyotiSharma @Baraah @TheOneWhoCannotBePictured:P</p>
