@@ -4,7 +4,7 @@ title: The European capital - Brussels
 type: photos
 category: travels
 location: Nimes, France
-image: /img/2017/10-brussels/cover-min.jpg
+image: /img/2017/10-brussels/cover-min-400.jpg
 permalink: 
 publish: yes
 ---

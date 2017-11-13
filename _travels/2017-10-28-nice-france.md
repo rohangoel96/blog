@@ -4,7 +4,7 @@ title: The 'Nice' French Riviera
 type: photos
 category: travels
 location: Nice, France
-image: /img/2017/10-nice/cover-min.jpg
+image: /img/2017/10-nice/cover-min-400.jpg
 permalink: 
 publish: yes
 ---

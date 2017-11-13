@@ -4,7 +4,7 @@ title: Nimes - The French Rome
 type: photos
 category: travels
 location: Nimes, France
-image: /img/2017/10-nimes/cover-min.jpg
+image: /img/2017/10-nimes/cover-min-400.jpg
 permalink: 
 publish: yes
 ---

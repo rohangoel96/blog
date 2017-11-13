@@ -4,7 +4,7 @@ title: Paris - World's Fashion Capital
 type: photos
 category: travels
 location: Paris, France
-image: /img/2017/9-paris/cover-min.jpg
+image: /img/2017/9-paris/cover-min-400.jpg
 permalink: 
 publish: yes
 ---

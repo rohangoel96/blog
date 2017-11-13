@@ -4,7 +4,7 @@ title: Cannes
 type: photos
 category: travels
 location: Cannes, France
-image: /img/2017/10-cannes/cover-min.jpg
+image: /img/2017/10-cannes/cover-min-400.jpg
 permalink: 
 publish: yes
 ---
