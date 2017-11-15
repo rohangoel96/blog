@@ -8,12 +8,11 @@ image: /img/2017/10-amsterdam/cover-min-400.jpg
 permalink: 
 publish: yes
 ---
-
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ -->
 <center><i>
 Amsterdam is colloquially known as Venice of the North because of its lovely canals that criss-cross the city, its impressive architecture and more than 1,500 bridges. 
 </i></center>
-
-
 <br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/cover-min.jpg" alt="">Jordaan -  one of the most expensive, upscale locations in the Netherlands with major tourists spots too</p>
 

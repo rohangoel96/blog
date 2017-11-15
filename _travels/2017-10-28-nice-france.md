@@ -8,7 +8,8 @@ image: /img/2017/10-nice/cover-min-400.jpg
 permalink: 
 publish: yes
 ---
-
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ -->
 <center><i>
 Located in the French Riviera, on the south east coast of France on the Mediterranean Sea, at the foot of the Alps, Nice is the second-largest French city on the Mediterranean coast. This coastline was one of the first modern resort areas. It began as a winter health resort for the British upper class at the end of the 18th century.
 </i></center>

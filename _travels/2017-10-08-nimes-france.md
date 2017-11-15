@@ -8,7 +8,8 @@ image: /img/2017/10-nimes/cover-min-400.jpg
 permalink: 
 publish: yes
 ---
-
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ -->
 <center><i>
 Definitely the best place to experience the Roman Heritage in France.<br>
 Trivia: The name “denim” comes from the name of a sturdy fabric called “Serge de Nîmes”, initially made in Nîmes, France, hence “de Nîmes” - “denim”.

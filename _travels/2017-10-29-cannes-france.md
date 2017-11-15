@@ -8,7 +8,8 @@ image: /img/2017/10-cannes/cover-min-400.jpg
 permalink: 
 publish: yes
 ---
-
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ -->
 <center><i>
 Known for the annual Cannes Film Festival, Midem, and Cannes Lions International Festival of Creativity. Also known for its association with the rich and famous, its luxury hotels and restaurants, and for several conferences
 </i></center>

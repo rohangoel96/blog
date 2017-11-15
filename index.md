@@ -23,7 +23,7 @@ layout: page
 {% endif %}
 
   <div class="blogthumb">
-    <a href="{{post.url}}"><img src="{{site.baseurl}}{{ post.image }}"></a>
+    <a href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}{{ post.image }}"></a>
     <div class="blogthumb-link"><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></div>
   </div>
     

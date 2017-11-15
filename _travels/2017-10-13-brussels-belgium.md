@@ -8,12 +8,13 @@ image: /img/2017/10-brussels/cover-min-400.jpg
 permalink: 
 publish: yes
 ---
-
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ -->
 <center><i>
-
+Brussels, the de facto capital of the European Union was one of the most multilingual cities I have ever witnessed. Most of people spoke all of English, French and Dutch fluently.
 </i></center>
 <br>
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-brussels/cover-min.jpg" alt="">Brussels, the de facto capital of the European Union was one of the most multilingual cities I have ever witnessed. Most of people spoke all of English, French and Dutch fluently</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-brussels/cover-min.jpg" alt="">One can probably see the whole of europe - atleast the touristy spots in all of europe in this de facto EU capital. @MiniEurope</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-brussels/1-min.jpg"> Atomium which represents a unit cell of the iron cystal (magnified 165 billion times) was actually made of Aluminium. Moreover, it was designed to showcase the advent of atomic age - iron cannot be used in nuclear reactions.</p>
 
