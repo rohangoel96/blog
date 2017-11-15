@@ -25,7 +25,7 @@ Located in the French Riviera, on the south east coast of France on the Mediterr
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-nice/4-min.jpg">When you have only one jeans and you don't want it wet + pebble beaches are not so comfortable for your legs :(</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-nice/5-min.jpg" class="potrait-image">A good candid?????? The first decent candid I posses in my 21.5 years of existense! Merci @MukulRawat</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-nice/5-min.jpg">A good candid?????? The first decent candid I posses in my 21.5 years of existense! Merci @MukulRawat</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-nice/7-min.jpg">Oui! I totally love Nice. You can't be luckier than the people living in such bliss :)</p>
 

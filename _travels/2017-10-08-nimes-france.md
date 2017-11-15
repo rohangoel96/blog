@@ -10,7 +10,8 @@ publish: yes
 ---
 
 <center><i>
-Definitely the best place to experience the Roman Heritage in France.
+Definitely the best place to experience the Roman Heritage in France.<br>
+Trivia: The name “denim” comes from the name of a sturdy fabric called “Serge de Nîmes”, initially made in Nîmes, France, hence “de Nîmes” - “denim”.
 </i></center>
 <br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/cover-min.jpg" alt="">Arena of Nîmes, the Roman amphitheatre was built around 70 AD which means it's almost 2000 years old!!</p>
