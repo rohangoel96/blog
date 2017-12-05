@@ -1,0 +1,53 @@
+---
+layout: post
+title: Buh bye Dublin
+type: photos
+category: travels
+location: Dublin, Ireland
+image: /img/2017/7-dublin/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center><i>
+So here comes to end my first "international trip". I couldn't travel outside of Ireland (even to the northern part :() thanks to the visa restrictions, but I am proud to have travelled a lot in Ireland and made so many new friends. I'll surely miss the super hospitable and ever smiling nature of the Irish. It was a great experience, both at work and culturally. Wouldn't think twice before coming to Dublin again.
+</i></center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/cover.jpg" alt="">@TrinityCollge - the most prestigious university in Ireland and the world. There have been so many film shootings at this place.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/1.jpg" alt="">The very famous library at Trinity, which also houses the BookOfKells.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/2.jpg" alt="">Trust me that these college premises were established more than 4 centuries ago and are still shining like new.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/3.jpg" alt="">When your colleagues (read professors) are cool enough to invite you to their monthly trekking trip @WicklowMountains.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/4.jpg" alt="">When you couldn't feel your legs but can't complain because PROFESSORS!!! But this top view was probably worth it</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/5.jpg" alt="">The home to the best Irish whiskey in the World - Jameson. Ireland surely has different sort of mueseums - mostly on alcohol :P</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/6.jpg" alt="">Tasting and learning to differentiate between 3 types of whiskeys : Scottish, Irish and American.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/7.jpg" alt="">Pride (LGBT) parade in Dublin - amongst other firsts for me</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/8.jpg" alt="">Too many colors in one place?</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/11.jpg" alt="">The Dublin Zoo was by far the best and the largest zoo I have seen my entire life</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/12.jpg" alt="">African savanah in the super cold Ireland? @DublinZoo</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/14.jpg" alt="">The "red" temple bar with its cobbled steets is the most famous to get drunk in Ireland</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/15.jpg" alt="">Finally some real (non alcohol related) muesuems in Ireland. Whoosh!</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/16.jpg" alt="">Here comes another one, the wax mueseum.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/17.jpg" alt="">DIT FOCAS - my workplace :)</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/17.1.jpg" alt="">This is the place I used to sit and work. I liked the very open and non-cubicle culture here.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/17.2.jpg" alt="">Yes, I was a (21 year old) staff. Yo!</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/18.jpg" alt="">Fortunately or unfortunately, my lab was located right in the (expensive) city center.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/19.jpg" alt="">Cheers Dublin! Thank you so much for the wonderful memories. Will miss you :(</p>
