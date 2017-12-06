@@ -1,0 +1,47 @@
+---
+layout: post
+title: Mediterranean Montpellier
+type: photos
+category: travels
+location: Montpellier, France
+image: /img/2017/9-montpellier/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center><i>
+So here comes another internship (Bachelor's Thesis) and another country. It's continental Europe and SOUTH OF FRANCE this time. Montpellier is on the Mediterranean coast experiences a much warmer climate than rest of France (thank god!). It's a student city with more than a third of the popuation being students. And yes, I don't know French so it's hell of a problem.
+</i></center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/cover.jpg" alt="">So the french named the city center of the city as "Comédie"! Probably they wanted to be funny?</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/1.jpg" alt="">Triumphal Arch to make me feel home. Yo! #IndiaGate</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/2.jpg" alt="">The highest point in Montpellier, Place du Peyrou - a water castle (sort-of)</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/3.jpg" alt="">This is the "historic center of Montpellier" with these buildings being 2-3 centuries old.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/4.jpg" alt="">Ah! These narrow streets with tall buildings of yellow stone on the sides - common sight in the centre.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/5.jpg" alt="">My room for the next few months (with sky-lights, ahem ahem)</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/6.jpg" alt="">LIRMM - my very colorful lab</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/7.jpg" alt="">Another card to carry in your wallet now -_-</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/8.jpg" alt="">Wow! They give you a chamber too (so it's supposed to be shared with one more person BUT luckily that person completed his PhD and if off). Soo private chamber! Wuhu!!!</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/9.jpg" alt="">Aaaaaah! Finally some good INDIAN FOOD - something to die for.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/10.jpg" alt="">My first "Wine Festival"<br>With @TobiasScharl @JessicaKristin @PetrMachac and @Julian</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/11.jpg" alt="">INTERNATIONS - a meetup of people from different background, ages and culture- a first for me. It was a nice to learn from people's experiences.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/12.jpg" alt="">So this is how we celebrated DIWALI in France. #FrenchDiwali</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/13.jpg" alt="">What's an Indian festival without food?</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/14.jpg" alt="">I would have never thought that we had sooooo many Indians (or people of Indian Origin) in Montpellier.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/15.jpg" alt="">Agh! The coooooolllllldddd Mediterranean sea. I don't know why do they even call it a beach when it's so cold that you (read Indians) can't even step into the water.</p>

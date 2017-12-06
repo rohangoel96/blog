@@ -1,0 +1,45 @@
+---
+layout: post
+title: More of Montpellier 
+type: photos
+category: travels
+location: Montpellier, France
+image: /img/2017/11-montpellier/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center><i>
+</i></center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/cover.jpg" alt="">Halloween is here <3</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/1.jpg" alt="">Though typically celebrated in the US and UK, it is celebrated at a small scale in France too - coming from India, it was good enough :)</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/2.jpg" alt="">One from those multiple dinners with @TobiasScharl and @JessicaKristin</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/3.jpg" alt="">State organised Wine Festival - my second - but this was at a pretty large scale and offered around 25 different wine types/taste.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/4.jpg" alt="">So I tasted around 9 different wines (before I got high :( )</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/5.jpg" alt="">Never knew that there were so many people in Montpellier :O</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/6.jpg" alt="">My favorite wine stall - their wine had a little of spicy element.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/7.jpg" alt="">So because Indian food is a delicacy here, everyone is eager to taste it here - even though I cook shit. With @MaryemKortoba, @ServaneRgt and @Jeremy</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/8.jpg" alt="">I was very very very lucky to witness the light festival here - happened just 2 days before I am supposed to leave</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/9.jpg" alt="">There was light and sound show all across the city, with projections on as many as 15 prominent buildings in the city</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/10.jpg" alt="">Amazing stuff. <a href="https://www.instagram.com/p/BcUvUo1hUDo/?taken-by=goelrohan">Watch Video Here</a></p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/11.jpg" alt="">In my approx 4 months stay in France, I helped more than 5 people develop websites - a job that I hate as a computer scientist but such is life :P <br>
+On a serious note, this enabled me to create some good friends too :) so I guess it's worth creating websites then? With @MaryemKortoba</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/12.jpg" alt="">Typical French Food. Salad, Fries, and Duck (can't eat beef :P)<br>Courtesy @ServaneRgt and @MaryemKortoba</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/13.jpg" alt="">Christmas is aaaaalmost here. Sad that I'll leave europe before christmas, but fortunatey the decorations, markets and lightnings have already kicked in.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/14.jpg" alt="">One of the most elaborately decorated christmas shop that (atleast) I came across.</p>

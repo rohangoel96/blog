@@ -3,7 +3,7 @@ layout: post
 title: Cork and its Vikings
 type: photos
 category: travels
-location: Galway, Ireland
+location: Cork, Ireland
 image: /img/2017/7-cork/cover-min.jpg 
 permalink: 
 publish: yes

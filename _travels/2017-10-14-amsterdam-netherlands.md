@@ -3,7 +3,7 @@ layout: post
 title: Amsterdam, the city of freedom?
 type: photos
 category: travels
-location: Nimes, France
+location: Amsterdam, Netherlands
 image: /img/2017/10-amsterdam/cover_min_400.jpg
 permalink: 
 publish: yes
