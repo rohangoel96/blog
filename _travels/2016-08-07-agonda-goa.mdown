@@ -1,0 +1,28 @@
+---
+layout: post
+title: Agonda Beach
+type: photos
+category: memories
+location: Goa, India
+image: /img/2016/8-agonda/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center>
+<i>
+Agonda beach is consistently ranked as the top beaches to visit in India and is also a popular for being the nesting ground for turtles.
+</i>
+</center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/cover.jpg" alt="">We visited the beach in peak monsoon, probably the worst time to be in Goa. However every experience is amazing if you have a great company :)</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/1.jpg" alt="">One of the many traveller journeys</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/2.jpg" alt="">I wish you don't have nightmares post this :P</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/3.jpg" alt="">That's how we rooooollllll</p>
+
+
+<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/4.jpg" alt="">The Peeps :P</p>

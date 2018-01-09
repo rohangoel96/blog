@@ -1,0 +1,69 @@
+---
+layout: post
+title: Jaisalmer &amp; Thar Desert
+type: photos
+category: travel
+location: Jaisalmer, India
+image: /img/2015/12-jaisalmer/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center>
+<i>
+Jaisalmer, apty called "The Golden city" is situated in the heart of the Thar Desert in Rajasthan. "Winters" is probably the only time when it's feasible to go to this super hot part of the country. This part of the desert is also famous for the picturesque sand dunes.</i>
+</center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/cover.jpg" alt="">A trip to a desert wouldn't be deemed to be complete without a ride on the "Ship of the desert".</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/1.jpg" alt="">Our base for the next 5 days :)</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/2.jpg" alt="">Living life king's style. <br>Club Mahindra gave us the opportunity to live in a (renovated) palace.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/3.jpg" alt="">The Jaisalmer fort is perhaps the only “living fort” in the world with a major population of the city residing inside the fortress. Obviously a UNESCO World Heritage Site, made of yellow sandstone the "Golden Fort" shines like gold , reflecting the sun-rays.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/4.jpg" alt="">A view of the city from the top of the fort.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/5.jpg" alt="">The beutifully hand crafted exteriors of the fort are almost 900 years old.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/5.1.jpg" alt="">Another image of the centuries old beautiful craft</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/5.2.jpg" alt="">@GadsisarLake - an artificial lake made by the Maharaja's of Jaisalmer.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/6.jpg" alt="">Patriotism kicks in when you're just a kilometer away from the international border with pakistan - which we were lucky to get permission for.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/7.jpg" alt="">The most dangerous borders in the world, the border that can be seen from space at night, the border at which the 120 Indian Soldiers defeated over 2000 Pakistani soldiers in 1971 (the war on which the movie BORDER [1997] is based), the border which probably emptied my adrenal glands - The Indo-Pak Border.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/8.jpg" alt="">It is believed that Tanot Mata has protected the area near to the border from enemy forces. Infact, during the Indo-Pakistani War of 1965, Pakistani Army dropped over 3000 bombs targeting the temple but not even one exploded.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/8.1.jpg" alt="">Some of the bombs (now painted) which were dropped near the temple but never exploded.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/9.jpg" alt="">The statues of the deities which were damaged by the invading Pakistani forces in 1965.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/10.jpg" alt="">One of the tanks captured by the Indian army in the Battle of Longewala 1971</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/11.jpg" alt="">Mimics of bunkers for tourists in Longewala.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/13.jpg" alt="">ClubMahindra@Jaisalmer - one of the most beautiful property I have even been to.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/12.jpg" alt=""></p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/14.jpg" alt="">Bada Bagh houses a lot of cenotaph (empty tombs) of many maharajas of Jaisalmer.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/15.jpg" alt="">Kuldhara, a supposedly haunted village which lies uninhabited since the 19th century. <br>PS: Did we just capture a ghost in this image?</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/16.jpg" alt="">Quad on the sand dunes 8)</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/22.jpg" alt="">Sunset and the sand dunes - raced against time on the quad bike to capture this view :)</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/17.jpg" alt="">Enjoying Rajashthani Folk Dance in true Rajasthani style - people in rajasthan tradionally eat food while sitting on the ground</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/18.jpg" alt="">Jawahar Vilas at Mandir Palace, now a world heritage hotel</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/20.jpg" alt="">Patwon Ki Haveliyan are Series of early-1800s palaces featuring intricate carvings, furniture &amp; artwork.
+</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/19.jpg" alt="">Another shot in between the havelies</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/23.jpg" alt="">Memories shared with Mummy, Papa and @Yash</p>

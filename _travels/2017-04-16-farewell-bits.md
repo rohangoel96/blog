@@ -38,7 +38,7 @@ So as it turns out we at BITS get our farewell in the end of 3rd itself, even wh
 
 <!-- <p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/10.jpg" alt=""></p> -->
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/11.jpg" alt="">How many of us know of the startup "Friends Connect" :P<br>@PriyankaPatel @DhruvMahajan</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/11.jpg" alt="">How many of us have heard of the startup "Friends Connect" :P<br>@PriyankaPatel @DhruvMahajan</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/12.jpg" alt="">Aaah! One of those rare occassions of a good selfie with me.</p>
 

@@ -1,0 +1,28 @@
+---
+layout: post
+title: Google Developer's Group
+type: photos
+category: memories
+location: Goa, India
+image: /img/2017/3-gdg/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center>
+<i>
+Google Developers Group are local groups of developers who are specifically interested in Google products and APIs. Upon digging out I found out that our campus had GDG chapter until 2013 but was abruptly discountinued. Hence, along with @AbhimanyuSinghShekhawat I took the initiative of restarting that. We had our first event on October 10, 2016 followed by another event on March 18, 2017. 
+</i>
+</center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2017/3-gdg/cover.jpg" alt="">A click from the first event (Oct 16, 2017), the fist GDG event on campus after 3 long years.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/3-gdg/1.jpg" alt="">Ought to feel proud to manage an event which ignites so many minds.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/3-gdg/2.jpg" alt="">How we distributed 100+ Pizzas and cokes along with 50+ Google Cloud T-Shirts and StackOverflow Stickers to the attendees of the second event on March 18, 2017.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/3-gdg/3.jpg" alt="">Aftermath of distributing soooooooo many goodies. With @ChintanBetrabet @AbhimanyuSinghShekhawat @PriyankLodha</p>
+
+
+

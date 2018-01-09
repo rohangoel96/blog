@@ -1,0 +1,36 @@
+---
+layout: post
+title: Arambol Beach
+type: photos
+category: memories
+location: Goa, India
+image: /img/2016/10-arambol/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center>
+<i>
+Arambol is the northenmost beach of Goa which is pretty pristine and naturally attracts a lot of foreignours.
+</i>
+</center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2016/10-arambol/cover.jpg" alt="">After walking more than 2km along the coast, we found the peace of this sort of secret beach away from our hectic lives.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2016/10-arambol/1.jpg" alt="">Goa + sunsets = <3</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2016/10-arambol/2.jpg" alt="">Our first car hire in Goa :D <br>With @ShikharSaluja @PulkitAgarwal @MadhurGarg @ArnavVijayakar</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2016/10-arambol/3.jpg" alt="">On the way to Arambol, we also sneaked to Morjim beach, famous for turtle nesting - we didn't find any turtles though :P</p>
+
+
+<p class="center"><img src="{{site.baseurl}}/img/2016/10-arambol/4.jpg" alt="">At Morjim with @ShikharSaluja @PulkitAgarwal @MadhurGarg @ArnavVijayakar</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2016/10-arambol/5.jpg" alt="">Doesn't it looks like a click from a bollywood flick? On the way between Morjim and Arambol with @MadhurGarg @ShikharSaluja</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2016/10-arambol/6.jpg" alt="">Ladies and Gentlemen, you're safe now - your lifeguard is here.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2016/10-arambol/7.jpg" alt="">Baywatch. Yo 8).</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2016/10-arambol/8.jpg" alt="">You can literally lay down there for hours and just enjoy the amazing views Goan beaches have to offer.</p>
