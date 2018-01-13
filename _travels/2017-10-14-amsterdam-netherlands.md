@@ -22,7 +22,7 @@ Amsterdam is colloquially known as Venice of the North because of its lovely can
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/5_min.jpg">The city looks so different from water</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/6_min.jpg">The signature green bottle of Heineken - started at Amsterdam</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/6_min.jpg">The signature Dutch beer Heineken - started at Amsterdam</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/7_min.jpg">Ahem ahem. The much talked and discussed about "district" of Amsterdam: RDL</p>
 

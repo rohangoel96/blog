@@ -1,0 +1,73 @@
+---
+layout: post
+title: Kashmir - Paradise on Earth
+type: photos
+category: travel
+location: Kashmir, India
+image: /img/2015/6-kashmir/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center>
+<i>
+Kashmir, rightly called as Paradise on earth is located in the northernmost state of India admist the mighty Himalayas. We decided to visit the heaven in summer's because it' intolerably cold otherwise and covered with snow.
+</i>
+</center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/cover.jpg" alt="">The beautiful Dal Lake at Srinagar sits right in between of the Himalayas in the Kashmir Valley./p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/1.jpg" alt="">On the way to the Kashmir Valley we stopped at Vaishno Devi first. Jai Mata Di!</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/2.jpg" alt="">View of the mighty Himalayas from flight - possible due to a lucky summer sun and clear weather</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/3.jpg" alt="">This board welcome's you as soon as you set foot at the Sringar Airport.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/4.jpg" alt="">HouseBoats on the Dal Lake - a major attaction and our home for the next few days.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/5.jpg" alt="">The Royal Wooden Interior of the houseboats</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/6.jpg" alt="">Surreal view of the lake from the houseboat.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/7.jpg" alt="">Shikaras, Dal, Rainbow and me:)</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/8.jpg" alt="">Ruins of Martand Sun Temple Ruins built during the 8th century :O.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/9.jpg" alt="">Yousmarg is also called the scotland of India and locals believe that Jesus came to stay here for a short while. Infact Yousmarg in Kashmiri translates to The Meadow of Jesus.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/11.jpg" alt="">@Yousmarg</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/12.jpg" alt="">The hut amidst the jungle is our base in Pahalgam for 2 days. </p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/13.jpg" alt="">On our way to Baisaran also called the Mini Switzerland of India.</p>
+
+<!-- <p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/13.jpg" alt=""></p> -->
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/14.jpg" alt=""></p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/15.jpg" alt="">The mandatory kashmir pic in kashmiri attire @Baisaran</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/17.jpg" alt="">A valley in the Kashmir Valley?</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/18.jpg" alt="">You can't leave Kashmir without drinking their traditional (sort of tea) drink Kahwa </p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/19.jpg" alt="">Shalimar Bagh, the crown of Srinagar</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/20.jpg" alt="">Chashme Shahi, another Mughal Garden</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/21.jpg" alt="">The best view of the Himalayas <3</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/22.jpg" alt="">At the summit of Mt. Apharwat Summit with height of 4,200 m </p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/23.jpg" alt="">Gulmarg Gondola is the world's second highest operating cable car</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/24.jpg" alt="">Scaled the Himalayas With @yashGoel</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/25.jpg" alt="">Mountains, Lake and Garden all together in a single frame :)</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/26.jpg" alt="">Evenings at the Dal lake be like ..</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/6-kashmir/27.jpg" alt="">Memories shared with @Mummy @Papa and @Yash</p>
+
+

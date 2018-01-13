@@ -1,0 +1,31 @@
+---
+layout: post
+title: First B'day at BITS
+type: photos
+category: memories
+location: Goa, India
+image: /img/2015/2-bday/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center>
+<i>
+The first birthday on campus. Not sure if one should be excited about the celebration or scared about the GPL (birthday-bombs) that come free with it.
+</i>
+</center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2015/2-bday/cover.jpg" alt="">Let's start with a candid pic :P</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/2-bday/1.jpg" alt="">When half the cake is reserved for your makeup rather than eating it.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/2-bday/2.jpg" alt="">Makeup buoys are here</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/2-bday/3.jpg" alt=""><del>Beer</del> Coke Shampoo</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/2-bday/4.jpg" alt="">Here it starts</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/2-bday/5.jpg" alt="">And continues... almost making your bday = death day</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/2-bday/6.jpg" alt=""></p>
