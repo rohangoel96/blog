@@ -1,0 +1,29 @@
+---
+layout: post
+title: Waves 2k15
+type: photos
+category: memories
+location: Goa, India
+image: /img/2015/11-waves/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center>
+<i>
+The theme for the 2015 Edition of Waves was "Escape Reality". The time of the year when we get relief from our otherwise jam-packed academic schedule
+</i>
+</center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/cover.jpg" alt="">The main stage for Waves 2015 adorned by AKING</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/1.jpg" alt="">No this isn't the Titanic Pose -_-</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/2.jpg" alt="">When your first Paintball game takes place just infront of your hostel </p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/3.jpg" alt="">Trying my hand at spraycan art @ Waves2k15</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/4.jpg" alt="">What's better than experiencing a Salim-Sulaiman live concert from front row</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/5.jpg" alt="">With @AmitRege @MayankKumar @PulkitAgarwal @ShikharSaluja</p>

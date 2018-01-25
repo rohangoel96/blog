@@ -1,0 +1,34 @@
+---
+layout: post
+title: Killogicals Unite @ BBQ
+type: photos
+category: memories
+location: Goa, India
+image: /img/2015/9-bbq/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center>
+<i>
+Killogicals' first mega treat happened at BBQ@Panjim. My first BBQ experience, for which I starved myself for over 24hrs :P
+</i>
+</center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2015/9-bbq/cover.jpg" alt="">That awkward moment when starters are more delicious than the main course.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/9-bbq/1.jpg" alt="">When you basically occupy half the area of the restaurant</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/9-bbq/2.jpg" alt="">BPGC AH-1 240s ?</p>
+
+<!-- <p class="center"><img src="{{site.baseurl}}/img/2015/9-bbq/3.jpg" alt="">The "Trek" through the green covers</p> -->
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/9-bbq/4.jpg" alt="">When some people are here only for the desserts</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/9-bbq/5.jpg" alt="">When everyone wore shirts (so uncommon in hot-humid Goa)</p>
+
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/9-bbq/6.jpg" alt="">"Green Goa" view atop BBQ</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2015/9-bbq/7.jpg" alt="">Memories shares with Killogicals</p>
