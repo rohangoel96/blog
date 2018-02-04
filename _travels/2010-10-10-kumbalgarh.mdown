@@ -1,0 +1,59 @@
+---
+layout: post
+title: Kumbalgarh &amp; Chittor
+type: photos
+category: travel
+location: Kumbalgarh, India
+image: /img/2010/10-kumbalgarh/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center>
+<i>
+This trip was all about the mewar kingdom and the achievements of the mighty rajputs as we covered multiple places of interest in Rajasthan, namely Udaipur, Kumbalgarh and Chittor starting our journey from Jaipur.
+</i>
+</center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/cover.jpg" alt="">The kumbalgarh fort is among the largest wall complex in the world with it's 35+km wall</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/1.jpg" alt="">The intricately carved dome of Kalika Mata Temple at Chittor</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/2.jpg" alt="">A typical view of a Rajashtani City atop a fort, here the Chittorgarh Fort<p>
+
+<!-- <p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/3.jpg" alt="">Chamundeshwari Temple atop Chamundi Hills -->
+</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/4.jpg" alt="">Vijaya Stambha which literally translated to tower of victory inside ChittorFort</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/5.jpg" alt="">A view of the walls of Chittor Fort, one of the largest forts in India which also served as the capital of the mighty Mewar kingdom</p>
+
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/7.jpg" alt="">Club Mahindra. Fun. Family. Forever :P</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/8.jpg" alt="">One of the best properties of Club Mahindra without a doubt with breathtaking views of the Aravalis</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/9.jpg" alt=""></p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/10.jpg" alt="">The renowned Ranakpur Jain temple</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/11.jpg" alt="">Ceiling Details</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/12.jpg" alt="">With @YashGoel at Ranakpur</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/14.jpg" alt="">The fort of Kumbhalgarh has perimeter walls that extend 36 km (22 mi), making it one of the longest walls in the world.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/13.jpg" alt="">A UNESCO World Heritage Site, Kumbhalgarh is also the birthplace of Maharana Pratap, the great king and warrior of Mewar</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/15.jpg" alt="">Training to join the Archers unit of the Rajputs at ClubMahindra :P</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/17.jpg" alt="">City Palace, Udaipur - one of the largest in Rajasthan</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/16.jpg" alt="">Vintage and Classic Car Museum @ Udaipur housing some of the rarest cars in India</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/18.jpg" alt="">Saheliyon-ki-Bari, the shooting location of various 20th century bollywood films</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/6.jpg" alt="">Pearl hill and the memorial of the Rajput hero Maharana Pratap who was born in Kumbalgarh</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/19.jpg" alt="">Memories shared with @Mummy @Papa and @Yash</p>

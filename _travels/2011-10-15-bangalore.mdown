@@ -1,0 +1,35 @@
+---
+layout: post
+title: Bangalore
+category: travel
+location: Bangalore, India
+image: /img/2011/10-bangalore/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center>
+<i>
+Wellknown for its breathtakingly exotic scenery, Coorg was also famously called as the "Scotland of India" by the Britishers. It is famous for its Coffee plantations. Since Papa was based in Bangalore, we drove to Coorg via Mysore.
+</i>
+</center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/cover.jpg" alt="">Bangalore Palace - the classic royal charm of the city - one of the most alluring palaces I have visited.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/1.jpg" alt="">Any trip to this part of the country will be deemed as incomplete without visiting the richest temple in the entire world - The Sri Venkateswara Temple @ Tirupati</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/2.jpg" alt="">Tipu Sultan's Summer Palace which is believed to be the place where Tipu held his 'Darbar'</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/3.jpg" alt="">Experiencing the Safari @ Bannerghatta National Park
+</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/4.jpg" alt="">One of the most ferocious animal. Also guess what India is the only country which is (indigenously) home to both Tigers and Lions :)</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/5.jpg" alt="">They also have a special greenhouse mueseum for butterflies ...</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/6.jpg" alt="">... which is filled up with live butterflies</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/7.jpg" alt="">One of the highest buiding in the city - UB Tower</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/8.jpg" alt="">Wonderlaaa</p>

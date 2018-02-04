@@ -12,7 +12,7 @@ publish: yes
 <!-- http://compressimage.toolur.com/ 1024, 400-->
 <center>
 <i>
-So as it turns out we at BITS get our farewell in the end of 3rd itself, even when the course spans 4 years. Here's to seeing everyone on campus for the last time.
+So as it turns out, we at BITS, get our farewell in the end of 3rd itself - even when the course spans 4 years. Here's to seeing everyone on campus for the last time.
 </i>
 </center>
 <br>

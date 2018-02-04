@@ -1,0 +1,37 @@
+---
+layout: post
+title: Royal Jaipur
+category: travel
+location: Jaipur, India
+image: /img/2011/1-jaipur/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center>
+<i>
+The Pink City of India, Jaipur is a is a popular tourist and stratrgic destination which serves as the gateway to Rajasthan.
+</i>
+</center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/cover.jpg" alt="">Residence of the Rajput Maharajas, the Amer Fort is without a doubt the best maintained Fort in the country and truly reflects artistic Hindu style elements at their best.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/1.jpg" alt="">Jal Mahal sits in the middle of the picturesque view Man Sagar Lake magnifying it's beauty multifold</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/2.jpg" alt="">Siblings... @Tushar @Yash @Anika</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/3.jpg" alt="">
+</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/4.jpg" alt="">A view of the long wall of the fortress from Jaigrah Fort which has kept the people of Amer safe for hundreds of years</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/5.jpg" alt="">Ganesh Pol which serves as the entrance into the private palaces of the Maharajas</p>
+
+<!-- <p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/6.jpg" alt="">... which is filled up with live butterflies</p> -->
+<p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/8.jpg" alt="">Another beutiful courtyard at Amer Fort.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/7.jpg" alt="">Jaivan - the world's largest cannon on wheels rests at the Jaigarh fort which also happens to be its birthplace</p>
+
+
+<p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/9.jpg" alt="">With Family at New Yeak 2011 party</p>

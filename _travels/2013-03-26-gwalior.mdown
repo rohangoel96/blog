@@ -1,0 +1,33 @@
+---
+layout: post
+title: Gwalior
+type: photos
+category: travel
+location: Gwalior, India
+image: /img/2013/3-gwalior/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center>
+<i>
+Papa joined a new company, Cadbury's which led him to shift to Gwalior - new city = new adventures.
+</i>
+</center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2013/3-gwalior/cover.jpg" alt="">Jai Vilas Palace bulit in the 19th Century by  Maharaja of Gwalior is still the residence of his descendants.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2013/3-gwalior/1.jpg" alt="">Guess what lies midway in the road journey from Delhi to Gwalior? #TajMahal</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2013/3-gwalior/2.jpg" alt="">Jai Vilas Mahal is a fine example of European architecture<p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2013/3-gwalior/3.jpg" alt="">The Majestic Gwalior Fort with it's colorful tiled external walls.
+</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2013/3-gwalior/5.jpg" alt="">View of the city of Gwalior, atop the Gwalior Fort</p>
+
+
+<p class="center"><img src="{{site.baseurl}}/img/2013/3-gwalior/6.jpg" alt="">Usha Kiran Palace, built by the Royal Scindia's now a 5 star heritage hotel</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2013/3-gwalior/4.jpg" alt="">Memories shared with Mummy and @Yash inside @GwaliorFort</p>
