@@ -2,7 +2,9 @@
 layout: post
 title: Bangalore
 category: travel
-location: Bangalore, India
+location: Bangalore
+country: India
+coordi: (12.9716, 77.5946)
 image: /img/2011/10-bangalore/cover-min.jpg 
 permalink: 
 publish: yes

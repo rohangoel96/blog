@@ -3,7 +3,9 @@ layout: post
 title: Coorg via Mysore
 type: photos
 category: travel
-location: Coorg, India
+location: Coorg + Mysore
+country: India
+coordi: (12.3375, 75.8069) + (12.2958, 76.6394)
 image: /img/2012/3-coorg/cover-min.jpg 
 permalink: 
 publish: yes

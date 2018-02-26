@@ -3,7 +3,9 @@ layout: post
 title: Farewell Montpellier 
 type: photos
 category: travels
-location: Montpellier, France
+location: Montpellier
+country: France
+coordi: (43.5108, 3.8767)
 image: /img/2017/12-montpellier/cover-min.jpg 
 permalink: 
 publish: yes
@@ -14,7 +16,7 @@ publish: yes
 < Special Post ><br>
 <i>
 Okay so I don't typically do this, but I met such nice and kind people here and I miss them so much that I really need to do this post. I have learned so much from each one of them. I am not much of a selfie person and that's probably the reason that I don't have 
-a picture with eveyrone I met BUT if we met in Montpellier, trust me that you have inspired me in some way or the other. THANK YOU  so much (and sorry we didn't click a picture together :( ) <br>WIll miss everyone.
+a picture with eveyrone I met BUT if we met in Montpellier, trust me that you have inspired me in some way or the other. THANK YOU  so much (and sorry if we didn't click a picture together :( ) <br>WIll miss everyone.
 </i>
 </center>
 <br>

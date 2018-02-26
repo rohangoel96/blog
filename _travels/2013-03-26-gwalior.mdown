@@ -3,7 +3,9 @@ layout: post
 title: Gwalior
 type: photos
 category: travel
-location: Gwalior, India
+location: Gwalior
+country: India
+coordi: (26.2183, 78.1828)
 image: /img/2013/3-gwalior/cover-min.jpg 
 permalink: 
 publish: yes

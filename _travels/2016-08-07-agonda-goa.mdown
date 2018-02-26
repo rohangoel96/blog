@@ -2,8 +2,11 @@
 layout: post
 title: Agonda Beach
 type: photos
-category: memories
-location: Goa, India
+category: travel
+location: Goa
+country: India
+coordi: (15.0456, 73.9889)
+MarkerSize: small
 image: /img/2016/8-agonda/cover-min.jpg 
 permalink: 
 publish: yes

@@ -3,7 +3,9 @@ layout: post
 title: Paris - World's Fashion Capital
 type: photos
 category: travels
-location: Paris, France
+location: Paris
+country: France
+coordi: (48.8566, 2.3522)
 image: /img/2017/9-paris/cover_min_400.jpg 
 permalink: 
 publish: yes

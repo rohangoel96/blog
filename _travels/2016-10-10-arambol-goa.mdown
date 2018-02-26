@@ -2,8 +2,11 @@
 layout: post
 title: Arambol Beach
 type: photos
-category: memories
-location: Goa, India
+category: travel
+location: Goa
+country: India
+coordi: (15.6871, 73.7213)
+MarkerSize: small
 image: /img/2016/10-arambol/cover-min.jpg 
 permalink: 
 publish: yes

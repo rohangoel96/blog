@@ -3,7 +3,10 @@ layout: post
 title: Nimes - The French Rome
 type: photos
 category: travels
-location: Nimes, France
+location: Nimes
+country: France
+coordi: (43.8367, 4.3601)
+MarkerSize: small+
 image: /img/2017/10-nimes/cover_min_400.jpg
 permalink: 
 publish: yes

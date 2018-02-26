@@ -3,7 +3,10 @@ layout: post
 title: Cannes
 type: photos
 category: travels
-location: Cannes, France
+location: Cannes
+country: France
+coordi: (43.5528, 7.0174)
+MarkerSize: small+
 image: /img/2017/10-cannes/cover_min_400.jpg
 permalink: 
 publish: yes

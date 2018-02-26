@@ -3,7 +3,10 @@ layout: post
 title: Majorda Beach
 type: photos
 category: travel
-location: Goa, India
+location: Goa
+country: India
+coordi: (15.3112, 73.9018)
+MarkerSize: small
 image: /img/2014/9-majorda/cover-min.jpg 
 permalink: 
 publish: yes

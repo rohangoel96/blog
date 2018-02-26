@@ -2,7 +2,9 @@
 layout: post
 title: Royal Jaipur
 category: travel
-location: Jaipur, India
+location: Jaipur
+country: India
+coordi: (26.9124, 75.7873)
 image: /img/2011/1-jaipur/cover-min.jpg 
 permalink: 
 publish: yes

@@ -3,7 +3,9 @@ layout: post
 title: Buh bye Dublin
 type: photos
 category: travels
-location: Dublin, Ireland
+location: Dublin
+country: Ireland
+coordi: (53.2498, -6.2903)
 image: /img/2017/7-dublin/cover-min.jpg 
 permalink: 
 publish: yes

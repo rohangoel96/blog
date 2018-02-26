@@ -1,9 +1,12 @@
 ---
 layout: post
-title: init Goa
+title: Init Goa
 type: photos
 category: travel
-location: Goa, India
+location: Goa
+country: India
+coordi: (15.2209, 73.9290) + (15.5009, 73.9116)
+MarkerSize: small
 image: /img/2014/8-goa/cover-min.jpg 
 permalink: 
 publish: yes

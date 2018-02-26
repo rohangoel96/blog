@@ -3,7 +3,8 @@ layout: post
 title: Waves 2k15
 type: photos
 category: memories
-location: Goa, India
+location: Goa
+country: India
 image: /img/2015/11-waves/cover-min.jpg 
 permalink: 
 publish: yes

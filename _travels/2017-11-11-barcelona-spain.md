@@ -3,7 +3,9 @@ layout: post
 title: Gaudi's Barcelona
 type: photos
 category: travels
-location: Barcelona, Spain
+location: Barcelona
+country: Spain
+coordi: (41.3851, 2.1734)
 image: /img/2017/11-barcelona/cover_min_400.jpg
 permalink: 
 publish: yes

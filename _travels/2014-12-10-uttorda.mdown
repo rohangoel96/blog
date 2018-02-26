@@ -3,7 +3,10 @@ layout: post
 title: Uttorda Beach
 type: photos
 category: travel
-location: Goa, India
+location: Goa
+country: India
+coordi: (15.3062, 73.9951)
+MarkerSize: small
 image: /img/2014/12-uttorda/cover-min.jpg 
 permalink: 
 publish: yes

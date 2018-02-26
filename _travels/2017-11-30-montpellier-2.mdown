@@ -3,7 +3,9 @@ layout: post
 title: More of Montpellier 
 type: photos
 category: travels
-location: Montpellier, France
+location: Montpellier
+country: France
+coordi: (43.7108, 3.8767)
 image: /img/2017/11-montpellier/cover-min.jpg 
 permalink: 
 publish: yes

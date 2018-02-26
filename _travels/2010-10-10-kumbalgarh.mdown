@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Kumbalgarh &amp; Chittor
+title: Forts of Rajasthan
 type: photos
 category: travel
-location: Kumbalgarh, India
+location: Kumbalgarh + Chittorgarh + Udaipur
+country: India
+coordi: (25.1528, 73.5870) + (24.8887, 74.6269) + (24.5854, 73.7125)
 image: /img/2010/10-kumbalgarh/cover-min.jpg 
 permalink: 
 publish: yes

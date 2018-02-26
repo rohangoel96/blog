@@ -3,7 +3,10 @@ layout: post
 title: Netravali Fall Trek
 type: photos
 category: travel
-location: Goa, India
+location: Netravali, Goa
+country: India
+coordi: (15.0858, 74.2297)
+MarkerSize: small
 image: /img/2014/10-netravali/cover-min.jpg 
 permalink: 
 publish: yes

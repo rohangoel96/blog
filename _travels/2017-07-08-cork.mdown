@@ -3,7 +3,9 @@ layout: post
 title: Cork and its Vikings
 type: photos
 category: travels
-location: Cork, Ireland
+location: Cork
+country: Ireland
+coordi: (51.8969, -8.4863)
 image: /img/2017/7-cork/cover-min.jpg 
 permalink: 
 publish: yes

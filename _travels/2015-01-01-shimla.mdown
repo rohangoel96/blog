@@ -3,7 +3,9 @@ layout: post
 title: New Year @ Shimla
 type: photos
 category: travel
-location: Shimla, India
+location: Shimla
+country: India
+coordi: (31.1048, 77.1734)
 image: /img/2015/1-shimla/cover-min.jpg 
 permalink: 
 publish: yes

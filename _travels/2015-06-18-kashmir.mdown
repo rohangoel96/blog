@@ -3,7 +3,10 @@ layout: post
 title: Kashmir - Paradise on Earth
 type: photos
 category: travel
-location: Kashmir, India
+location: Kashmir
+country: India
+MarkerSize: large
+coordi: (34.083656, 74.797371)
 image: /img/2015/6-kashmir/cover-min.jpg 
 permalink: 
 publish: yes

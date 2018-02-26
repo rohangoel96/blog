@@ -3,7 +3,8 @@ layout: post
 title: Farewell @ BPGC 
 type: photos
 category: memories
-location: Goa, India
+location: Goa
+country: India
 image: /img/2017/4-farewell/cover-min.jpg 
 permalink: 
 publish: yes
@@ -69,7 +70,7 @@ So as it turns out, we at BITS, get our farewell in the end of 3rd itself - even
 
 <!-- http://responsiveslides.com/ -->
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="{{site.baseurl}}/js/responsiveslides.js"></script>
 <script>
 	$(".rslides").responsiveSlides({

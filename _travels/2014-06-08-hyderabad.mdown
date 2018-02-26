@@ -3,7 +3,9 @@ layout: post
 title: Short Trip to Hyderabad
 type: photos
 category: travel
-location: Hyderabad, India
+location: Hyderabad
+country: India
+coordi: (17.3850, 78.4867)
 image: /img/2014/6-hyd/cover-min.jpg 
 permalink: 
 publish: yes

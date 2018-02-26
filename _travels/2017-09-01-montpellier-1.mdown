@@ -3,7 +3,9 @@ layout: post
 title: Mediterranean Montpellier
 type: photos
 category: travels
-location: Montpellier, France
+location: Montpellier
+country: France
+coordi: (43.6108, 3.6767)
 image: /img/2017/9-montpellier/cover-min.jpg 
 permalink: 
 publish: yes

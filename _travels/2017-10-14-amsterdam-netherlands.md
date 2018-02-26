@@ -3,7 +3,9 @@ layout: post
 title: Amsterdam, the city of freedom?
 type: photos
 category: travels
-location: Amsterdam, Netherlands
+location: Amsterdam
+country: Netherlands
+coordi: (52.3702, 4.8952)
 image: /img/2017/10-amsterdam/cover_min_400.jpg
 permalink: 
 publish: yes

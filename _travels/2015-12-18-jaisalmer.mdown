@@ -3,7 +3,9 @@ layout: post
 title: Jaisalmer &amp; Thar Desert
 type: photos
 category: travel
-location: Jaisalmer, India
+location: Jaisalmer + Tanot Border
+country: India
+coordi: (26.9157, 70.9083) + (27.7960, 70.3523)
 image: /img/2015/12-jaisalmer/cover-min.jpg 
 permalink: 
 publish: yes

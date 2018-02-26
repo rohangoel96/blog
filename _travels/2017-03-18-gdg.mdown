@@ -3,7 +3,8 @@ layout: post
 title: Google Developer's Group
 type: photos
 category: memories
-location: Goa, India
+location: Goa
+country: India
 image: /img/2017/3-gdg/cover-min.jpg 
 permalink: 
 publish: yes
