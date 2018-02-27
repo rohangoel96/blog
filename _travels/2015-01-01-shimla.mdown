@@ -5,6 +5,7 @@ type: photos
 category: travel
 location: Shimla
 country: India
+MarkerSize: small+
 coordi: (31.1048, 77.1734)
 image: /img/2015/1-shimla/cover-min.jpg 
 permalink: 

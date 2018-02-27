@@ -1,0 +1,36 @@
+---
+layout: post
+title: Relaxing in Himachal 
+type: photos
+category: travels
+location: Kandhaghat + Narkanda + Tattapani + Shimla
+country: India
+MarkerSize: small
+coordi: (30.9702, 77.1054) + (31.2578, 77.4602) + (31.2488, 77.0895) + (31.1798, 77.2394)
+image: /img/2017/12-kandaghat/cover-min.jpg 
+permalink: 
+publish: yes
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<center>
+Coming back from a 4 months long EU trip on the 4th December, I had no energy/mood to go anywhere but a relaxing trip in the laps of Himalayas, just before the starting of crazy placement process seemed like a good idea :P
+</center>
+<br>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/cover.jpg" alt=""></p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/1.jpg" alt="">Lunch at Haveli, Murthal is obligatory when driving to Himachal from Delhi</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/2.jpg" alt="">Presenting to you : Shimla - one of the most urbanised hill stations in India</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/3.jpg" alt="">Shimla's ridge - the hub of all cultural activities of the city</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/4.jpg" alt="">Stayed at the Kandhaghat and the Narkanda properties</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/5.jpg" alt="">Room view from Club Mahindra Narkanda<3</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/6.jpg" alt="">Sunsets at hill tops be like ..</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/7.jpg" alt="">Tattapani means hot water. Many hot water stream emerge and meet the waters of river Sutlej at this place</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/8.jpg" alt="">Memories shared with @Mummy @Papa and @Yash</p>
