@@ -34,7 +34,7 @@ layout: page
 </head>
 <body>
 	<center>
-		<h1 style="margin-top: 0px">7/193 Countries. 8/29 Indian States</h1>
+		<h1 style="margin-top: 0px; font-size: 1.5em">8/29 Indian States. 0/7 Indian Union Territories.<br>7/193 Countries.<br>2/7 Continents.</h1>
 		<span style="font-size: 0.8em;">Tip: You can see the respective photos of the MemExps by zooming in and cliking on the points</span>
 	</center>
 	<div id="mapid" style="margin-top: 10px;"></div>
