@@ -3,10 +3,10 @@ layout: post
 title: Kashmir - Paradise on Earth
 type: photos
 category: travel
-location: Kashmir
+location: Kashmir + Jammu + VaishnoDevi
 country: India
 MarkerSize: large
-coordi: (34.083656, 74.797371)
+coordi: (34.083656, 74.797371) + (32.7266, 74.8570) + (33.0308, 74.9490)
 image: /img/2015/6-kashmir/cover-min.jpg 
 permalink: 
 publish: yes
