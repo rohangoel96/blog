@@ -9,13 +9,10 @@ coordi: (53.2498, -6.2903)
 image: /img/2017/7-dublin/cover-min.jpg 
 permalink: 
 publish: yes
+description: So here comes to end my first "international trip". I couldn't travel outside of Ireland (even to the northern part :() thanks to the visa restrictions, but I am proud to have travelled a lot in Ireland and made so many new friends. I'll surely miss the super hospitable and ever smiling nature of the Irish. It was a great experience, both at work and culturally. Wouldn't think twice before coming to Dublin again.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center><i>
-So here comes to end my first "international trip". I couldn't travel outside of Ireland (even to the northern part :() thanks to the visa restrictions, but I am proud to have travelled a lot in Ireland and made so many new friends. I'll surely miss the super hospitable and ever smiling nature of the Irish. It was a great experience, both at work and culturally. Wouldn't think twice before coming to Dublin again.
-</i></center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/cover.jpg" alt="">@TrinityCollge - the most prestigious university in Ireland and the world. There have been so many film shootings at this place.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/1.jpg" alt="">The very famous library at Trinity, which also houses the BookOfKells.</p>

@@ -7,15 +7,10 @@ location: Goa, India
 image: /img/2016/2-bday2016/cover-min.jpg 
 permalink: 
 publish: yes
+description: That time of the year which your friends wait for - not for wishing you but to beat the shit of you. #EngineeringLife
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-That time of the year which your friends wait for - not for wishing you but to beat the shit of you. #EngineeringLife
-</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2016/2-bday2016/cover.jpg" alt="">That face you make after being beaten black and blue.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2016/2-bday2016/1.jpg" alt="">A barbeque nation buffet lunch - we don't know of a better way to fulfill our hunger</p>

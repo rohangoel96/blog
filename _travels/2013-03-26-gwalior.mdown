@@ -9,15 +9,10 @@ coordi: (26.2183, 78.1828)
 image: /img/2013/3-gwalior/cover-min.jpg 
 permalink: 
 publish: yes
+description: Papa joined a new company, Cadbury's which led him to shift to Gwalior - new city = new adventures.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-Papa joined a new company, Cadbury's which led him to shift to Gwalior - new city = new adventures.
-</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2013/3-gwalior/cover.jpg" alt="">Jai Vilas Palace bulit in the 19th Century by  Maharaja of Gwalior is still the residence of his descendants.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2013/3-gwalior/1.jpg" alt="">Guess what lies midway in the road journey from Delhi to Gwalior? #TajMahal</p>

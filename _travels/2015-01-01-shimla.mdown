@@ -10,15 +10,11 @@ coordi: (31.1048, 77.1734)
 image: /img/2015/1-shimla/cover-min.jpg 
 permalink: 
 publish: yes
+description: The summer capital of British India, Shimla is one of the top tourist desitnation especially for the people of North India. Being not verrrry far from Delhi it turned out to be my first trip with friends (which was totally planned by us with no outside intervention :P). 
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-The summer capital of British India, Shimla is one of the top tourist desitnation especially for the people of North India. Being not verrrry far from Delhi it turned out to be my first trip with friends (which was totally planned by us with no outside intervention :P). 
-</i>
-</center>
-<br>
+
 <p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/cover.jpg" alt="">Coming home after the first semester at college, we probably were bored from the monotonous life at our homes. Hence was born a sudden plan to travel to Shimla. We left on the morning of 31st December, and nothing was booked/finalised until the night of 29th December.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/1.jpg" alt="">Summer Hills of the summer capital? :P</p>

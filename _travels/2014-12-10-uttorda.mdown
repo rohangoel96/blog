@@ -10,13 +10,10 @@ MarkerSize: small
 image: /img/2014/12-uttorda/cover-min.jpg 
 permalink: 
 publish: yes
+description: Uttorda is one of the most exotic beaches in Goa, an ideal place for a relaxing evening
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>Uttorda is one of the most exotic beaches in Goa, an ideal place for a relaxing evening</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2014/12-uttorda/cover.jpg" alt="">And here we venture into the sea again ..</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2014/12-uttorda/1.jpg" alt="">The last outing for the first semester before we all leave back for our homes</p>

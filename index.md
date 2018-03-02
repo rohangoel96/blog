@@ -1,5 +1,6 @@
 ---
 layout: page
+description: MEMories and EXPeriences. I like to see new things, do stuff, and take pictures.
 ---
 
 <center>

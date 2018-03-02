@@ -10,13 +10,10 @@ MarkerSize: small+
 image: /img/2017/10-cannes/cover_min_400.jpg
 permalink: 
 publish: yes
+description: Known for the annual Cannes Film Festival, Midem, and Cannes Lions International Festival of Creativity. Also known for its association with the rich and famous, its luxury hotels and restaurants, and for several conferences
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center><i>
-Known for the annual Cannes Film Festival, Midem, and Cannes Lions International Festival of Creativity. Also known for its association with the rich and famous, its luxury hotels and restaurants, and for several conferences
-</i></center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-cannes/cover_min.jpg" alt="">Where the action happens on the festival <3</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-cannes/2_min.jpg">Sandy part of the riveria</p>

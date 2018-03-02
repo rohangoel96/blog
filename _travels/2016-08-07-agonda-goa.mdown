@@ -10,15 +10,10 @@ MarkerSize: small
 image: /img/2016/8-agonda/cover-min.jpg 
 permalink: 
 publish: yes
+description: Agonda beach is consistently ranked as the top beaches to visit in India and is also a popular for being the nesting ground for turtles.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-Agonda beach is consistently ranked as the top beaches to visit in India and is also a popular for being the nesting ground for turtles.
-</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/cover.jpg" alt="">We visited the beach in peak monsoon, probably the worst time to be in Goa. However every experience is amazing if you have a great company :)</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/1.jpg" alt="">One of the many traveller journeys</p>

@@ -9,14 +9,10 @@ coordi: (26.9157, 70.9083) + (27.7960, 70.3523)
 image: /img/2015/12-jaisalmer/cover-min.jpg 
 permalink: 
 publish: yes
+description: Jaisalmer, apty called "The Golden city" is situated in the heart of the Thar Desert in Rajasthan. "Winters" is probably the only time when it's feasible to go to this super hot part of the country. This part of the desert is also famous for the picturesque sand dunes.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-Jaisalmer, apty called "The Golden city" is situated in the heart of the Thar Desert in Rajasthan. "Winters" is probably the only time when it's feasible to go to this super hot part of the country. This part of the desert is also famous for the picturesque sand dunes.</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/cover.jpg" alt="">A trip to a desert wouldn't be deemed to be complete without a ride on the "Ship of the desert".</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/1.jpg" alt="">Our base for the next 5 days :)</p>

@@ -9,15 +9,10 @@ coordi: (17.3850, 78.4867)
 image: /img/2014/6-hyd/cover-min.jpg 
 permalink: 
 publish: yes
+description: In the season of college admissions, I applied to IIIT-Hyderabad through KVPY and was called upon for an interview which led to me visiting the capital of Andhra Pradesh for the first time.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-In the season of college admissions, I applied to IIIT-Hyderabad through KVPY and was called upon for an interview which led to me visiting the capital of Andhra Pradesh for the first time.
-</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2014/6-hyd/cover.jpg" alt="">With one of the most recognized structures of India, Charminar, literally translating to 4 pillars.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2014/6-hyd/1.jpg" alt="">Set for the interview? :P</p>

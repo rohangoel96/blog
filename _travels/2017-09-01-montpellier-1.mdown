@@ -9,13 +9,10 @@ coordi: (43.6108, 3.6767)
 image: /img/2017/9-montpellier/cover-min.jpg 
 permalink: 
 publish: yes
+description: So here comes another internship (Bachelor's Thesis) and another country. It's continental Europe and SOUTH OF FRANCE this time. Montpellier is on the Mediterranean coast experiences a much warmer climate than rest of France (thank god!). It's a student city with more than a third of the popuation being students. And yes, I don't know French so it's hell of a problem.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center><i>
-So here comes another internship (Bachelor's Thesis) and another country. It's continental Europe and SOUTH OF FRANCE this time. Montpellier is on the Mediterranean coast experiences a much warmer climate than rest of France (thank god!). It's a student city with more than a third of the popuation being students. And yes, I don't know French so it's hell of a problem.
-</i></center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/cover.jpg" alt="">So the french named the city center of the city as "Comédie"! Probably they wanted to be funny?</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/1.jpg" alt="">Triumphal Arch to make me feel home. Yo! #IndiaGate</p>

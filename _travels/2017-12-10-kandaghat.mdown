@@ -10,13 +10,10 @@ coordi: (30.9702, 77.1054) + (31.2578, 77.4602) + (31.2488, 77.0895) + (31.1798,
 image: /img/2017/12-kandaghat/cover-min.jpg 
 permalink: 
 publish: yes
+description: Coming back from a 4 months long EU trip on the 4th December, I had no energy/mood to go anywhere but a relaxing trip in the laps of Himalayas, just before the starting of crazy placement process seemed like a good idea :P
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-Coming back from a 4 months long EU trip on the 4th December, I had no energy/mood to go anywhere but a relaxing trip in the laps of Himalayas, just before the starting of crazy placement process seemed like a good idea :P
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/cover.jpg" alt=""></p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/1.jpg" alt="">Lunch at Haveli, Murthal is obligatory when driving to Himachal from Delhi</p>

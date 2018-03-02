@@ -9,13 +9,10 @@ coordi: (16.0370, 73.4848)
 image: /img/2018/2-malvan/cover-min.jpg 
 permalink: 
 publish: yes
+description: Malvan, the fisihing coast town of Maharashtra is famous for scuba diving and water sports because of its clear waters - making it a perfect weekend getaway.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-Malvan, the fisihing coast town of Maharashtra is famous for scuba diving and water sports because of its clear waters - making it a perfect weekend getaway.
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2018/2-malvan/cover.jpg" alt=""></p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2018/2-malvan/1.jpg" alt="">Camels on (beach) sand? tourist trap level = infinity</p>

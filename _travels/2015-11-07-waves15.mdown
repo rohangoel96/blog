@@ -8,15 +8,10 @@ country: India
 image: /img/2015/11-waves/cover-min.jpg 
 permalink: 
 publish: yes
+description: The theme for the 2015 Edition of Waves was "Escape Reality". The time of the year when we get relief from our otherwise jam-packed academic schedule
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-The theme for the 2015 Edition of Waves was "Escape Reality". The time of the year when we get relief from our otherwise jam-packed academic schedule
-</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/cover.jpg" alt="">The main stage for Waves 2015 adorned by AKING</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/1.jpg" alt="">No this isn't the Titanic Pose -_-</p>

@@ -10,15 +10,10 @@ MarkerSize: small
 image: /img/2016/10-arambol/cover-min.jpg 
 permalink: 
 publish: yes
+description: Arambol is the northenmost beach of Goa which is pretty pristine and naturally attracts a lot of foreignours.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-Arambol is the northenmost beach of Goa which is pretty pristine and naturally attracts a lot of foreignours.
-</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2016/10-arambol/cover.jpg" alt="">After walking more than 2km along the coast, we found the peace of this sort of secret beach away from our hectic lives.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2016/10-arambol/1.jpg" alt="">Goa + sunsets = <3</p>

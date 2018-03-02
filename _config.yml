@@ -10,7 +10,6 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink:   /:year/:month/:title
 
 title:       MemExp
-description: Rohan Goel's Memories and Experiences
 author:      Rohan Goel
 email:       rohangoel0296@gmail.com
 

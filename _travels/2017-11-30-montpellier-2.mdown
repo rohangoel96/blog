@@ -9,12 +9,10 @@ coordi: (43.7108, 3.8767)
 image: /img/2017/11-montpellier/cover-min.jpg 
 permalink: 
 publish: yes
+description: Has been so long in Montpellier. Deserves another post right?
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center><i>
-</i></center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/cover.jpg" alt="">Halloween is here <3</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/1.jpg" alt="">Though typically celebrated in the US and UK, it is celebrated at a small scale in France too - coming from India, it was good enough :)</p>

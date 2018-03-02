@@ -8,15 +8,10 @@ country: India
 image: /img/2017/4-farewell/cover-min.jpg 
 permalink: 
 publish: yes
+description: So as it turns out, we at BITS, get our farewell in the end of 3rd itself - even when the course spans 4 years. Here's to seeing everyone on campus for the last time.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-So as it turns out, we at BITS, get our farewell in the end of 3rd itself - even when the course spans 4 years. Here's to seeing everyone on campus for the last time.
-</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/cover.jpg" alt="">BITS Pilani - Goa Computer Science 2014</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/1.jpg" alt="">Apparently this is the best sex ratio in any of the departments!</p>

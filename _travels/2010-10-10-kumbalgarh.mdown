@@ -9,15 +9,10 @@ coordi: (25.1528, 73.5870) + (24.8887, 74.6269) + (24.5854, 73.7125)
 image: /img/2010/10-kumbalgarh/cover-min.jpg 
 permalink: 
 publish: yes
+description: This trip was all about the mewar kingdom and the achievements of the mighty rajputs as we covered multiple places of interest in Rajasthan, namely Udaipur, Kumbalgarh and Chittor starting our journey from Jaipur. 
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-This trip was all about the mewar kingdom and the achievements of the mighty rajputs as we covered multiple places of interest in Rajasthan, namely Udaipur, Kumbalgarh and Chittor starting our journey from Jaipur.
-</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/cover.jpg" alt="">The kumbalgarh fort is among the largest wall complex in the world with it's 35+km wall</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/1.jpg" alt="">The intricately carved dome of Kalika Mata Temple at Chittor</p>

@@ -9,13 +9,10 @@ coordi: (50.8503, 4.3517)
 image: /img/2017/10-brussels/cover_min_400.jpg
 permalink: 
 publish: yes
+description: Brussels, the de facto capital of the European Union was one of the most multilingual cities I have ever witnessed. Most of people spoke all of English, French and Dutch fluently.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center><i>
-Brussels, the de facto capital of the European Union was one of the most multilingual cities I have ever witnessed. Most of people spoke all of English, French and Dutch fluently.
-</i></center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-brussels/cover_min.jpg" alt="">One can probably see the whole of europe - atleast the touristy spots in all of europe in this de facto EU capital. _MiniEurope</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-brussels/1_min.jpg"> Atomium which represents a unit cell of the iron cystal (magnified 165 billion times) was actually made of Al_minium. Moreover, it was designed to showcase the advent of atomic age - iron cannot be used in nuclear reactions.</p>

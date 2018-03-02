@@ -9,13 +9,10 @@ coordi: (41.3851, 2.1734)
 image: /img/2017/11-barcelona/cover_min_400.jpg
 permalink: 
 publish: yes
+description: The largest city in Catalonia, Spain is best known for the works of Antoni Gaudí apart from being a major cultural heritage. 
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center><i>
-The largest city in Catalonia, Spain is best known for the works of Antoni Gaudí apart from being a major cultural heritage. 
-</i></center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/11-barcelona/cover_min.jpg" alt="">Work on Gaudi's last project, the super chruch: @SagradaFamília started in 1882 but it's still largely unfinished. Being privately financed, majorly by entry ticket contributions, it is stipulated to be finished in 2026.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/11-barcelona/1_min.jpg">Interior of the Sagarada Familia. Paul Goldberger describes it as "the most extraordinary personal interpretation of Gothic architecture since the Middle Ages".</p>

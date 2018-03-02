@@ -9,13 +9,10 @@ coordi: (51.8969, -8.4863)
 image: /img/2017/7-cork/cover-min.jpg 
 permalink: 
 publish: yes
+description: As my days in Ireland were coming to a (sad) end, I quickly decided to see rhe rebel city, Cork and the Rock Of Cashel before I leave :D
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center><i>
-As my days in Ireland were coming to a (sad) end, I quickly decided to see rhe rebel city, Cork and the Rock Of Cashel before I leave :D
-</i></center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/cover.jpg" alt="">Cork's harbour alonfg the river is one of the largest natural harbours in the world - that in a country as small and sparsely populated as Ireland</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/1.jpg" alt="">One of the best steets arts I saw in Ireland</p>

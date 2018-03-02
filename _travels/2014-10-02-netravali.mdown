@@ -10,13 +10,10 @@ MarkerSize: small
 image: /img/2014/10-netravali/cover-min.jpg 
 permalink: 
 publish: yes
+description: 2014 is the first year of college and whats a better way to bond than going on an excursion together with the whole lot from the hostel? We decided to trek to the Savari Waterfall at Netrvali Wildlife Sanctuary.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>2014 is the first year of college and whats a better way to bond than going on an excursion together with the whole lot from the hostel? We decided to trek to the Savari Waterfall at Netrvali Wildlife Sanctuary.</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/cover.jpg" alt="">The state of Goa which is famous for it's beaches and party life also posseses some hidden treasures like this.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/1.jpg" alt="">So here we start the trek.</p>

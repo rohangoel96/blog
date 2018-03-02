@@ -9,13 +9,10 @@ coordi: (52.3702, 4.8952)
 image: /img/2017/10-amsterdam/cover_min_400.jpg
 permalink: 
 publish: yes
+description: Amsterdam is colloquially known as Venice of the North because of its lovely canals that criss-cross the city, its impressive architecture and more than 1,500 bridges. 
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center><i>
-Amsterdam is colloquially known as Venice of the North because of its lovely canals that criss-cross the city, its impressive architecture and more than 1,500 bridges. 
-</i></center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/cover_min.jpg" alt="">Jordaan -  one of the most expensive, upscale locations in the Netherlands with major tourists spots too</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/2_min.jpg"></p>

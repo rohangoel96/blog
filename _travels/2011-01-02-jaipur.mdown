@@ -8,15 +8,10 @@ coordi: (26.9124, 75.7873)
 image: /img/2011/1-jaipur/cover-min.jpg 
 permalink: 
 publish: yes
+description: The Pink City of India, Jaipur is a is a popular tourist and stratrgic destination which serves as the gateway to Rajasthan.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-The Pink City of India, Jaipur is a is a popular tourist and stratrgic destination which serves as the gateway to Rajasthan.
-</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/cover.jpg" alt="">Residence of the Rajput Maharajas, the Amer Fort is without a doubt the best maintained Fort in the country and truly reflects artistic Hindu style elements at their best.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/1.jpg" alt="">Jal Mahal sits in the middle of the picturesque view Man Sagar Lake magnifying it's beauty multifold</p>

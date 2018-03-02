@@ -9,15 +9,10 @@ coordi: (12.3375, 75.8069) + (12.2958, 76.6394)
 image: /img/2012/3-coorg/cover-min.jpg 
 permalink: 
 publish: yes
+description: Wellknown for its breathtakingly exotic scenery, Coorg was also famously called as the "Scotland of India" by the Britishers. It is famous for its Coffee plantations. Since Papa was based in Bangalore, we drove to Coorg via Mysore.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-Wellknown for its breathtakingly exotic scenery, Coorg was also famously called as the "Scotland of India" by the Britishers. It is famous for its Coffee plantations. Since Papa was based in Bangalore, we drove to Coorg via Mysore.
-</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/cover.jpg" alt="">Although Mysore is commonly described as the 'City of Palaces' the Ambavilas Palace stands out from everything else. </p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/1.jpg" alt="">Preparations for the weeks long trip away from home :P</p>

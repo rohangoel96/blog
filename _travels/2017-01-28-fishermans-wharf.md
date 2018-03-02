@@ -7,15 +7,10 @@ location: Goa, India
 image: /img/2017/1-goa/cover-min.jpg 
 permalink: 
 publish: yes
+description: Probably the last outing when everyone from "Killogicals" together. We decided to go to Fisherman's Wharf - the famous authentic Goan cuisine restaurant chain.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-Probably the last outing when everyone from "Killogicals" together. We decided to go to Fisherman's Wharf - the famous authentic Goan cuisine restaurant chain.
-</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/1-goa/cover.jpg" alt="">As I said, probably the last time when everyone was together in a single frame.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/1-goa/1.jpg" alt="">The best plate of Nachos that I have ever eaten. <br>The rest of the food was probably so delicious that we forgot to take the pics :P</p>

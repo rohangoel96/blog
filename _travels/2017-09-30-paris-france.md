@@ -9,15 +9,12 @@ coordi: (48.8566, 2.3522)
 image: /img/2017/9-paris/cover_min_400.jpg 
 permalink: 
 publish: yes
+description: The following conversation in the film 'Midnight in Paris' aptly summarises my feelings about Paris - the most visited city in the world<br>
+Adriana: I can never decide whether Paris is more beautiful by day or by night. <br>
+Gil: No, you can't, you couldn't pick one. I mean I can give you a checkmate argument for each side. You know, I sometimes think, how is anyone ever gonna come up with a book, or a painting, or a symphony, or a sculpture that can compete with a great city. You can't. Because you look around and every street, every boulevard, is its own special art form and when you think that in the cold, violent, meaningless universe that Paris exists, these lights, I mean come on, there's nothing happening on Jupiter or Neptune, but from way out in space you can see these lights, the cafés, people drinking and singing. For all we know, Paris is the hottest spot in the universe.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center><i>
-The following conversation in the film 'Midnight in Paris' aptly summarises my feelings about Paris - the most visited city in the world<br>
-Adriana: I can never decide whether Paris is more beautiful by day or by night. <br>
-Gil: No, you can't, you couldn't pick one. I mean I can give you a checkmate argument for each side. You know, I sometimes think, how is anyone ever gonna come up with a book, or a painting, or a symphony, or a sculpture that can compete with a great city. You can't. Because you look around and every street, every boulevard, is its own special art form and when you think that in the cold, violent, meaningless universe that Paris exists, these lights, I mean come on, there's nothing happening on Jupiter or Neptune, but from way out in space you can see these lights, the cafés, people drinking and singing. For all we know, Paris is the hottest spot in the universe.
-</i></center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/9-paris/cover_min.jpg" alt="">Captured two beauties in a single frame - the iron lady and the limo</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/9-paris/2_min.jpg">View #1 atop Eiffel</p>

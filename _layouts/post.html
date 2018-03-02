@@ -4,7 +4,12 @@ layout: page
 
 <h4 style="margin-bottom: 0px;">{{ page.title }}</h4>
 <div style="text-align:center; padding: 0 0 30px 0">{{ page.location }}, {{ page.country }}  - {{ page.date | date: "%B %d, %Y"}}</div>
-
+<center>
+<i>
+{{ page.description }}
+</i>
+</center>
+<br>
 {{ content }}
 
 <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}"></div>

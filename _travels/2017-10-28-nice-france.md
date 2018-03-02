@@ -10,13 +10,10 @@ MarkerSize: small+
 image: /img/2017/10-nice/cover_min_400.jpg
 permalink: 
 publish: yes
+description: Located in the French Riviera, on the south east coast of France on the Mediterranean Sea, at the foot of the Alps, Nice is the second-largest French city on the Mediterranean coast. This coastline was one of the first modern resort areas. It began as a winter health resort for the British upper class at the end of the 18th century.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center><i>
-Located in the French Riviera, on the south east coast of France on the Mediterranean Sea, at the foot of the Alps, Nice is the second-largest French city on the Mediterranean coast. This coastline was one of the first modern resort areas. It began as a winter health resort for the British upper class at the end of the 18th century.
-</i></center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-nice/cover_min.jpg" alt="">Nice was definitely the 'nice'st part of the infamous French Riveria with it's pebble beaches - something which totally amazed me. <br>PS: Had to climb 300 stairs for this amazing view</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-nice/1_min.jpg">Pebbles <3</p>

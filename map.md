@@ -1,5 +1,6 @@
 ---
 layout: page
+description: Map showcasing the travelled places.
 ---
 
 <html>

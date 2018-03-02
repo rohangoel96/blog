@@ -10,15 +10,11 @@ MarkerSize: small
 image: /img/2014/9-majorda/cover-min.jpg 
 permalink: 
 publish: yes
+description: Majorda, one of the prettiest beaches in South Goa was selected for our first outing together by my "corridor-mates" 
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-Majorda, one of the prettiest beaches in South Goa was selected for our first outing together by my "corridor-mates" 
-</i>
-</center>
-<br>
+
 <p class="center"><img src="{{site.baseurl}}/img/2014/9-majorda/cover.jpg" alt="">The beautiful view of water and golden sands spellbind every sightseer</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2014/9-majorda/1.jpg" alt=""></p>

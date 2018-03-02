@@ -10,14 +10,11 @@ MarkerSize: small+
 image: /img/2017/10-nimes/cover_min_400.jpg
 permalink: 
 publish: yes
+description: Definitely the best place to experience the Roman Heritage in France.<br>
+Trivia: The name “denim” comes from the name of a sturdy fabric called “Serge de Nîmes”, initially made in Nîmes, France, hence “de Nîmes” - “denim”.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center><i>
-Definitely the best place to experience the Roman Heritage in France.<br>
-Trivia: The name “denim” comes from the name of a sturdy fabric called “Serge de Nîmes”, initially made in Nîmes, France, hence “de Nîmes” - “denim”.
-</i></center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/cover_min.jpg" alt="">Arena of Nîmes, the Roman amphitheatre was built around 70 AD which means it's almost 2000 years old!!</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/1_min.jpg">Maison Carrée - is one of the best preserved Roman temple façades. Built around 4AD it is definitely the oldest thing I have ever seen.</p>

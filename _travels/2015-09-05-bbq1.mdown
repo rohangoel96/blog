@@ -10,15 +10,10 @@ MarkerSize: small
 image: /img/2015/9-bbq/cover-min.jpg 
 permalink: 
 publish: yes
+description: Killogicals' first mega treat happened at BBQ@Panjim. My first BBQ experience, for which I starved myself for over 24hrs :P
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-Killogicals' first mega treat happened at BBQ@Panjim. My first BBQ experience, for which I starved myself for over 24hrs :P
-</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2015/9-bbq/cover.jpg" alt="">That awkward moment when starters are more delicious than the main course.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2015/9-bbq/1.jpg" alt="">When you basically occupy half the area of the restaurant</p>

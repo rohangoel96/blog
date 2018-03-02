@@ -10,15 +10,10 @@ MarkerSize: small
 image: /img/2014/8-goa/cover-min.jpg 
 permalink: 
 publish: yes
+description: So here starts 4 years long vacation at Goa because of my admission into BITS Pilani, Goa Campus,
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<center>
-<i>
-So here starts 4 years long vacation at Goa because of my admission into BITS Pilani, Goa Campus,
-</i>
-</center>
-<br>
 <p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/cover.jpg" alt="">Colva Beach, the first Goan beach that I set foot in</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/1.jpg" alt=""></p>
