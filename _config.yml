@@ -9,14 +9,15 @@ lsi:         false
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink:   /:year/:month/:title
 
-title:       TraMExp
+title:       MemExp
 author:      Rohan Goel
 email:       rohangoel0296@gmail.com
+qoute:       High on Travelling
 
 exclude:     [_site]
 
 # url: rohangoel96.github.io
-baseurl: /tramexp
+baseurl: /MemExp
 
 collections:
   travels:
