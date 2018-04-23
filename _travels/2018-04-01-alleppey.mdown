@@ -1,0 +1,65 @@
+---
+layout: post
+title: Backwaters at Alleppey
+type: photos
+category: travels
+location: Alleppey + Kochi
+country: India
+MarkerSize: med + med
+coordi: (9.4981, 76.3388) + (9.9312, 76.2673)
+image: /img/2018/4-alleppey/cover-min.jpg 
+permalink: 
+publish: yes
+description: The Venice of the East - Alleppey was chosen as the destination for our trip together after 3 years post quite a struggle and ponder over multiple destinations in South India. The three of us went for our first independant trip to shimla just 5 months after the start of our engineering; and now we hit the road again, just 5 months before we get our degrees - conincidence much?
+---
+<!-- http://compressjpeg.com -->
+<!-- http://compressimage.toolur.com/ 1024, 400-->
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/cover.jpg" alt="">The well-known tranquil backwaters of Kerala at Vembanad Lake, Alleppey</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/1.jpg" alt="">Staying at Ramada as unemployed and poor students? How much sense does that make?</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/2.jpg" alt="">This view of the backwaters from the room probably makes it all worth it? </p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/3.jpg" alt="">And then I played basketball after 6 long years BUT only to fail in even scoring the easiest of baskets!</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/4.jpg" alt="">When 3 friends go on a 3 days trip after 3 years, they end up forgoing all the plans and spend over 3 hours at a 3 feet deep pool.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/5.jpg" alt="">This is what we're here for afterall - a cruise on the calm backwaters</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/6.jpg" alt=""></p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/7.jpg" alt="">The houseboats ..</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/8.jpg" alt="">The vast waters of Vembanad lake, right next to our hotel! Beat that?</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/9.jpg" alt="">Random discussions about life, earth and the universe on the go....</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/10.jpg" alt="">Food with a view? A top class buffet on the serene backwaters</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/11.jpg" alt=""></p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/12.jpg" alt="">The traditionally Keralite dish - Puttu are steamed cylinders of ground rice layered with coconut. When in Kerala, it would have been a sin to miss the DhePuttu Restaurant @ Kochi which specializes in all sorts of Puttus </p>
+
+<!-- <p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/13.jpg" alt=""></p> -->
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/14.jpg" alt="">Kathakali - the classical Indian dance style which is mostly used to narrate stories is native to Kerala and is a must watch. With no use of dialogues, the actors use expressions and gestures to convey the narratives - something which is completely mesmerizing!</p>
+
+<!-- <p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/15.jpg" alt=""></p> -->
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/16.jpg" alt="">We were also quite lucky to witness the tedious makeup sessions which the artists go through before the performance</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/17.jpg" alt="">The performance we saw depicted an excerpt from Mahabharat and I must confess that I liked the makeup of the villain (orange gaced) more than the protagonist</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/18.jpg" alt="">The Lighthouse at Alleppey was one the firsts on the arabian coast.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/19.jpg" alt="">This Buddha statue at Karumadikkuttan is estimated to be around 1000 years old and we detoured quite a distance for this - was it worth it? Shhhhhhh!</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/20.jpg" alt="">One can very well experience the typical Keral Architecture even at Ambalappuzha Sri Krishna Temple</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/21.jpg" alt="">Cherai Beach in Kochi, one of the most famous in the state</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/22.jpg" alt="">One can't resist the European feel at the Jewish Town @ Kochi - probably the oldest part of the city.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/23.jpg" alt="">Thank You Kerala, you are the best.</p>
+
+<p class="center"><img src="{{site.baseurl}}/img/2018/4-alleppey/24.jpg" alt="">Memories shared with @DhanurKhurana and @AnugrahPrakash</p>
