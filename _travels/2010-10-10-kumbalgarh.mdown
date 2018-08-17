@@ -20,7 +20,7 @@ description: This trip was all about the mewar kingdom and the achievements of t
 <p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/2.jpg" alt="">A typical view of a Rajashtani City atop a fort, here the Chittorgarh Fort<p>
 
 <!-- <p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/3.jpg" alt="">Chamundeshwari Temple atop Chamundi Hills -->
-</p>
+<!-- </p> -->
 
 <p class="center"><img src="{{site.baseurl}}/img/2010/10-kumbalgarh/4.jpg" alt="">Vijaya Stambha which literally translated to tower of victory inside ChittorFort</p>
 
