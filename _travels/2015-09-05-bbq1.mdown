@@ -2,7 +2,7 @@
 layout: post
 title: Killogicals Unite @ BBQ
 type: photos
-category: memories
+category: memory
 location: Goa
 country: India
 coordi: (15.4909, 73.8278)

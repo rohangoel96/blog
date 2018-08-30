@@ -2,7 +2,7 @@
 layout: post
 title: First B'day at BITS
 type: photos
-category: memories
+category: memory
 location: Goa
 country: India
 image: /img/2015/2-bday/cover-min.jpg 

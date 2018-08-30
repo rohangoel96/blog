@@ -2,7 +2,7 @@
 layout: post
 title: Gaudi's Barcelona
 type: photos
-category: travels
+category: travel
 location: Barcelona
 country: Spain
 coordi: (41.3851, 2.1734)

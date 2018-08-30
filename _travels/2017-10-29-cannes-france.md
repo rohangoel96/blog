@@ -2,7 +2,7 @@
 layout: post
 title: Cannes
 type: photos
-category: travels
+category: travel
 location: Cannes
 country: France
 coordi: (43.5528, 7.0174)

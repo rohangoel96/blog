@@ -2,7 +2,7 @@
 layout: post
 title: Cork and its Vikings
 type: photos
-category: travels
+category: travel
 location: Cork
 country: Ireland
 coordi: (51.8969, -8.4863)

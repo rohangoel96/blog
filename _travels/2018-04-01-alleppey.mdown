@@ -2,7 +2,7 @@
 layout: post
 title: Backwaters at Alleppey
 type: photos
-category: travels
+category: travel
 location: Alleppey + Kochi
 country: India
 MarkerSize: med + med

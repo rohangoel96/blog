@@ -2,7 +2,7 @@
 layout: post
 title: Brussels - The European capital
 type: photos
-category: travels
+category: travel
 location: Brussels
 country: Belgium
 coordi: (50.8503, 4.3517)

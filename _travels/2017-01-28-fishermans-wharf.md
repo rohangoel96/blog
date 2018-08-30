@@ -2,7 +2,7 @@
 layout: post
 title: Fisherman's Wharf
 type: photos
-category: memories
+category: memory
 location: Goa, India
 image: /img/2017/1-goa/cover-min.jpg 
 permalink: 

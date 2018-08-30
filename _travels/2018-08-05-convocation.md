@@ -2,7 +2,7 @@
 layout: post
 title: Convocation @ BPGC
 type: photos
-category: memories
+category: memory
 location: Goa
 country: India
 image: /img/2018/8-convocation/cover-min.jpg 

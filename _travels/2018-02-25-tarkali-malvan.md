@@ -2,7 +2,7 @@
 layout: post
 title: Adventurous Malvan 
 type: photos
-category: travels
+category: travel
 location: Malvan
 country: India
 coordi: (16.0370, 73.4848)

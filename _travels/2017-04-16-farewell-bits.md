@@ -2,7 +2,7 @@
 layout: post
 title: Farewell @ BPGC 
 type: photos
-category: memories
+category: memory
 location: Goa
 country: India
 image: /img/2017/4-farewell/cover-min.jpg 

@@ -2,7 +2,7 @@
 layout: post
 title: The 'Nice' French Riviera
 type: photos
-category: travels
+category: travel
 location: Nice
 country: France
 coordi: (43.7102, 7.2620)

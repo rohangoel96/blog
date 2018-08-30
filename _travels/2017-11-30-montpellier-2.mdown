@@ -2,7 +2,7 @@
 layout: post
 title: More of Montpellier 
 type: photos
-category: travels
+category: travel
 location: Montpellier
 country: France
 coordi: (43.7108, 3.8767)

@@ -2,7 +2,7 @@
 layout: post
 title: Birthday @ BBQ
 type: photos
-category: memories
+category: memory
 location: Goa, India
 image: /img/2016/2-bday2016/cover-min.jpg 
 permalink: 

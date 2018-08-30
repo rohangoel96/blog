@@ -2,7 +2,7 @@
 layout: post
 title: Buh bye Dublin
 type: photos
-category: travels
+category: travel
 location: Dublin
 country: Ireland
 coordi: (53.2498, -6.2903)
