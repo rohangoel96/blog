@@ -12,12 +12,12 @@ permalink:   /:year/:month/:title
 title:       MemExp
 author:      Rohan Goel
 email:       rohangoel0296@gmail.com
-qoute:       High on Travelling
+# qoute:       High on Travelling
 
 exclude:     [_site]
 
-# url: rohangoel96.github.io
-baseurl: /MemExp
+# url: https://rohangoel.xyz
+baseurl: /blog
 
 collections:
   travels:

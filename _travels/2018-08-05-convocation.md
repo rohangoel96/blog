@@ -8,7 +8,7 @@ country: India
 image: /img/2018/8-convocation/cover-min.jpg 
 permalink: 
 publish: yes
-description: The convocation day with it a roller coaster of emotions and is a time for celebration and joy. The time when the grads don the graduation gown and wear the mortarboards as a sign of (academic) excellence. It is without a doubt, one of the most important moments in a person's life. 
+description: The convocation day brings with itself a roller coaster of emotions and is a time for celebration and joy. The time when the grads don the graduation gown and wear the mortarboards as a sign of (academic) excellence. It is without a doubt, one of the most important moments in a person's life. 
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->

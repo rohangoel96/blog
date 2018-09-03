@@ -4,7 +4,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114821832-1"></script>
   <script>
-  if (document.location.hostname.search("rohangoel96.github.io") !== -1) {
+  if (document.location.hostname.search("rohangoel.xyz") !== -1) {
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -14,16 +14,28 @@
   </script>
   <meta charset="utf-8">
   {% if page.title == null %}
-  <title>{{site.title}} - {{site.qoute}}</title>
+  <title>{{site.title}}</title>
   {% else %}
   <title>{{ page.title }} - {{site.title}}</title>
   {% endif %}
   
-  <meta name="description" content="{{ site.title }}. {{ site.qoute }}. {{ site.author }}. Blog. {{ page.description }}">
+  <meta name="description" content="{{ site.title }}. {{ site.author }}. Blog. {{ page.description }}">
   <meta name="author" content="{{ site.author }}">
 
   <meta name="date.created" content="{{ page.date | date: '%Y-%m-%d' }}">
   <meta name="date.available" content="{{ page.date | date: '%Y-%m-%d' }}">
+
+      <!-- Facebook and Twitter integration -->
+  <meta property="og:title" content="MemExp Blog"/>
+  <meta property="og:image" content="https://rohangoel.xyz/images/about1.png"/>
+  <meta property="og:url" content="https://blog.rohangoel.xyz"/>
+  <meta property="og:site_name" content=""/>
+  <meta property="og:description" content="{{ site.title }}. {{ site.author }}. Blog. {{ page.description }}/>
+  <meta name="twitter:title" content="MemExp Blog" />
+  <meta name="twitter:image" content="images/about1.png" />
+  <meta name="twitter:url" content="https://blog.rohangoel.xyz" />
+  <meta name="twitter:card" content="{{ site.title }}. {{ site.author }}. Blog. {{ page.description }}" />
+
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -41,14 +53,14 @@
       <div class="twelve columns header">
         <h1>{{ site.title }}</h1>
         <p style="text-align: center;">Memories and Experiences</p>
-        <h2>{{ site.qoute }}</h2>
+        <!-- <h2>{{ site.qoute }}</h2> -->
       </div>
     </div>
     <div class="row rownav">
       <ul class="twelve columns nav">
         <li><a href="{{site.baseurl}}/">Home</a></li>
         <li><a href="{{site.baseurl}}/map">Map</a></li>
-        <li><a href="http://rohangoel96.github.io" target="_blank">About Me</a></li>
+        <li><a href="https://rohangoel.xyz" target="_blank">About Me</a></li>
         <!-- <li><a href="mailto:rohangoel0296@gmail.com" target="_blank">Contact Me</a></li> -->
       </ul>
     </div>
@@ -60,7 +72,7 @@
     <div class="row rownav" style="margin-top: 0px;">
       <ul class="twelve columns nav">
         <li><a href="{{site.baseurl}}/">Home</a></li>
-        <li><a href="http://rohangoel96.github.io" target="_blank">About Me</a></li>
+        <li><a href="https://rohangoel.xyz" target="_blank">About Me</a></li>
         <li><a href="mailto:rohangoel0296@gmail.com" target="_blank">Contact Me</a></li>
         <!-- <li><a href="{{site.baseurl}}/software/">Software</a></li> -->
       </ul>
