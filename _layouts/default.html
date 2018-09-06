@@ -16,7 +16,7 @@
   {% if page.title == null %}
   <title>{{site.title}}</title>
   {% else %}
-  <title>{{ page.title }} - {{site.title}}</title>
+  <title>{{ page.title }}</title>
   {% endif %}
   
   <meta name="description" content="{{ site.title }}. {{ site.author }}. Blog. {{ page.description }}">
@@ -26,16 +26,20 @@
   <meta name="date.available" content="{{ page.date | date: '%Y-%m-%d' }}">
 
       <!-- Facebook and Twitter integration -->
-  <meta property="og:title" content="MemExp Blog"/>
-  <meta property="og:image" content="https://rohangoel.xyz/images/about1.png"/>
-  <meta property="og:url" content="https://blog.rohangoel.xyz"/>
-  <meta property="og:site_name" content=""/>
-  <meta property="og:description" content="{{ site.title }}. {{ site.author }}. Blog. {{ page.description }}/>
-  <meta name="twitter:title" content="MemExp Blog" />
-  <meta name="twitter:image" content="images/about1.png" />
-  <meta name="twitter:url" content="https://blog.rohangoel.xyz" />
-  <meta name="twitter:card" content="{{ site.title }}. {{ site.author }}. Blog. {{ page.description }}" />
-
+  <meta property="og:title" content="{{ page.title }}"/>
+  <meta property="og:url" content="https://rohangoel96.github.io/blog"/>
+  <meta property="og:site_name" content="MemExp"/>
+  <meta property="og:description" content="{{ page.description }}/>
+  <meta name="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:url" content="https://rohangoel96.github.io/blog" />
+  <meta name="twitter:card" content="{{ page.description }}" />
+  {% if page.image == null %}
+  <meta property="og:image" content="https://www.shareicon.net/download/2016/08/31/821514_earth_512x512.png"/>
+  <meta name="twitter:image" content="https://www.shareicon.net/download/2016/08/31/821514_earth_512x512.png" />
+  {% else %}
+  <meta property="og:image" content="{{site.baseurl}}{{page.image}}"/>
+  <meta name="twitter:image" content="{{site.baseurl}}{{page.image}}" />
+  {% endif %}
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -60,7 +64,7 @@
       <ul class="twelve columns nav">
         <li><a href="{{site.baseurl}}/">Home</a></li>
         <li><a href="{{site.baseurl}}/map">Map</a></li>
-        <li><a href="https://rohangoel.xyz" target="_blank">About Me</a></li>
+        <li><a href="https://rohangoel96.github.io" target="_blank">About Me</a></li>
         <!-- <li><a href="mailto:rohangoel0296@gmail.com" target="_blank">Contact Me</a></li> -->
       </ul>
     </div>
@@ -72,7 +76,7 @@
     <div class="row rownav" style="margin-top: 0px;">
       <ul class="twelve columns nav">
         <li><a href="{{site.baseurl}}/">Home</a></li>
-        <li><a href="https://rohangoel.xyz" target="_blank">About Me</a></li>
+        <li><a href="https://rohangoel96.github.io" target="_blank">About Me</a></li>
         <li><a href="mailto:rohangoel0296@gmail.com" target="_blank">Contact Me</a></li>
         <!-- <li><a href="{{site.baseurl}}/software/">Software</a></li> -->
       </ul>

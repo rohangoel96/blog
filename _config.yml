@@ -9,7 +9,7 @@ lsi:         false
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink:   /:year/:month/:title
 
-title:       MemExp
+title:       MemExp Blog
 author:      Rohan Goel
 email:       rohangoel0296@gmail.com
 # qoute:       High on Travelling
