@@ -14,10 +14,10 @@ description: Uttorda is one of the most exotic beaches in Goa, an ideal place fo
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<p class="center"><img src="{{site.baseurl}}/img/2014/12-uttorda/cover.jpg" alt="">And here we venture into the sea again ..</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/12-uttorda/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">And here we venture into the sea again ..</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/12-uttorda/1.jpg" alt="">The last outing for the first semester before we all leave back for our homes</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/12-uttorda/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The last outing for the first semester before we all leave back for our homes</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/12-uttorda/2.jpg" alt="">A typical view of a Goan sunset with orange sky and it's beautiful reflection on the sea</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/12-uttorda/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">A typical view of a Goan sunset with orange sky and it's beautiful reflection on the sea</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/12-uttorda/3.jpg" alt=""></p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/12-uttorda/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></p>

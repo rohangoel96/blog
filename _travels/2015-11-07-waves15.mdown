@@ -12,14 +12,14 @@ description: The theme for the 2015 Edition of Waves was "Escape Reality". The t
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/cover.jpg" alt="">The main stage for Waves 2015 adorned by AKING</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The main stage for Waves 2015 adorned by AKING</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/1.jpg" alt="">No this isn't the Titanic Pose -_-</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">No this isn't the Titanic Pose -_-</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/2.jpg" alt="">When your first Paintball game takes place just infront of your hostel </p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">When your first Paintball game takes place just infront of your hostel </p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/3.jpg" alt="">Trying my hand at spraycan art @ Waves2k15</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Trying my hand at spraycan art @ Waves2k15</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/4.jpg" alt="">What's better than experiencing a Salim-Sulaiman live concert from front row</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">What's better than experiencing a Salim-Sulaiman live concert from front row</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/5.jpg" alt="">With @AmitRege @MayankKumar @PulkitAgarwal @ShikharSaluja</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/11-waves/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">With @AmitRege @MayankKumar @PulkitAgarwal @ShikharSaluja</p>

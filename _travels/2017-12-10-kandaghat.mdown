@@ -14,20 +14,20 @@ description: Coming back from a 4 months long EU trip on the 4th December, I had
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/cover.jpg" alt=""></p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/1.jpg" alt="">Lunch at Haveli, Murthal is obligatory when driving to Himachal from Delhi</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Lunch at Haveli, Murthal is obligatory when driving to Himachal from Delhi</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/2.jpg" alt="">Presenting to you : Shimla - one of the most urbanised hill stations in India</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Presenting to you : Shimla - one of the most urbanised hill stations in India</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/3.jpg" alt="">Shimla's ridge - the hub of all cultural activities of the city</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Shimla's ridge - the hub of all cultural activities of the city</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/4.jpg" alt="">Stayed at the Kandhaghat and the Narkanda properties</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Stayed at the Kandhaghat and the Narkanda properties</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/5.jpg" alt="">Room view from Club Mahindra Narkanda<3</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Room view from Club Mahindra Narkanda<3</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/6.jpg" alt="">Sunsets at hill tops be like ..</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/6.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Sunsets at hill tops be like ..</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/7.jpg" alt="">Tattapani means hot water. Many hot water stream emerge and meet the waters of river Sutlej at this place</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Tattapani means hot water. Many hot water stream emerge and meet the waters of river Sutlej at this place</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/8.jpg" alt="">Memories shared with @Mummy @Papa and @Yash</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-kandaghat/8.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with @Mummy @Papa and @Yash</p>

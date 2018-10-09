@@ -14,22 +14,22 @@ description: 2014 is the first year of college and whats a better way to bond th
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/cover.jpg" alt="">The state of Goa which is famous for it's beaches and party life also posseses some hidden treasures like this.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The state of Goa which is famous for it's beaches and party life also posseses some hidden treasures like this.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/1.jpg" alt="">So here we start the trek.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">So here we start the trek.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/2.jpg" alt="">One needs to cross many streams during the trek. The wet stones are super slippery so forming a human chains increases the chances of survival :P Missing primary school?</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">One needs to cross many streams during the trek. The wet stones are super slippery so forming a human chains increases the chances of survival :P Missing primary school?</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/4.jpg" alt=""></p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/3.jpg" alt="">After an hour and half of a trek, we are greeted by the charm of the waterfall.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">After an hour and half of a trek, we are greeted by the charm of the waterfall.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/5.jpg" alt="">The fall forms a natural pool at it's base and drenching in water to get some relief from the scorthing heat of Goa is blissful.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The fall forms a natural pool at it's base and drenching in water to get some relief from the scorthing heat of Goa is blissful.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/6.jpg" alt="">On the way back</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/6.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">On the way back</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/7.jpg" alt="">We also stopped by the Benaulim beach</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">We also stopped by the Benaulim beach</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/8.jpg" alt="">and played catch in the sea :P</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/8.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">and played catch in the sea :P</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/9.jpg" alt="">Memories shared with AH-1. :)</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/9.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with AH-1. :)</p>

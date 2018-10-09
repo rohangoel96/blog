@@ -13,43 +13,43 @@ description: Wellknown for its breathtakingly exotic scenery, Coorg was also fam
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/cover.jpg" alt="">Although Mysore is commonly described as the 'City of Palaces' the Ambavilas Palace stands out from everything else. </p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Although Mysore is commonly described as the 'City of Palaces' the Ambavilas Palace stands out from everything else. </p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/1.jpg" alt="">Preparations for the weeks long trip away from home :P</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Preparations for the weeks long trip away from home :P</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/2.jpg" alt="">Dariya Daulat Palace, was built by the famous Mysorean ruler Tipu Sultan<p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Dariya Daulat Palace, was built by the famous Mysorean ruler Tipu Sultan<p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/3.jpg" alt="">Chamundeshwari Temple atop Chamundi Hills
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Chamundeshwari Temple atop Chamundi Hills
 </p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/4.jpg" alt="">As ot turns out, the Mysore palace is the second most visited after the Taj</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">As ot turns out, the Mysore palace is the second most visited after the Taj</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/5.jpg" alt="">New home ? :P</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">New home ? :P</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/6.jpg" alt="">Woah</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/6.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Woah</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/7.jpg" alt="">First (Dirt) Quad Bike Experience</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">First (Dirt) Quad Bike Experience</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/8.jpg" alt="">Abbey Falls amidst the coffee plantations - one of the most serene waterfalls I have visited</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/8.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Abbey Falls amidst the coffee plantations - one of the most serene waterfalls I have visited</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/9.jpg" alt="">And here beings the tour of the coffee estates</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/9.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">And here beings the tour of the coffee estates</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/10.jpg" alt="">Nascent stages of coffee - the berries and the flowers</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/10.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Nascent stages of coffee - the berries and the flowers</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/11.jpg" alt="">Here is how the unprocessed coffee beans look - surprised to see the lack of color?</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/11.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Here is how the unprocessed coffee beans look - surprised to see the lack of color?</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/12.jpg" alt="">The beans are then processed and dried to give them the color</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/12.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The beans are then processed and dried to give them the color</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/13.jpg" alt="">Life size chess - it has always been a dream.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/13.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Life size chess - it has always been a dream.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/14.jpg" alt="">Dubare, on the banks of the River Kaveri is a famous Elephant camp ... </p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/14.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Dubare, on the banks of the River Kaveri is a famous Elephant camp ... </p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/15.jpg" alt=""> ... where you get scrub and help these giants bathe :P along amongst other activities.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/15.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"> ... where you get scrub and help these giants bathe :P along amongst other activities.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/16.jpg" alt="">Namdroling Nyingmapa Monastery, also called the Golden Temple, is the largest teaching center of the Nyingma lineage of Tibetan Buddhism in the world. The pic features the Zangdog Palri Temple. Mesmerized by the colors, grandeur and architecture.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/16.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Namdroling Nyingmapa Monastery, also called the Golden Temple, is the largest teaching center of the Nyingma lineage of Tibetan Buddhism in the world. The pic features the Zangdog Palri Temple. Mesmerized by the colors, grandeur and architecture.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/17.jpg" alt="">Laid out on 3 terraces the Brindavan Gardens have been the shooting location of multiple 20th century bollywood flicks.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/17.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Laid out on 3 terraces the Brindavan Gardens have been the shooting location of multiple 20th century bollywood flicks.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/18.jpg" alt="">The gardens lie near  the Krishnarajasagara dam which is built on the river Kaveri.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/18.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The gardens lie near  the Krishnarajasagara dam which is built on the river Kaveri.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/19.jpg" alt="">Memories shared with @Mummy @Papa and @Yash</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/19.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with @Mummy @Papa and @Yash</p>

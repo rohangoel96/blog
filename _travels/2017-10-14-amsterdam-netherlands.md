@@ -13,24 +13,24 @@ description: Amsterdam is colloquially known as Venice of the North because of i
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/cover_min.jpg" alt="">Jordaan -  one of the most expensive, upscale locations in the Netherlands with major tourists spots too</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/cover_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Jordaan -  one of the most expensive, upscale locations in the Netherlands with major tourists spots too</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/2_min.jpg"></p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/2_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/4_min.jpg">A different way to roam around the city. Guess what, they use boats in the canal as public transport too.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/4_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">A different way to roam around the city. Guess what, they use boats in the canal as public transport too.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/5_min.jpg">The city looks so different from water</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/5_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The city looks so different from water</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/6_min.jpg">The signature Dutch beer Heineken - started at Amsterdam</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/6_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The signature Dutch beer Heineken - started at Amsterdam</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/7_min.jpg">Ahem ahem. The much talked and discussed about "district" of Amsterdam: RDL</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/7_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Ahem ahem. The much talked and discussed about "district" of Amsterdam: RDL</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/8_0_min.jpg">First Casino Experience</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/8_0_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">First Casino Experience</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/8_min.jpg">Casino + GoT = Love</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/8_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Casino + GoT = Love</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/9_min.jpg">That awesome moment when you profit from your first Casino experience </p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/9_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">That awesome moment when you profit from your first Casino experience </p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/10_min.jpg"></p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/10_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/11_min.jpg">Memories shared with @AmitMama</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-amsterdam/11_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with @AmitMama</p>

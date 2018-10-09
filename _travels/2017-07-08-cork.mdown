@@ -13,14 +13,14 @@ description: As my days in Ireland were coming to a (sad) end, I quickly decided
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/cover.jpg" alt="">Cork's harbour alonfg the river is one of the largest natural harbours in the world - that in a country as small and sparsely populated as Ireland</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Cork's harbour alonfg the river is one of the largest natural harbours in the world - that in a country as small and sparsely populated as Ireland</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/1.jpg" alt="">One of the best steets arts I saw in Ireland</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">One of the best steets arts I saw in Ireland</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/2.jpg" alt="">The @RockOfCashel is the place where St.Patrick apparently converted the king of Munster </p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The @RockOfCashel is the place where St.Patrick apparently converted the king of Munster </p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/3.jpg" alt="">Contemporary European architecture fused with Irish elements</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Contemporary European architecture fused with Irish elements</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/4.jpg" alt="">The @BlarneyCastle which houses the Blarney Stone. Apparently, kissing the stone endows the kisser with the gift of the great eloquence and skill at flattery</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The @BlarneyCastle which houses the Blarney Stone. Apparently, kissing the stone endows the kisser with the gift of the great eloquence and skill at flattery</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/5.jpg" alt="">@Blarneyhouse, retiring home plannings anyone?</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">@Blarneyhouse, retiring home plannings anyone?</p>

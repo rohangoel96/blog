@@ -14,26 +14,26 @@ description: So here starts 4 years long vacation at Goa because of my admission
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/cover.jpg" alt="">Colva Beach, the first Goan beach that I set foot in</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Colva Beach, the first Goan beach that I set foot in</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/1.jpg" alt=""></p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/2.jpg" alt="">Basilica of Bom Jesus, one of the oldest churches in India and holds the mortal remains of Saint Francis Xavier</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Basilica of Bom Jesus, one of the oldest churches in India and holds the mortal remains of Saint Francis Xavier</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/3.jpg" alt="">The 4 centuries old well-preserved Aguada Fort - one of the most crucial forts of Portuguese in India</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The 4 centuries old well-preserved Aguada Fort - one of the most crucial forts of Portuguese in India</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/4.jpg" alt=""></p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/5.jpg" alt="">This is what we're actually here for - the orientation for the incoming students</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">This is what we're actually here for - the orientation for the incoming students</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/6.jpg" alt="">One of the most premium properties of Club Mahindra</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/6.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">One of the most premium properties of Club Mahindra</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/7.jpg" alt="">With a sort of a private beach (Varca) in the back</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">With a sort of a private beach (Varca) in the back</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/8.jpg" alt=""></p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/8.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/9.jpg" alt="">First Cruise Ship Experience at Delta Inn Royale</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/9.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">First Cruise Ship Experience at Delta Inn Royale</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/10.jpg" alt="">Memories shared with @YashGoel</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/10.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with @YashGoel</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/11.jpg" alt="">and @Mummy and @Papa</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/8-goa/11.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">and @Mummy and @Papa</p>

@@ -11,14 +11,14 @@ description: Probably the last outing when everyone from "Killogicals" together.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<p class="center"><img src="{{site.baseurl}}/img/2017/1-goa/cover.jpg" alt="">As I said, probably the last time when everyone was together in a single frame.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/1-goa/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">As I said, probably the last time when everyone was together in a single frame.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/1-goa/1.jpg" alt="">The best plate of Nachos that I have ever eaten. <br>The rest of the food was probably so delicious that we forgot to take the pics :P</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/1-goa/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The best plate of Nachos that I have ever eaten. <br>The rest of the food was probably so delicious that we forgot to take the pics :P</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/1-goa/2.jpg" alt="">Any sort of words with my limited vocab would demean the importance of these people</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/1-goa/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Any sort of words with my limited vocab would demean the importance of these people</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/1-goa/3.jpg" alt="">We, the fishermans are at our wharf - need to take a pic with our boat! Obviously!</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/1-goa/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">We, the fishermans are at our wharf - need to take a pic with our boat! Obviously!</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/1-goa/4.jpg" alt="">Pledges and promises?</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/1-goa/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Pledges and promises?</p>
 
 

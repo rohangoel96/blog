@@ -14,13 +14,13 @@ description: Agonda beach is consistently ranked as the top beaches to visit in 
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/cover.jpg" alt="">We visited the beach in peak monsoon, probably the worst time to be in Goa. However every experience is amazing if you have a great company :)</p>
+<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">We visited the beach in peak monsoon, probably the worst time to be in Goa. However every experience is amazing if you have a great company :)</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/1.jpg" alt="">One of the many traveller journeys</p>
+<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">One of the many traveller journeys</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/2.jpg" alt="">I wish you don't have nightmares post this :P</p>
+<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">I wish you don't have nightmares post this :P</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/3.jpg" alt="">That's how we rooooollllll</p>
+<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">That's how we rooooollllll</p>
 
 
-<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/4.jpg" alt="">The Peeps :P</p>
+<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The Peeps :P</p>

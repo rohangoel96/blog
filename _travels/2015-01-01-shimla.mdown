@@ -15,28 +15,28 @@ description: The summer capital of British India, Shimla is one of the top touri
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/cover.jpg" alt="">Coming home after the first semester at college, we probably were bored from the monotonous life at our homes. Hence was born a sudden plan to travel to Shimla. We left on the morning of 31st December, and nothing was booked/finalised until the night of 29th December.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Coming home after the first semester at college, we probably were bored from the monotonous life at our homes. Hence was born a sudden plan to travel to Shimla. We left on the morning of 31st December, and nothing was booked/finalised until the night of 29th December.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/1.jpg" alt="">Summer Hills of the summer capital? :P</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Summer Hills of the summer capital? :P</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/2.jpg" alt="">Travelled from Delhi to Chandigarh by train, and then hopped onto a cab until Shimla.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Travelled from Delhi to Chandigarh by train, and then hopped onto a cab until Shimla.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/3.jpg" alt="">When you can't afford an extra bed @ Club Mahindra Mashobra.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">When you can't afford an extra bed @ Club Mahindra Mashobra.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/4.jpg" alt="">The first rainfall of the year 2015 :P</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The first rainfall of the year 2015 :P</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/5.jpg" alt="">Wasn't cold enough but the scarf was cool, no?</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Wasn't cold enough but the scarf was cool, no?</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/6.jpg" alt="">Trying to act like a skii-pro - first experience with skiis</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/6.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Trying to act like a skii-pro - first experience with skiis</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/7.jpg" alt="">Kalka-Shimla "Toy train", a UNESCO World Heritage Site</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Kalka-Shimla "Toy train", a UNESCO World Heritage Site</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/8.jpg" alt="">When the drizzles suddenly change into snow <3</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/8.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">When the drizzles suddenly change into snow <3</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/9.jpg" alt="">Candids anyone?</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/9.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Candids anyone?</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/10.jpg" alt="">When getting a pic clicked is 1000x more easier than actual skiing.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/10.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">When getting a pic clicked is 1000x more easier than actual skiing.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/11.jpg" alt="">I don't know if there exists a name for this "sport"</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/11.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">I don't know if there exists a name for this "sport"</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/12.jpg" alt="">What's better than welcoming the new year at Shimla with friends?<br>Memories shared with @AnugrahPrakash and @DhanurKhurana</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/12.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">What's better than welcoming the new year at Shimla with friends?<br>Memories shared with @AnugrahPrakash and @DhanurKhurana</p>

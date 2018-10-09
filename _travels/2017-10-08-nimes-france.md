@@ -15,14 +15,14 @@ Trivia: The name “denim” comes from the name of a sturdy fabric called “Se
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/cover_min.jpg" alt="">Arena of Nîmes, the Roman amphitheatre was built around 70 AD which means it's almost 2000 years old!!</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/cover_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Arena of Nîmes, the Roman amphitheatre was built around 70 AD which means it's almost 2000 years old!!</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/1_min.jpg">Maison Carrée - is one of the best preserved Roman temple façades. Built around 4AD it is definitely the oldest thing I have ever seen.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/1_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Maison Carrée - is one of the best preserved Roman temple façades. Built around 4AD it is definitely the oldest thing I have ever seen.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/2_min.jpg">The Pont du Gard, which is the highest of all elevated Roman aqueducts was also built in the first century.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/2_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The Pont du Gard, which is the highest of all elevated Roman aqueducts was also built in the first century.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/3_min.jpg">The reflection <3</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/3_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The reflection <3</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/4_min.jpg">La Tour Magne- the watch tower</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/4_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">La Tour Magne- the watch tower</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/5_min.jpg">Memories shared with @MukulRawat, @PratimaGurung, @TheOneWhoCannotBePictured:P</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/5_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with @MukulRawat, @PratimaGurung, @TheOneWhoCannotBePictured:P</p>

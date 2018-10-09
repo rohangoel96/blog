@@ -14,27 +14,27 @@ description: Okay so I don't typically do this, but I met such nice and kind peo
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/cover.jpg" alt="">@MukulRawat, @JyotiSharma and @YuvrajJoshi - enjoyed a hell lot with these people :)</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">@MukulRawat, @JyotiSharma and @YuvrajJoshi - enjoyed a hell lot with these people :)</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/2.jpg" alt="">@TobiasScharl (aka Tobi) and @PetrMachac (aka Petrrrrr) - some of the most quick witted people I came across ;)</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">@TobiasScharl (aka Tobi) and @PetrMachac (aka Petrrrrr) - some of the most quick witted people I came across ;)</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/3.jpg" alt="">@PratimaGurung and @Mukul Rawat, the pseudo seniors for whom I'll always remain a kid probably?</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">@PratimaGurung and @Mukul Rawat, the pseudo seniors for whom I'll always remain a kid probably?</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/4.jpg" alt="">"Saare Jahan se Accha Hindustan and Hindustani Hamare". Each one of them made my trip worth while :) Merci @MukulRawat, @RakheeLohia and @PreetiGarai</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">"Saare Jahan se Accha Hindustan and Hindustani Hamare". Each one of them made my trip worth while :) Merci @MukulRawat, @RakheeLohia and @PreetiGarai</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/5.jpg" alt="">My first SNOWWWWFALLLLLL - the best way a could bid farewell. Apparently, it hadn't snowed here in 5 years, and now it snows just a day before I leave <3</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">My first SNOWWWWFALLLLLL - the best way a could bid farewell. Apparently, it hadn't snowed here in 5 years, and now it snows just a day before I leave <3</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/6.jpg" alt="">Being the eldest kid in the family, I never knew what having a elder brother is like. But @MukulRawat, you're the closest to what I have for "Bade Bhaiya". See you in Pune for sure :D</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/6.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Being the eldest kid in the family, I never knew what having a elder brother is like. But @MukulRawat, you're the closest to what I have for "Bade Bhaiya". See you in Pune for sure :D</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/7.jpg" alt="">Haha! People do say that I am very contagious, but I guess I transferred a lot of puns and PJs to you. Waiting to see your friends' reaction when you come back :P. Thank you so much for the wonderful card, @MukulRawat. Will always keep it with me :) </p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Haha! People do say that I am very contagious, but I guess I transferred a lot of puns and PJs to you. Waiting to see your friends' reaction when you come back :P. Thank you so much for the wonderful card, @MukulRawat. Will always keep it with me :) </p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/8.jpg" alt="">My lovely housemates who were forced to speak English because of me but I must accept that I am very lucky to find these kind and caring people who went out of the way to help me (and speak English - something they aren't comfortable at all with). @MaryemKortoba, @ServaneRgt and (the ex-housemate :P) @TobiasScharl</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/8.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">My lovely housemates who were forced to speak English because of me but I must accept that I am very lucky to find these kind and caring people who went out of the way to help me (and speak English - something they aren't comfortable at all with). @MaryemKortoba, @ServaneRgt and (the ex-housemate :P) @TobiasScharl</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/9.jpg" alt="">Merci Beaucoup for the wonderful memories and the souvenir, @MaryemKortoba, @ServaneRgt. I so much wish that I could thank you guys in proper French accent and pronounciations but Desole :P. You are wonderful people :)</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/9.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Merci Beaucoup for the wonderful memories and the souvenir, @MaryemKortoba, @ServaneRgt. I so much wish that I could thank you guys in proper French accent and pronounciations but Desole :P. You are wonderful people :)</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/10.jpg" alt="">Lol no, I didn't teach them "Balle Balle" - maybe they learnt it from the Bollywood films that they are fond of? :P</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/10.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Lol no, I didn't teach them "Balle Balle" - maybe they learnt it from the Bollywood films that they are fond of? :P</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/11.jpg" alt="">Can't thank you enough @ServaneRgt, @MaryemKortoba for the chocolate cake surprise just few hours before my flight :). Will always cherish the time spent together.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/11.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Can't thank you enough @ServaneRgt, @MaryemKortoba for the chocolate cake surprise just few hours before my flight :). Will always cherish the time spent together.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/1.jpg" alt="">I really didn't expect France to be this much fun. Literally everyone that I came across told me that France wouldn't be as nice, especially with my zero knowledge of French - but I am so very lucky to meet all these people, and the fact that I am taking back so many good memories should be attributed to each one of them. Thanks a ton everyone :) <br>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">I really didn't expect France to be this much fun. Literally everyone that I came across told me that France wouldn't be as nice, especially with my zero knowledge of French - but I am so very lucky to meet all these people, and the fact that I am taking back so many good memories should be attributed to each one of them. Thanks a ton everyone :) <br>
 PS: The nature at its colorful best is probably the only thing I liked about the otherwise suuuuper cold winters there.</p>
