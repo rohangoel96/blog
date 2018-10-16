@@ -1,0 +1,12 @@
+---
+layout: post
+---
+
+{% assign posts = page.my_arr | split: "|" %}
+
+{% assign cover_image = page.image | split: "/" %}
+{% assign img_dir = page.image | split: "/" %}
+
+{% for post in posts %}
+<p id="{{forloop.index}}" class="center"><img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.jpg" alt="{{page.title}}. {{site.title}}. {{post}}" title="{{page.title}}">{{post}}</p>
+{% endfor %}
