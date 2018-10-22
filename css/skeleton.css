@@ -42,9 +42,16 @@
   box-sizing: border-box; }
 
 /* For devices larger than 400px */
+@media (min-width: 300px) {
+  .container {
+    width: 94%;
+    padding: 0; }
+}
+
+/* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
-    width: 85%;
+    width: 92%;
     padding: 0; }
 }
 

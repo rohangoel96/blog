@@ -1,12 +1,12 @@
 body { background-color: #eaeaea;  font-size: 16px;   }
 
-@media only screen and (max-width: 550px) {
+/*@media only screen and (max-width: 550px) {
     body {
         background-color: white;
         padding: 0 15px;
     }
 }
-
+*/
 h1,h2,h3,h4,h5 { text-align:center; }
 
 h1 {
@@ -27,7 +27,7 @@ h2 {
   font-weight: normal;
 }
 
-.container { background-color :#fff; padding: 0px 0 20px}
+.container { background-color :#fff; padding: 0px 20px 20px}
 .padded { padding: 20px; }
 .clear {clear:both;}
 a, a:visited {color: #201da5; text-decoration: none; }
