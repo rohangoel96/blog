@@ -5,10 +5,11 @@ type: photos
 category: travel
 location: Coorg + Mysore
 country: India
-coordi: (12.3375, 75.8069) + (12.2958, 76.6394)
+coordi: (12.3375, 75.8069) + (12.2958, 76.5394)
 image: /img/2012/3-coorg/cover-min.jpg 
 permalink: 
 publish: yes
+MarkerSize: med
 description: Wellknown for its breathtakingly exotic scenery, Coorg was also famously called as the "Scotland of India" by the Britishers. It is famous for its Coffee plantations. Since Papa was based in Bangalore, we drove to Coorg via Mysore.
 ---
 <!-- http://compressjpeg.com -->
