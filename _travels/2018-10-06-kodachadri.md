@@ -58,7 +58,7 @@ The fort is built on a small hill, beside a lake ..
 
 |
 With the Tesco and GetBeyondLimits Team.<br>
-@Priyanka @Harsh @Ameya @Subhash @Arnav @Uma Nivedita @Surbhi @Amit @Ayush and @Aman
+@Priyanka @Harsh @Ameya @Subhash @Arnav @Uma @Nivedita @Rupasmita @Surbhi @Amit @Ayush and @Aman
 '
 ---
 <!-- http://compressjpeg.com -->
