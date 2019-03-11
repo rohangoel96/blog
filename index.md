@@ -5,7 +5,7 @@ description: MEMories and EXPeriences. I like to see new things, do stuff, and t
 ---
 
 <center>
-I like to see new things, do stuff, and take pictures.<br>Photographs, I believe are the best way to preserve our favorite memories and experiences - which otherwise get lost in our over burdened brains.<br>Pretty sure that as a visitor, you think that website deserves to be voted as the most useless thing online - but this probably is for myself - to relive my <strong>MemExps</strong> :) 
+I like to see new things, do stuff, and take pictures.<br>Photographs, I believe are the best way to preserve our favorite memories and experiences - which otherwise get lost in our over burdened brains.<br>Pretty sure that as a visitor, you think that website deserves to be voted as the most useless thing online - but probably this is for myself and the amazing people I shared these <strong>MemExps</strong> with :) 
 <br>
 <a href="{{site.baseurl}}/map" style="font-size: 0.8em">Checkout the MemExps on the world map</a>
 </center> 
