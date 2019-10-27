@@ -58,7 +58,7 @@ description: Map showcasing the travelled places.
 	</div>
 	<script type="text/javascript">
 
-		var map = L.map('mapid').setView([30, 10], 2);
+		var map = L.map('mapid').setView([30, 0], 2);
 
 		L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.run-bike-hike/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoicm9oYW5nb2VsOTYiLCJhIjoiY2phbDloNWtpM253ODJ3bG9mNWdiYzQwMiJ9.jZJvg-axeL9dDxyvGVGfkQ', {
 			// attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
