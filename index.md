@@ -7,7 +7,7 @@ description: MEMories and EXPeriences. I like to see new things, do stuff, and t
 <center>
 I like to see new things, do stuff, and take pictures.<br>Photographs, I believe are the best way to preserve our favorite memories and experiences - which otherwise get lost in our over burdened brains.<br>Pretty sure that as a visitor, you think that website deserves to be voted as the most useless thing online - but probably this is for myself and the amazing people I shared these <strong>MemExps</strong> with :) 
 <br>
-<a href="{{site.baseurl}}/map" style="font-size: 0.8em">Checkout the MemExps on the world map</a>
+<a href="{{site.baseurl}}/map" style="font-size: 0.8em; position: relative; top: 10px">Checkout the MemExps on the <strong>world map</strong></a>
 </center> 
 
 {% assign thisyear = 'now' | date: "%Y" %}
@@ -23,9 +23,8 @@ I like to see new things, do stuff, and take pictures.<br>Photographs, I believe
   <div class="clear">&nbsp;</div>
   {% endif %}
 
-  <h4>{{ thisyear }}</h4>
+  <h4 class="years">{{ thisyear }}</h4>
   {% assign firstyear = false %}
-  <div class="clear">&nbsp;</div>
 {% endif %}
 
   <div class="blogthumb">

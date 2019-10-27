@@ -156,3 +156,7 @@ p.center {
     transform: rotate(90deg);
     margin: 75px 0;
 }
+
+.years{
+  margin-bottom: 2%;
+}
