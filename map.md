@@ -6,6 +6,7 @@ description: Map showcasing the travelled places.
 
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="css/flags/flag-icon.min.css">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
 	integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
 	crossorigin=""/>
@@ -40,6 +41,21 @@ description: Map showcasing the travelled places.
 		<span style="font-size: 1em;"><strong>Tip:</strong> You can see the respective photos of the MemExps by zooming in and <strong>cliking on the points</strong></span>
 	</center>
 	<div id="mapid" style="margin-top: 10px;"></div>
+	<div id="countries" style="margin-top: 2%;">
+		<center>
+			<!-- https://github.com/lipis/flag-icon-css/tree/master/flags/4x3 -->
+			<!-- https://www.nationsonline.org/oneworld/country_code_list.htm -->
+			<span class="flag-icon flag-icon-in"></span>
+			<span class="flag-icon flag-icon-ie"></span>
+			<span class="flag-icon flag-icon-fr"></span>
+			<span class="flag-icon flag-icon-be"></span>
+			<span class="flag-icon flag-icon-nl"></span>
+			<span class="flag-icon flag-icon-mc"></span>
+			<span class="flag-icon flag-icon-es"></span>
+			<span class="flag-icon flag-icon-th"></span>
+			<span class="flag-icon flag-icon-us"></span>
+		</center>
+	</div>
 	<script type="text/javascript">
 
 		var map = L.map('mapid').setView([30, 10], 2);
@@ -112,7 +128,6 @@ description: Map showcasing the travelled places.
 				})
 			}
 		{% endfor %}
-
 	</script>
 </body>
 </html>

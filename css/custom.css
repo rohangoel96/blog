@@ -160,3 +160,13 @@ p.center {
 .years{
   margin-bottom: 2%;
 }
+
+.flag-icon{
+  font-size: 2em !important;
+  margin: 3% 1%;
+  border: 1px solid #eee
+}
+
+#countries{
+  margin-top: 2%;
+}
