@@ -45,15 +45,15 @@ description: Map showcasing the travelled places.
 		<center>
 			<!-- https://github.com/lipis/flag-icon-css/tree/master/flags/4x3 -->
 			<!-- https://www.nationsonline.org/oneworld/country_code_list.htm -->
-			<span class="flag-icon flag-icon-in"></span>
-			<span class="flag-icon flag-icon-ie"></span>
-			<span class="flag-icon flag-icon-fr"></span>
-			<span class="flag-icon flag-icon-be"></span>
-			<span class="flag-icon flag-icon-nl"></span>
-			<span class="flag-icon flag-icon-mc"></span>
-			<span class="flag-icon flag-icon-es"></span>
-			<span class="flag-icon flag-icon-th"></span>
-			<span class="flag-icon flag-icon-us"></span>
+			<span title="1.India" class="flag-icon flag-icon-in"></span>
+			<span title="2.Ireland" class="flag-icon flag-icon-ie"></span>
+			<span title="3.France" class="flag-icon flag-icon-fr"></span>
+			<span title="4.Belgium" class="flag-icon flag-icon-be"></span>
+			<span title="5.Netherlands" class="flag-icon flag-icon-nl"></span>
+			<span title="6.Monaco" class="flag-icon flag-icon-mc"></span>
+			<span title="7.Spain" class="flag-icon flag-icon-es"></span>
+			<span title="8.Thailand" class="flag-icon flag-icon-th"></span>
+			<span title="9.USA" class="flag-icon flag-icon-us"></span>
 		</center>
 	</div>
 	<script type="text/javascript">
