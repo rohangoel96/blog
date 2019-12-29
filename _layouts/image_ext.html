@@ -1,0 +1,25 @@
+---
+layout: post
+---
+
+{% assign posts = page.my_arr | split: "|" %}
+
+{% assign cover_image = page.image | split: "/" %}
+{% assign img_dir = page.image | split: "/" %}
+
+{% for post in posts %}
+{% assign firstfour = post | slice: 0, 5 %}
+{% assign postSpecialChar = post | split: "!!raw!!" %}
+{% assign postSpecialChar2 = post | split: "!!GIF!!" %}
+	{% if post contains "!!raw!!" %}
+		{{ postSpecialChar }}
+	{% else %}
+		{% if post contains "!!GIF!!"%}
+			<p id="{{forloop.index}}" class="center"><img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.gif" alt="{{ postSpecialChar2 | slice: 0, 25}}... {{page.title}}. {{site.title}}" title="{{page.title}} - {{site.title}}">{{postSpecialChar2}}</p>
+		{% else %}
+			<p id="{{forloop.index}}" class="center"><img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.{{page.ext}}" alt="{{ post | slice: 0, 25}}... {{page.title}}. {{site.title}}" title="{{page.title}} - {{site.title}}">{{post}}</p>
+		{% endif %}
+
+	<!-- need to slice because alt can have a href also like pileh lagoon in 2019-02-21-phuket post -->
+	{% endif %}
+{% endfor %}

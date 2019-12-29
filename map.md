@@ -51,7 +51,7 @@ description: Map showcasing the travelled places.
 		<span style="font-size: 1em;"><strong>Tip:</strong> You can see the respective photos of the MemExps by zooming in and <strong>cliking on the points</strong></span>
 	</center>
 	<div id="mapid" style="margin-top: 10px;"></div>
-	<div id="countries" style="margin-top: 2%;">
+	<div id="countries" style="margin-top: 3%;">
 		<center>
 			<!-- https://github.com/lipis/flag-icon-css/tree/master/flags/4x3 -->
 			<!-- https://www.nationsonline.org/oneworld/country_code_list.htm -->
