@@ -33,6 +33,16 @@ description: Map showcasing the travelled places.
 				width: 100% !important;
 			}
 		}
+
+	.tooltip-inner {
+		padding: 0 5px;
+		border-radius: 6px;
+		font-family: Arial, Helvetica, sans-serif;
+	  	background-color: #191919;
+  		color: #FFFFFF;
+  		font-size: 0.75em;
+	}
+
 	</style>
 </head>
 <body>
@@ -45,18 +55,27 @@ description: Map showcasing the travelled places.
 		<center>
 			<!-- https://github.com/lipis/flag-icon-css/tree/master/flags/4x3 -->
 			<!-- https://www.nationsonline.org/oneworld/country_code_list.htm -->
-			<span title="1.India" class="flag-icon flag-icon-in"></span>
-			<span title="2.Ireland" class="flag-icon flag-icon-ie"></span>
-			<span title="3.France" class="flag-icon flag-icon-fr"></span>
-			<span title="4.Belgium" class="flag-icon flag-icon-be"></span>
-			<span title="5.Netherlands" class="flag-icon flag-icon-nl"></span>
-			<span title="6.Monaco" class="flag-icon flag-icon-mc"></span>
-			<span title="7.Spain" class="flag-icon flag-icon-es"></span>
-			<span title="8.Thailand" class="flag-icon flag-icon-th"></span>
-			<span title="9.USA" class="flag-icon flag-icon-us"></span>
+			<span title="1.India" class="flag-icon flag-icon-in" data-toggle="tooltip"></span>
+			<span title="2.Ireland" class="flag-icon flag-icon-ie" data-toggle="tooltip"></span>
+			<span title="3.France" class="flag-icon flag-icon-fr" data-toggle="tooltip"></span>
+			<span title="4.Belgium" class="flag-icon flag-icon-be" data-toggle="tooltip"></span>
+			<span title="5.Netherlands" class="flag-icon flag-icon-nl" data-toggle="tooltip"></span>
+			<span title="6.Monaco" class="flag-icon flag-icon-mc" data-toggle="tooltip"></span>
+			<span title="7.Spain" class="flag-icon flag-icon-es" data-toggle="tooltip"></span>
+			<span title="8.Thailand" class="flag-icon flag-icon-th" data-toggle="tooltip"></span>
+			<span title="9.USA" class="flag-icon flag-icon-us" data-toggle="tooltip"></span>
 		</center>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script type="text/javascript">
+
+		$(document).ready(function(){
+		    $('[data-toggle="tooltip"]').tooltip({
+		        placement : 'top'
+		    });
+		});
 
 		var map = L.map('mapid').setView([30, 0], 2);
 
