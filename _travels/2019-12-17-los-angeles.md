@@ -12,7 +12,7 @@ ext: jpg
 permalink: 
 publish: yes
 
-description: Los Angeles literally translates to "The Angels" from Spanish. Famous for the entertainment industry, the city is just a drive away from snow-capped mountains, desert and beach making it a dream city for me. I was in LA for about 10 days and with so much to see, the time still seemed less :D
+description: Los Angeles literally translates to "The Angels" from Spanish. Famous for the entertainment industry, the city is just a drive away from snow-capped mountains, desert and beach making it a dream city for me. I was in LA for about 10 days and with so much to see, the time still seemed less :D. Seperate posts for DisneyLand and Universal Studios.
 
 my_arr: '
 Griffith Park, the Central Park of Los Angeles offers scenic views of the downtown skyline.
