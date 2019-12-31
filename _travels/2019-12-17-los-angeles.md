@@ -75,9 +75,9 @@ Painted sky during the colorful sunset at Santa Monica State Beach
 |
 Bubba Gump Shrimp Company of the Forrest Gump fame
 |
-!!GIF!!Pacific Park the popular oceanfront amusement park!
+!!GIF!!Pacific Park - the popular oceanfront amusement park!
 |
-Oh did I mention about the free bowling arena on campus?
+Memories shared with @RaviBabaji!
 '
 ---
 <!-- http://compressjpeg.com -->
