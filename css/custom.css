@@ -170,3 +170,8 @@ p.center {
 #countries{
   margin-top: 2%;
 }
+
+video{
+  width: 100% !important;
+  border-radius: 20px;
+}
