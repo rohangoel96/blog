@@ -5,7 +5,7 @@ type: photos
 category: Travel
 location: Anaheim, LA
 country: USA
-coordi: (33.8121, -117.9190)
+coordi: (33.78, -117.88)
 image: /img/2019/12-disneyland/cover-min.jpg
 MarkerSize: med
 ext: jpg
