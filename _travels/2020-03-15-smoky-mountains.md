@@ -12,14 +12,14 @@ ext: jpg
 permalink:
 publish: yes
 
-description:  Straddled between the border between Tennessee and North Carolin, the Great Smoky Mountains is the most visited national park in the United States and one of the largest protected areas in the eastern United States. With our planned Miami trip cancelled due the novel coronavirus, one desperately needed solace to vent out the frustation :P.
+description:  Straddled between the borders of Tennessee and North Carolina, the Great Smoky Mountain National Park is the most visited national park in the United States and one of the largest protected areas on the east coast. With our planned Miami trip cancelled due the novel coronavirus, one desperately needed some solace to vent out the frustation :P.
 
 my_arr: '
-!!GIF!!Given the laziness of Spring break, we chose easiest hike to Laurel falls. Altough, a lot of trails are here a part of ''The Appalachian Trail'' which is a United States National Scenic Trail that runs over 2100 miles through 14 states in the eastern United States.
+!!GIF!!Given the laziness of Spring break, we chose easiest hike to Laurel falls - even though a lot of trails here a part of ''The Appalachian Trail'' which is a United States National Scenic Trail that runs over 2100 miles through 14 states in the eastern United States.
 |
-But before anything, some heavy traditional American breakfast.
+But before anything, some heavy traditional American brunch.
 |
-Being 4 hrs away from Atlanta, and the one day trip, albeit the road-trip was more fun than the desination passing through different surroundings like the flat plains ...
+Being 4 hrs away from Atlanta, and the one day trip, albeit the road-trip was more fun than the desination - passing through different surroundings like the flat plains ...
 |
  .... a scenic drive next to the stream ...
 |
@@ -40,7 +40,7 @@ The route also included a lot of driving along this scenic stream ...
 |
 !!GIF!! There are over 800 miles of trail in the national park, but less than 3 miles are paved. Laurel Falls Trail is the longest of four paved trails in the park. The trail was originally built to allow fire crews access to the Cove Mountain area in the event of a fire
 |
-!!GIF!!  The name "Smoky" comes from the natural fog that often hangs over the mountains and ...
+!!GIF!! The name "Smoky" comes from the natural fog that often hangs over the mountains and ...
 |
  ... gives it a vampire-movie look!
 |
@@ -58,9 +58,9 @@ Ole Smoky Whisky Moonshine tasting was an experience of its own with 13 types of
 |
 Cheeeers!
 |
-Ranging from 64% Spirits to everyone''s favorite, Coffee flavors.
+Ranging from 64% Spirits to everyone''s favorite Coffee based flavors.
 |
-Intoxicated Rocking and Rolling...
+Intoxicated, Rocking and Rolling...
 |
 Gatlinburg Space Needle, serves as a great observation deck!
 |
