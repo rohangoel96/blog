@@ -74,3 +74,4 @@ Memories shared with @ParthTamane, @AnshulVora, @AnanyaOjha, @AiswaryaBhagavatul
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
 <!-- https://ezgif.com/optimize/ remove second and then lossy 50. Best is transparency. Fuzzy 6-->
+<!-- https://support.google.com/blogger/thread/1950766?hl=en -->
