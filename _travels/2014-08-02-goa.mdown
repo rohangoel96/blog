@@ -7,8 +7,8 @@ location: Goa
 country: India
 coordi: (15.2209, 73.9290) + (15.5009, 73.9116)
 MarkerSize: small
-image: /img/2014/8-goa/cover-min.jpg 
-permalink: 
+image: /img/2014/8-goa/cover-min.jpg
+permalink:
 publish: yes
 description: So here starts 4 years long vacation at Goa because of my admission into BITS Pilani, Goa Campus,
 ---

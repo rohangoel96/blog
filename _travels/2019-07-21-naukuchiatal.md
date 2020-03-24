@@ -8,7 +8,7 @@ country: India
 coordi: (29.3461, 79.5519)
 image: /img/2019/7-naukuchiatal/cover-min.jpg
 <!-- MarkerSize: med -->
-permalink: 
+permalink:
 publish: yes
 
 description: Away from the hustle of Nainital, Naukuchiatal is a secluded hill station, perfect for a family trip where the motivation is not see as much as possible but relax as much as possible.
@@ -37,9 +37,9 @@ Badminton after how many years?
 |
 Karaoke!
 |
-Last chance to wash sins before going to USA, the land of sins? 
+Last chance to wash sins before going to USA, the land of sins?
 |
-<3
+<3 <br> @Dadi @Mummy @Papa @YashGoel
 '
 ---
 <!-- http://compressjpeg.com -->

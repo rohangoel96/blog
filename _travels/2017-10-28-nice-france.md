@@ -8,7 +8,7 @@ country: France
 coordi: (43.7102, 7.2620)
 MarkerSize: small+
 image: /img/2017/10-nice/cover_min_400.jpg
-permalink: 
+permalink:
 publish: yes
 description: Located in the French Riviera, on the south east coast of France on the Mediterranean Sea, at the foot of the Alps, Nice is the second-largest French city on the Mediterranean coast. This coastline was one of the first modern resort areas. It began as a winter health resort for the British upper class at the end of the 18th century.
 ---
@@ -30,4 +30,4 @@ description: Located in the French Riviera, on the south east coast of France on
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-nice/7_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Oui! I totally love Nice. You can't be luckier than the people living in such bliss :)</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-nice/8_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with @MukulRawat @PratimaGurung @JyotiSharma @Baraah @TheOneWhoCannotBePictured:P</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-nice/8_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with @MukulRawat @PratimaGurung @JyotiSharma @BaraahNachar @Akila</p>

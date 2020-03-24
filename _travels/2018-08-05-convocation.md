@@ -5,10 +5,10 @@ type: photos
 category: memory
 location: Goa
 country: India
-image: /img/2018/8-convocation/cover-min.jpg 
-permalink: 
+image: /img/2018/8-convocation/cover-min.jpg
+permalink:
 publish: yes
-description: The convocation day brings with itself a roller coaster of emotions and is a time for celebration and joy. The time when the grads don the graduation gown and wear the mortarboards as a sign of (academic) excellence. It is without a doubt, one of the most important moments in a person's life. 
+description: The convocation day brings with itself a roller coaster of emotions and is a time for celebration and joy. The time when the grads don the graduation gown and wear the mortarboards as a sign of (academic) excellence. It is without a doubt, one of the most important moments in a person's life.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
@@ -34,15 +34,15 @@ description: The convocation day brings with itself a roller coaster of emotions
 
 <p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/8.1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">And the century long tradition of tossing the hats in the air when ceremony is over !</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/8.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"gh monsoon is the worst time to be Goa, the free rain shower in the pool does makes up things interesting? @ClubMahindra</p>
+<p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/8.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"gh monsoon is the worst time to be Goa, the free rain shower in the pool does makes up things interesting? @ ClubMahindra</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/9.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Not everyone gets an opportunity to vist Goa so often. With @Mummy @Papa @Yash</p>
+<p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/9.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Not everyone gets an opportunity to vist Goa so often. With @Mummy @Papa @YashGoel</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/11.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Killogicals :)</p>
+<p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/11.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">@Killogicals :) <br> @EkanshJain @SiddhantRathore @ArnavVijayakar @YashHaritwal @ShikharSaluja @MeghrajJagtap @GouravGoel @AkshayGinodia @ShivamGupta @PulkitAgarwal </p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/10.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></p>
+<p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/10.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">CS Boiz <br> @ShubhamAgarkar @DhruvMahajan @PrathameshGabale @PulkitAgarwal @PankajAgarwal @SrajanGupta</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/12.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The mandatory picture in the lawns</p>
+<p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/12.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The mandatory picture in the lawns <br> @AmitAggarwal @ArnavVijayakar @ShikharSaluja @PrathameshGabale @AkshayGinodia @PulkitAgarwal @ShivamGupta </p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/13.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">All these 4 years are etched in the memories and the bonds made during these years are permanent. Thank You BITS for everything - you will be missed. <br>BITS Pilani - It's Magic.</p>
 

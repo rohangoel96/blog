@@ -7,8 +7,8 @@ location: Netravali, Goa
 country: India
 coordi: (15.0858, 74.2297)
 MarkerSize: small
-image: /img/2014/10-netravali/cover-min.jpg 
-permalink: 
+image: /img/2014/10-netravali/cover-min.jpg
+permalink:
 publish: yes
 description: 2014 is the first year of college and whats a better way to bond than going on an excursion together with the whole lot from the hostel? We decided to trek to the Savari Waterfall at Netrvali Wildlife Sanctuary.
 ---
@@ -16,9 +16,9 @@ description: 2014 is the first year of college and whats a better way to bond th
 <!-- http://compressimage.toolur.com/ 1024, 400-->
 <p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The state of Goa which is famous for it's beaches and party life also posseses some hidden treasures like this.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">So here we start the trek.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">So here we start the trek. @TejasAgrawal @AmolSaket @ChintanBetrabet @VarunGoyal</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">One needs to cross many streams during the trek. The wet stones are super slippery so forming a human chains increases the chances of survival :P Missing primary school?</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">One needs to cross many streams during the trek. The wet stones are super slippery so forming a human chains increases the chances of survival :P Missing primary school? <br>@PulkitAgarwal @DebadityaBasu @ShikharSaluja @KunwarjeetChawla @ShreyasSukrit @ShubhVaccher</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></p>
 
@@ -28,8 +28,8 @@ description: 2014 is the first year of college and whats a better way to bond th
 
 <p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/6.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">On the way back</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">We also stopped by the Benaulim beach</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">We also stopped by the Benaulim beach @AbhikAdarsh</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/8.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">and played catch in the sea :P</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/9.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with AH-1. :)</p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/10-netravali/9.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with AH-1. :)<br>@TanayJha @GouravGoel @MeghrajJagtap @MohitSharma @AkshayGinodia @MayankKumar @AshkandPrasad @HiteshMehta</p>

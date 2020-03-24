@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Adventurous Malvan 
+title: Adventurous Malvan
 type: photos
 category: travel
 location: Malvan
 country: India
 coordi: (16.0370, 73.4848)
-image: /img/2018/2-malvan/cover-min.jpg 
-permalink: 
+image: /img/2018/2-malvan/cover-min.jpg
+permalink:
 publish: yes
 description: Malvan, the fisihing coast town of Maharashtra is famous for scuba diving and water sports because of its clear waters - making it a perfect weekend getaway.
 ---
@@ -29,4 +29,4 @@ description: Malvan, the fisihing coast town of Maharashtra is famous for scuba 
 
 <p class="center"><img src="{{site.baseurl}}/img/2018/2-malvan/6.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Fear of heights and water defeated in one shot! Yo!</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2018/2-malvan/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with @GouravGoel @IshantGupta @EkanshJain @Sabhyata</p>
+<p class="center"><img src="{{site.baseurl}}/img/2018/2-malvan/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with @GouravGoel @IshantGupta @EkanshJain @SabhyataShukla</p>

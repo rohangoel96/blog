@@ -6,9 +6,9 @@ category: travel
 location: Savandurga
 country: India
 coordi: (12.9206, 77.2944)
-image: /img/2018/7-savandurga/cover-min.jpg 
+image: /img/2018/7-savandurga/cover-min.jpg
 MarkerSize: small+
-permalink: 
+permalink:
 publish: yes
 description: We chose Savandurga - the largest monolith in Asia, as our first trek location, after shifting to Bangalore and starting our corporate lives. Situated about 70km from the city it makes a perfect location for an adventurous trek.
 ---
@@ -48,5 +48,5 @@ description: We chose Savandurga - the largest monolith in Asia, as our first tr
 
 <p class="center"><img src="{{site.baseurl}}/img/2018/7-savandurga/17.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Difficult to believe but the descend is probably more difficult than the ascend where the chances of slipping increases manifold.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2018/7-savandurga/18.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">With @EkanshJain @AnkitKumar @NeelRevanikar @MayankAnchlia @DebadityaBasu @GouravGoyal</p>
+<p class="center"><img src="{{site.baseurl}}/img/2018/7-savandurga/18.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">With @EkanshJain @Ankit @NeelRevanikar @MayankAnchlia @DebadityaBasu @GouravGoel</p>
 

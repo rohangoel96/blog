@@ -6,16 +6,16 @@ category: travel
 location: Kodachadri, Karnataka
 country: India
 coordi: (13.8623, 74.8752)
-image: /img/2018/10-kodachadri/cover-min.jpg 
-MarkerSize: med 
-permalink: 
+image: /img/2018/10-kodachadri/cover-min.jpg
+MarkerSize: med
+permalink:
 publish: yes
 
 description: After being postponed a hundred times and amid the risk of a cyclone, we the "fresh graduates" at Tesco Bengaluru set our minds to scale the Kodachadri Hill. The Kodachadri trek is probably one of the best treks in the Western Ghats which offers a 16km one-way hike, flat grasslands, waterfalls, jeep ride and the amazing view of the Arabian Sea - all wonderfully packed in one adventure.
 my_arr: '
 Chosing to go just after the monsoon is probably one the best decisions since you can witness the flora in its full glory.
 |
-After reaching the base, we started the trek half tired due to the not-so-comfortable traveller ride from Bangalore. 
+After reaching the base, we started the trek half tired due to the not-so-comfortable traveller ride from Bangalore.
 |
 Starting the journey with "Introductions" - amongst people you already know from over 3 months?
 |
@@ -57,8 +57,8 @@ The fort is built on a small hill, beside a lake ..
 |
 
 |
-With the Tesco and GetBeyondLimits Team.<br>
-@Priyanka @Harsh @Ameya @Subhash @Arnav @Uma @Nivedita @Rupasmita @Surbhi @Amit @Ayush and @Aman
+With the Tesco and @GetBeyondLimits Team.<br>
+@Priyanka @HarshGBL @AmeyaDhamnaskar @SubhashSamota @ArnavDixit @Uma @NiveditaGBL @RupasmitaDevi @SurbhiDang @AmitBisht @AyushSingh and @AmanAgarwal
 '
 ---
 <!-- http://compressjpeg.com -->

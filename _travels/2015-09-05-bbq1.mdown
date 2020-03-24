@@ -7,8 +7,8 @@ location: Goa
 country: India
 coordi: (15.4909, 73.8278)
 MarkerSize: small
-image: /img/2015/9-bbq/cover-min.jpg 
-permalink: 
+image: /img/2015/9-bbq/cover-min.jpg
+permalink:
 publish: yes
 description: Killogicals' first mega treat happened at BBQ@Panjim. My first BBQ experience, for which I starved myself for over 24hrs :P
 ---
@@ -27,6 +27,6 @@ description: Killogicals' first mega treat happened at BBQ@Panjim. My first BBQ 
 <p class="center"><img src="{{site.baseurl}}/img/2015/9-bbq/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">When everyone wore shirts (so uncommon in hot-humid Goa)</p>
 
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/9-bbq/6.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">"Green Goa" view atop BBQ</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/9-bbq/6.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Green Goa view atop BBQ</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/9-bbq/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shares with Killogicals</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/9-bbq/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shares with @Killogicals <br>@AmitRege @PulkitAgarwal @SiddhantRathore @AbhinavSingh @MadhurGarg @MayankKumar @MeghrajJagtap @IshantGupta @GouravGoel @AkashNair @PrasheelGandhi @ShikharSaluja @ArnavVijayakar @YashHaritwal @SaurabhSikchi @DebadityaBasu</p>

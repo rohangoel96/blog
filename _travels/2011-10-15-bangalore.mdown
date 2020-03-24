@@ -5,8 +5,8 @@ category: travel
 location: Bangalore
 country: India
 coordi: (12.9716, 77.5946)
-image: /img/2011/10-bangalore/cover-min.jpg 
-permalink: 
+image: /img/2011/10-bangalore/cover-min.jpg
+permalink:
 publish: yes
 description: Wellknown for its breathtakingly exotic scenery, Coorg was also famously called as the "Scotland of India" by the Britishers. It is famous for its Coffee plantations. Since Papa was based in Bangalore, we drove to Coorg via Mysore.
 ---
@@ -29,4 +29,4 @@ description: Wellknown for its breathtakingly exotic scenery, Coorg was also fam
 
 <p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">One of the highest buiding in the city - UB Tower</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/8.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Wonderlaaa</p>
+<p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/8.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Wonderlaaa with @Mummy @YashGoel</p>

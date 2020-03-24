@@ -16,7 +16,7 @@ description: Map showcasing the travelled places.
 	crossorigin=""></script>
 	<style type="text/css">
 		#mapid {
-			height: 500px; 
+			height: 500px;
 			width: 100%;
 		}
 		.leaflet-container {
@@ -64,6 +64,9 @@ description: Map showcasing the travelled places.
 			<span title="7.Spain" class="flag-icon flag-icon-es" data-toggle="tooltip"></span>
 			<span title="8.Thailand" class="flag-icon flag-icon-th" data-toggle="tooltip"></span>
 			<span title="9.USA" class="flag-icon flag-icon-us" data-toggle="tooltip"></span>
+		</center>
+		<center>
+        <span style="font-size: 0.8em;">Count = 9</span>
 		</center>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -119,14 +122,14 @@ description: Map showcasing the travelled places.
 		      color: "grey",
 		      weight: 0
 		    };
-		  } 
+		  }
 		}).addTo(map);
 
 		{% for post in site.travels reversed %}
 			var coordiList = "{{post.coordi}}".split("+");
 			var locationNames = "{{post.location}}".split("+");
 			var markersizeList = "{{post.MarkerSize}}".split("+");
-			
+
 			if("{{post.coordi}}".length > 0){
 				coordiList.forEach(function(coordinateString, i){
 				var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);

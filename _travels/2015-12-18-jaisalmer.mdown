@@ -6,8 +6,8 @@ category: travel
 location: Jaisalmer + Tanot Border
 country: India
 coordi: (26.9157, 70.9083) + (27.7960, 70.3523)
-image: /img/2015/12-jaisalmer/cover-min.jpg 
-permalink: 
+image: /img/2015/12-jaisalmer/cover-min.jpg
+permalink:
 publish: yes
 description: Jaisalmer, apty called "The Golden city" is situated in the heart of the Thar Desert in Rajasthan. "Winters" is probably the only time when it's feasible to go to this super hot part of the country. This part of the desert is also famous for the picturesque sand dunes.
 ---
@@ -27,7 +27,7 @@ description: Jaisalmer, apty called "The Golden city" is situated in the heart o
 
 <p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/5.1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Another image of the centuries old beautiful craft</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/5.2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">@GadsisarLake - an artificial lake made by the Maharaja's of Jaisalmer.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/5.2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">GadsisarLake - an artificial lake made by the Maharaja's of Jaisalmer.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/6.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Patriotism kicks in when you're just a kilometer away from the international border with pakistan - which we were lucky to get permission for.</p>
 
@@ -43,7 +43,7 @@ description: Jaisalmer, apty called "The Golden city" is situated in the heart o
 
 <p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/11.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Mimics of bunkers for tourists in Longewala.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/13.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">ClubMahindra@Jaisalmer - one of the most beautiful property I have even been to.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/13.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">ClubMahindra at Jaisalmer - one of the most beautiful property I have even been to.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/12.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></p>
 
@@ -64,4 +64,4 @@ description: Jaisalmer, apty called "The Golden city" is situated in the heart o
 
 <p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/19.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Another shot in between the havelies</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/23.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with Mummy, Papa and @Yash</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/12-jaisalmer/23.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with @Mummy, @Papa and @YashGoel</p>

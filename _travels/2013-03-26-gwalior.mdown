@@ -6,8 +6,8 @@ category: travel
 location: Gwalior
 country: India
 coordi: (26.2183, 78.1828)
-image: /img/2013/3-gwalior/cover-min.jpg 
-permalink: 
+image: /img/2013/3-gwalior/cover-min.jpg
+permalink:
 publish: yes
 description: Papa joined a new company, Cadbury's which led him to shift to Gwalior - new city = new adventures.
 ---
@@ -27,4 +27,4 @@ description: Papa joined a new company, Cadbury's which led him to shift to Gwal
 
 <p class="center"><img src="{{site.baseurl}}/img/2013/3-gwalior/6.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Usha Kiran Palace, built by the Royal Scindia's now a 5 star heritage hotel</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2013/3-gwalior/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with Mummy and @Yash inside @GwaliorFort</p>
+<p class="center"><img src="{{site.baseurl}}/img/2013/3-gwalior/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with @Mummy and @YashGoel inside #GwaliorFort</p>

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Farewell @ BPGC 
+title: Farewell @ BPGC
 type: photos
 category: memory
 location: Goa
 country: India
-image: /img/2017/4-farewell/cover-min.jpg 
-permalink: 
+image: /img/2017/4-farewell/cover-min.jpg
+permalink:
 publish: yes
 description: So as it turns out, we at BITS, get our farewell in the end of 3rd itself - even when the course spans 4 years. Here's to seeing everyone on campus for the last time.
 ---
@@ -16,11 +16,11 @@ description: So as it turns out, we at BITS, get our farewell in the end of 3rd 
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Apparently this is the best sex ratio in any of the departments!</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Presenting to you "Killogicals -  we kill with puns, not guns"</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Presenting to you "@Killogicals -  we kill with puns, not guns"</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Bird eye view of the skewed sex ratio in engineering :P</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The outing group?<br> @GuruBro @Snake @Hariya @Lugz @Pinks @KK @Pullu @Monkey @Rowdy @Debu</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The outing group?<br> @AbhinavSingh aka GuruBro, @EkanshJain aka Snake, @YashHaritwal aka Hariya, @IshantGupta aka Lugz, @ShikharSaluja aka Pinks, @MadhurGarg aka KK, @PulkitAgarwal aka Pullu, @MayankKumar aka Monkey, @ArnavVijayakar aka Rowdy, @DebadityaBasu aka Debu</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Do we even have a count of the number of projects we have done together? @ArnavVijayakar @PulkitAgarwal</p>
 
@@ -28,7 +28,7 @@ description: So as it turns out, we at BITS, get our farewell in the end of 3rd 
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">@PrakharKhandelwal @IshantGupta @PulkitAgarwal @PriyankLodha</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/8.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">No No this isn't faked. True Candid with @AbhimanyuSingh @MadhurGarg @IshantGupta @PulkitAgarwal @DebadityaBasu</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/8.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">No No this isn't faked. True Candid with @AbhimanyuSinghShekhawat @MadhurGarg @IshantGupta @PulkitAgarwal @DebadityaBasu</p>
 
 <!-- <p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/9.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></p> -->
 
@@ -38,7 +38,7 @@ description: So as it turns out, we at BITS, get our farewell in the end of 3rd 
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/12.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Aaah! One of those rare occassions of a good selfie with me.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/13.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/13.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"> @EkanshJain @MadhurGarg @AmitRege @ShivamGupta @ArnavVijayakar @IshantGupta @AshutoshSaboo @PulkitAgarwal @ShubhamAgarwal @AmolSaket </p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/14.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">And the Nareal Award for the best couple goes to?</p>
 
@@ -59,7 +59,7 @@ description: So as it turns out, we at BITS, get our farewell in the end of 3rd 
 	<li><img src="{{site.baseurl}}/img/2017/4-farewell/slider/12.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></li>
 	<li><img src="{{site.baseurl}}/img/2017/4-farewell/slider/13.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></li>
 </ul>
-<p class="center">Carouuuuuuusel</p>
+<p class="center">Carouuuuuuusel <span style="display:none">@PankajAgarwal</span></p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/4-farewell/15.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Thank You BITS Goa, you were awesome.</p>
 

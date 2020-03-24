@@ -5,8 +5,8 @@ type: photos
 category: memory
 location: Goa
 country: India
-image: /img/2015/2-bday/cover-min.jpg 
-permalink: 
+image: /img/2015/2-bday/cover-min.jpg
+permalink:
 publish: yes
 description: The first birthday on campus. Not sure if one should be excited about the celebration or scared about the GPL (birthday-bombs) that come free with it.
 ---
@@ -16,7 +16,7 @@ description: The first birthday on campus. Not sure if one should be excited abo
 
 <p class="center"><img src="{{site.baseurl}}/img/2015/2-bday/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">When half the cake is reserved for your makeup rather than eating it.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/2-bday/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Makeup buoys are here</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/2-bday/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Makeup buoys are here @Killogicals</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2015/2-bday/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"><del>Beer</del> Coke Shampoo</p>
 
@@ -24,4 +24,4 @@ description: The first birthday on campus. Not sure if one should be excited abo
 
 <p class="center"><img src="{{site.baseurl}}/img/2015/2-bday/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">And continues... almost making your bday = death day</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/2-bday/6.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"></p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/2-bday/6.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with @ArnavVijayakar @GouravGoel @DebadityaBasu @AkshayGinodia @SiddhantRathore @PrasheelGandhi @MadhurGarg @ShikharSaluja @AkshayKumar</p>

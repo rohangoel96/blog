@@ -6,8 +6,8 @@ category: travel
 location: Cork
 country: Ireland
 coordi: (51.8969, -8.4863)
-image: /img/2017/7-cork/cover-min.jpg 
-permalink: 
+image: /img/2017/7-cork/cover-min.jpg
+permalink:
 publish: yes
 description: As my days in Ireland were coming to a (sad) end, I quickly decided to see rhe rebel city, Cork and the Rock Of Cashel before I leave :D
 ---
@@ -17,10 +17,10 @@ description: As my days in Ireland were coming to a (sad) end, I quickly decided
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">One of the best steets arts I saw in Ireland</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The @RockOfCashel is the place where St.Patrick apparently converted the king of Munster </p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The @ RockOfCashel is the place where St.Patrick apparently converted the king of Munster </p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Contemporary European architecture fused with Irish elements</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The @BlarneyCastle which houses the Blarney Stone. Apparently, kissing the stone endows the kisser with the gift of the great eloquence and skill at flattery</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The BlarneyCastle which houses the Blarney Stone. Apparently, kissing the stone endows the kisser with the gift of the great eloquence and skill at flattery</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">@Blarneyhouse, retiring home plannings anyone?</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-cork/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Blarneyhouse, retiring home plannings anyone? <br>Memories shared with @AnchitPrakash</p>

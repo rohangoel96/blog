@@ -7,8 +7,8 @@ location: Alleppey + Kochi
 country: India
 MarkerSize: med + med
 coordi: (9.4981, 76.3388) + (9.9312, 76.2673)
-image: /img/2018/4-alleppey/cover-min.jpg 
-permalink: 
+image: /img/2018/4-alleppey/cover-min.jpg
+permalink:
 publish: yes
 description: The Venice of the East - Alleppey was chosen as the destination for our trip together after 3 years post quite a struggle and ponder over multiple destinations in South India. The three of us went for our first independant trip to shimla just 5 months after the start of our engineering; and now we hit the road again, just 5 months before we get our degrees - conincidence much?
 ---

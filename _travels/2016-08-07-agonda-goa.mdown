@@ -7,8 +7,8 @@ location: Goa
 country: India
 coordi: (15.0456, 73.9889)
 MarkerSize: small
-image: /img/2016/8-agonda/cover-min.jpg 
-permalink: 
+image: /img/2016/8-agonda/cover-min.jpg
+permalink:
 publish: yes
 description: Agonda beach is consistently ranked as the top beaches to visit in India and is also a popular for being the nesting ground for turtles.
 ---
@@ -16,11 +16,11 @@ description: Agonda beach is consistently ranked as the top beaches to visit in 
 <!-- http://compressimage.toolur.com/ 1024, 400-->
 <p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">We visited the beach in peak monsoon, probably the worst time to be in Goa. However every experience is amazing if you have a great company :)</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">One of the many traveller journeys</p>
+<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">One of the many traveller journeys @Killogicals</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">I wish you don't have nightmares post this :P</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">That's how we rooooollllll</p>
 
 
-<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The Peeps :P</p>
+<p class="center"><img src="{{site.baseurl}}/img/2016/8-agonda/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The Peeps :P <br> ArnavVijayakar @AmolSaket @GouravGoel @EkanshJain @PrasheelGandhi @YashHaritwal @SiddhantRathore @IshantGupta @MadhurGarg @MayankKumar @AkashNair @ShikharSaluja @DebadityaBasu</p>

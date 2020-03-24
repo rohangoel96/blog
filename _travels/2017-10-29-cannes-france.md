@@ -8,7 +8,7 @@ country: France
 coordi: (43.5528, 7.0174)
 MarkerSize: small+
 image: /img/2017/10-cannes/cover_min_400.jpg
-permalink: 
+permalink:
 publish: yes
 description: Known for the annual Cannes Film Festival, Midem, and Cannes Lions International Festival of Creativity. Also known for its association with the rich and famous, its luxury hotels and restaurants, and for several conferences
 ---

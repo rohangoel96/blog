@@ -9,7 +9,7 @@ coordi: (34.0522, -118.2437)
 image: /img/2019/12-la/cover-min.jpg
 MarkerSize: med
 ext: jpg
-permalink: 
+permalink:
 publish: yes
 
 description: Los Angeles literally translates to "The Angels" from Spanish. Famous for the entertainment industry, the city is just a drive away from snow-capped mountains, desert and beach making it a dream city for me. I was in LA for about 10 days and with so much to see, the time still seemed less :D. Seperate posts for DisneyLand and Universal Studios.
@@ -17,7 +17,7 @@ description: Los Angeles literally translates to "The Angels" from Spanish. Famo
 my_arr: '
 Griffith Park, the Central Park of Los Angeles offers scenic views of the downtown skyline.
 |
-Southern California''s gateway to the cosmos, Griffith Observatory hosts extensive array of space and science-related displays...
+Southern California''s gateway to the cosmos, Griffith Observatory hosts extensive array of space and science-related displays ..
 |
 
 |
@@ -61,7 +61,7 @@ The beautiful Union Station served as a backdrop for many movies like Dark Knigh
 (One of my first true) Christmas celebrations with extended family in LA
 |
 |
-Not exactly a white Christmas, but it did snow on the hills surrounding the city. Always thought of LA as a warm beach and desert city. Snow was a pleasant surprise! 
+Not exactly a white Christmas, but it did snow on the hills surrounding the city. Always thought of LA as a warm beach and desert city. Snow was a pleasant surprise!
 |
 Is it only me, or my crash place looks like a GTA SanAndreas safehouse?
 |
@@ -69,7 +69,7 @@ with spectacular views of the valley!
 |
 View of the ocean from the dream house! Can you live and dine with a better view?
 |
-Painted sky during the colorful sunset at Santa Monica State Beach 
+Painted sky during the colorful sunset at Santa Monica State Beach
 |
 !!GIF!!Serene views from the Santa Monica Pier shown in many films including Forrest Gump, Iron Man, etc.
 |
@@ -77,7 +77,7 @@ Bubba Gump Shrimp Company of the Forrest Gump fame
 |
 !!GIF!!Pacific Park - the popular oceanfront amusement park!
 |
-Memories shared with @RaviBabaji!
+Memories shared with @RaviBabaji !
 '
 ---
 <!-- http://compressjpeg.com -->

@@ -4,17 +4,17 @@ title: Birthday @ BBQ
 type: photos
 category: memory
 location: Goa, India
-image: /img/2016/2-bday2016/cover-min.jpg 
-permalink: 
+image: /img/2016/2-bday2016/cover-min.jpg
+permalink:
 publish: yes
 description: That time of the year which your friends wait for - not for wishing you but to beat the shit of you. #EngineeringLife
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<p class="center"><img src="{{site.baseurl}}/img/2016/2-bday2016/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"">That face you make after being beaten black and blue.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2016/2-bday2016/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">That face you make after being beaten black and blue.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2016/2-bday2016/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"">A barbeque nation buffet lunch - we don't know of a better way to fulfill our hunger</p>
+<p class="center"><img src="{{site.baseurl}}/img/2016/2-bday2016/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">A barbeque nation buffet lunch - we don't know of a better way to fulfill our hunger @Killogicals</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2016/2-bday2016/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"">All smiles when you know there is unlimited food coming up soon.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2016/2-bday2016/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">All smiles when you know there is unlimited food coming up soon.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2016/2-bday2016/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"">When a car is too small to accomodate your group :P</p>
+<p class="center"><img src="{{site.baseurl}}/img/2016/2-bday2016/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">When a car is too small to accomodate your group :P <br> @AkshayKumar @AbhinavSingh @ShikharSaluja @MeghrajJagtap @SaurabhSikchi @AkashNair @PrasheelGandhi @AmitRege @IshantGupta @ArnavVijayakar @SiddhantRathore @AmolSaket @PulkitAgarwal @GouravGoel</p>

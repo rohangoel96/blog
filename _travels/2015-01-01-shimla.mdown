@@ -7,10 +7,10 @@ location: Shimla
 country: India
 MarkerSize: small+
 coordi: (31.1048, 77.1734)
-image: /img/2015/1-shimla/cover-min.jpg 
-permalink: 
+image: /img/2015/1-shimla/cover-min.jpg
+permalink:
 publish: yes
-description: The summer capital of British India, Shimla is one of the top tourist desitnation especially for the people of North India. Being not verrrry far from Delhi it turned out to be my first trip with friends (which was totally planned by us with no outside intervention :P). 
+description: The summer capital of British India, Shimla is one of the top tourist desitnation especially for the people of North India. Being not verrrry far from Delhi it turned out to be my first trip with friends (which was totally planned by us with no outside intervention :P).
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
@@ -21,7 +21,7 @@ description: The summer capital of British India, Shimla is one of the top touri
 
 <p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Travelled from Delhi to Chandigarh by train, and then hopped onto a cab until Shimla.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">When you can't afford an extra bed @ Club Mahindra Mashobra.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">When you can't afford an extra bed at Club Mahindra Mashobra.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2015/1-shimla/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The first rainfall of the year 2015 :P</p>
 

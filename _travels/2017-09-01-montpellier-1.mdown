@@ -6,8 +6,8 @@ category: travel
 location: Montpellier
 country: France
 coordi: (43.6108, 3.6767)
-image: /img/2017/9-montpellier/cover-min.jpg 
-permalink: 
+image: /img/2017/9-montpellier/cover-min.jpg
+permalink:
 publish: yes
 description: So here comes another internship (Bachelor's Thesis) and another country. It's continental Europe and SOUTH OF FRANCE this time. Montpellier is on the Mediterranean coast experiences a much warmer climate than rest of France (thank god!). It's a student city with more than a third of the popuation being students. And yes, I don't know French so it's hell of a problem.
 ---
@@ -41,6 +41,6 @@ description: So here comes another internship (Bachelor's Thesis) and another co
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/13.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">What's an Indian festival without food?</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/14.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">I would have never thought that we had sooooo many Indians (or people of Indian Origin) in Montpellier.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/14.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">I would have never thought that we had sooooo many Indians (or people of Indian Origin) in Montpellier. <br> @MukulRawat @PreetiGarai @YuvrajJoshi @NikunjPatel @MayuriGhanekar @SayaliKadam @PrashantSingh @NidhiMahajan @RaviRana @BabuKarthindia</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/9-montpellier/15.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Agh! The coooooolllllldddd Mediterranean sea. I don't know why do they even call it a beach when it's so cold that you (read Indians) can't even step into the water.</p>

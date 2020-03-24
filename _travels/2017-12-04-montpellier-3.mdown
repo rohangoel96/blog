@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Farewell Montpellier 
+title: Farewell Montpellier
 type: photos
 category: travel
 location: Montpellier
 country: France
 coordi: (43.5108, 3.8767)
-image: /img/2017/12-montpellier/cover-min.jpg 
-permalink: 
+image: /img/2017/12-montpellier/cover-min.jpg
+permalink:
 publish: yes
 description: Okay so I don't typically do this, but I met such nice and kind people here and I miss them so much that I really need to do this post. I have learned so much from each one of them. I am not much of a selfie person and that's probably the reason that I don't have a picture with eveyrone I met BUT if we met in Montpellier, trust me that you have inspired me in some way or the other. THANK YOU  so much (and sorry if we didn't click a picture together :( ) <br>WIll miss everyone.
 ---
@@ -18,9 +18,9 @@ description: Okay so I don't typically do this, but I met such nice and kind peo
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">@TobiasScharl (aka Tobi) and @PetrMachac (aka Petrrrrr) - some of the most quick witted people I came across ;)</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">@PratimaGurung and @Mukul Rawat, the pseudo seniors for whom I'll always remain a kid probably?</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">@PratimaGurung and @MukulRawat, the pseudo seniors for whom I'll always remain a kid probably?</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">"Saare Jahan se Accha Hindustan and Hindustani Hamare". Each one of them made my trip worth while :) Merci @MukulRawat, @RakheeLohia and @PreetiGarai</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Saare Jahan se Accha Hindustan and Hindustani Hamare". Each one of them made my trip worth while :) Merci @MukulRawat, @RakheeLohia and @PreetiGarai</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">My first SNOWWWWFALLLLLL - the best way a could bid farewell. Apparently, it hadn't snowed here in 5 years, and now it snows just a day before I leave <3</p>
 

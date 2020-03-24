@@ -6,9 +6,9 @@ category: travel
 location: Nandi Hills, Bangalore
 country: India
 coordi: (13.3702, 77.6835)
-image: /img/2018/9-chennagiri/cover-min.jpg 
+image: /img/2018/9-chennagiri/cover-min.jpg
 MarkerSize: small+
-permalink: 
+permalink:
 publish: yes
 description: Set amidst the amazing Nandi Hills, we chose to start the month of September on a 'high note' by climbing the Chennagiri Hill. Owing to our inexperience, the 7 of us went along with other hikers led by the people from @Wanderophile.
 ---
@@ -54,5 +54,5 @@ description: Set amidst the amazing Nandi Hills, we chose to start the month of 
 
 <p class="center"><img src="{{site.baseurl}}/img/2018/9-chennagiri/17.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Another panaromic view from the hill-top</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2018/9-chennagiri/18.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">With @AnishKumar @VarinGoyal @DebadityaBasu @Divakar @Ankit @ShivamGupta @ArnavVijayakar @Nagbhusan @Amulya @RamKumar @Swetha @Divya and @Nirmalya</p>
+<p class="center"><img src="{{site.baseurl}}/img/2018/9-chennagiri/18.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">With @AnishKumar @VarunGoyal @DebadityaBasu @Divakar @Ankit @ShivamGupta @ArnavVijayakar @Nagbhusan @Amulya @RamKumar @Swetha @Divya and @Nirmalya</p>
 

@@ -6,8 +6,8 @@ category: travel
 location: Hyderabad
 country: India
 coordi: (17.3850, 78.4867)
-image: /img/2014/6-hyd/cover-min.jpg 
-permalink: 
+image: /img/2014/6-hyd/cover-min.jpg
+permalink:
 publish: yes
 description: In the season of college admissions, I applied to IIIT-Hyderabad through KVPY and was called upon for an interview which led to me visiting the capital of Andhra Pradesh for the first time.
 ---
@@ -19,4 +19,4 @@ description: In the season of college admissions, I applied to IIIT-Hyderabad th
 
 <p class="center"><img src="{{site.baseurl}}/img/2014/6-hyd/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The banyan tree which also serves as the emblem of the institute</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2014/6-hyd/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">With Nani at the heart shaped, Hussain Sagar also called the Heart Of The World for being the World's Largest Heart Shaped Mark </p>
+<p class="center"><img src="{{site.baseurl}}/img/2014/6-hyd/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">With @Nani at the heart shaped, Hussain Sagar also called the Heart Of The World for being the World's Largest Heart Shaped Mark </p>

@@ -8,7 +8,7 @@ country: France
 coordi: (43.8367, 4.3601)
 MarkerSize: small+
 image: /img/2017/10-nimes/cover_min_400.jpg
-permalink: 
+permalink:
 publish: yes
 description: Definitely the best place to experience the Roman Heritage in France.<br>
 Trivia: The name “denim” comes from the name of a sturdy fabric called “Serge de Nîmes”, initially made in Nîmes, France, hence “de Nîmes” - “denim”.
@@ -25,4 +25,4 @@ Trivia: The name “denim” comes from the name of a sturdy fabric called “Se
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/4_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">La Tour Magne- the watch tower</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/5_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with @MukulRawat, @PratimaGurung, @TheOneWhoCannotBePictured:P</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/10-nimes/5_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Memories shared with @MukulRawat, @PratimaGurung, @Akila</p>

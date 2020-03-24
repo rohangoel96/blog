@@ -6,20 +6,20 @@ category: travel
 location: Dublin
 country: Ireland
 coordi: (53.2498, -6.2903)
-image: /img/2017/7-dublin/cover-min.jpg 
-permalink: 
+image: /img/2017/7-dublin/cover-min.jpg
+permalink:
 publish: yes
 description: So here comes to end my first "international trip". I couldn't travel outside of Ireland (even to the northern part :() thanks to the visa restrictions, but I am proud to have travelled a lot in Ireland and made so many new friends. I'll surely miss the super hospitable and ever smiling nature of the Irish. It was a great experience, both at work and culturally. Wouldn't think twice before coming to Dublin again.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">@TrinityCollge - the most prestigious university in Ireland and the world. There have been so many film shootings at this place.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/cover.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">At TrinityCollge - the most prestigious university in Ireland and the world. There have been so many film shootings at this place.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The very famous library at Trinity, which also houses the BookOfKells.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Trust me that these college premises were established more than 4 centuries ago and are still shining like new.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">When your colleagues (read professors) are cool enough to invite you to their monthly trekking trip @WicklowMountains.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">When your colleagues (read professors) are cool enough to invite you to their monthly trekking trip @ WicklowMountains. With @ThibautLust @AndreRios @VirginieToulemonde </p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">When you couldn't feel your legs but can't complain because PROFESSORS!!! But this top view was probably worth it</p>
 
@@ -33,7 +33,7 @@ description: So here comes to end my first "international trip". I couldn't trav
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/11.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The Dublin Zoo was by far the best and the largest zoo I have seen my entire life</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/12.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">African savanah in the super cold Ireland? @DublinZoo</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/12.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">African savanah in the super cold Ireland? @ DublinZoo</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/14.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The "red" temple bar with its cobbled steets is the most famous to get drunk in Ireland</p>
 
@@ -49,4 +49,4 @@ description: So here comes to end my first "international trip". I couldn't trav
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/18.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Fortunately or unfortunately, my lab was located right in the (expensive) city center.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/19.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Cheers Dublin! Thank you so much for the wonderful memories. Will miss you :(</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/19.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Cheers Dublin! Thank you so much for the wonderful memories. Will miss you :( <br> Memories shared with @ValentinBouchevreau and @AurelienGauvrit </p>

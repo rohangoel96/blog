@@ -18,7 +18,7 @@
   {% else %}
   <title>{{ page.title }}</title>
   {% endif %}
-  
+
   <meta name="description" content="{{ site.title }}. {{ site.author }}. {{ page.description }}">
   <meta name="author" content="{{ site.author }}">
 
@@ -64,18 +64,20 @@
       <ul class="twelve columns nav">
         <li><a href="{{site.baseurl}}/">Home</a></li>
         <li><a href="{{site.baseurl}}/map">Map</a></li>
+        <li><a href="{{site.baseurl}}/people">People</a></li>
         <li><a href="https://rohangoel.com" target="_blank">About Me</a></li>
         <!-- <li><a href="mailto:rohangoel0296@gmail.com" target="_blank">Contact Me</a></li> -->
       </ul>
     </div>
   </div>
- 
+
   {{ content }}
 
   <div class="container">
     <div class="row rownav" style="margin-top: 0px;">
       <ul class="twelve columns nav">
         <li><a href="{{site.baseurl}}/">Home</a></li>
+        <!-- <li><a href="{{site.baseurl}}/people">People</a></li> -->
         <li><a href="https://rohangoel.com" target="_blank">About Me</a></li>
         <li><a href="mailto:rohangoel0296@gmail.com" target="_blank">Contact Me</a></li>
         <!-- <li><a href="{{site.baseurl}}/software/">Software</a></li> -->

@@ -7,10 +7,10 @@ location: Goa
 country: India
 coordi: (15.3112, 73.9018)
 MarkerSize: small
-image: /img/2014/9-majorda/cover-min.jpg 
-permalink: 
+image: /img/2014/9-majorda/cover-min.jpg
+permalink:
 publish: yes
-description: Majorda, one of the prettiest beaches in South Goa was selected for our first outing together by my "corridor-mates" 
+description: Majorda, one of the prettiest beaches in South Goa was selected for our first outing together by my "corridor-mates"
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->

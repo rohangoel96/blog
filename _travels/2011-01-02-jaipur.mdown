@@ -5,8 +5,8 @@ category: travel
 location: Jaipur
 country: India
 coordi: (26.9124, 75.7873)
-image: /img/2011/1-jaipur/cover-min.jpg 
-permalink: 
+image: /img/2011/1-jaipur/cover-min.jpg
+permalink:
 publish: yes
 description: The Pink City of India, Jaipur is a is a popular tourist and stratrgic destination which serves as the gateway to Rajasthan.
 ---
@@ -16,7 +16,7 @@ description: The Pink City of India, Jaipur is a is a popular tourist and stratr
 
 <p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Jal Mahal sits in the middle of the picturesque view Man Sagar Lake magnifying it's beauty multifold</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Siblings... @Tushar @Yash @Anika</p>
+<p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Siblings... @TusharRajvanshi @YashGoel @AnikaRajvanshi</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">
 </p>
@@ -31,4 +31,4 @@ description: The Pink City of India, Jaipur is a is a popular tourist and stratr
 <p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Jaivan - the world's largest cannon on wheels rests at the Jaigarh fort which also happens to be its birthplace</p>
 
 
-<p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/9.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">With Family at New Yeak 2011 party</p>
+<p class="center"><img src="{{site.baseurl}}/img/2011/1-jaipur/9.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">With Family at New Yeak 2011 party <br>Memories shared with @AnikaRajvanshi @PrabhatMausaji @Papa @Mummy @JollyMausi</p>
