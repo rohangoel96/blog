@@ -30,7 +30,7 @@ Completing exactly a year with the Data Team at TESCO!
 @MahendraBabuIragala @PavanSavanur @SomnathGhosh @IshaanNegi @AbhiramShastri
 |
 Farewell Lunch .. <br>
-@SomnathGhosh @SunilTonger @SunilPatil @PavanSavanur @MahendraBabuIragala @RavindraKumar @Siva @AbhiramShastri @ArunaValad @MalyabantaNayak
+@SomnathGhosh @SunilTonger @SunilPatil @PavanSavanur @MahendraBabuIragala @RavindraKumar @Siva @AbhiramShastri @Ranjitha @ArunaValad @MalyabantaNayak
 |
 ...and speech
 |
