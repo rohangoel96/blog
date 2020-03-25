@@ -1,6 +1,6 @@
 ---
 layout: image_ext
-title: Smokey Mountains
+title: Great Smoky Mountains
 type: photos
 category: Travel
 location: Gatinburg, TN
