@@ -47,6 +47,9 @@ description: People whom I shared memories with
                 display: none;
             }
         }
+        .namelink{
+            color: black !important;
+        }
     </style>
 </head>
 <body>
@@ -137,7 +140,7 @@ description: People whom I shared memories with
                     post_for_name += 1;
                 }
             }
-            holder.append("<p class='name' id='"+name+"'>"+name+"<span class='dontLoadMobile'> ["+post_for_name+"]</span></p>")
+            holder.append("<p class='name' id='"+name+"'><a href='#"+name+"' class='namelink'>"+name+"</a><span class='dontLoadMobile'> ["+post_for_name+"]</span></p>")
             holder.append(post)
             if(count % 2 == 0){
                 body_e.append(holder)

@@ -13,6 +13,7 @@ layout: post
 {% assign postSpecialChar2 = post | split: "!!GIF!!" %}
 	{% if post contains "!!raw!!" %}
 		{{ postSpecialChar }}
+	{% elsif post contains "!!skip!!" %}
 	{% else %}
 		{% if post contains "!!GIF!!"%}
 			<p id="{{forloop.index}}" class="center"><img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.gif" alt="{{ postSpecialChar2 | slice: 0, 25}}... {{page.title}}. {{site.title}}" title="{{page.title}} - {{site.title}}">{{postSpecialChar2}}</p>
