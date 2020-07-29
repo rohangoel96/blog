@@ -17,7 +17,7 @@ The illuminated Mysore palace with over 1 lakh bulbs. The palace happens to be t
 |
 Supposedly, more than 11 lakh people attend the dasara celebrations at mysore.
 |
-The weathermean predicted heavy downpour over the dasara but we were welcomed with scorthing heat. Thankfully, preparing for rains, we brought umbrellas which help against the sun too :)
+The weatherman predicted heavy downpour over the dasara but we were welcomed with scorching heat. Thankfully, preparing for rains, we brought umbrellas which help against the sun too :)
 |
 Forming a mesh of umbrellas for some shade in the crowd with no water or space to properly stand.
 |
@@ -31,7 +31,7 @@ Random discussions while sitting on the 4-way crossing in between of busy mysuru
 |
 The whole city and even the streets were decked up with lights for the celebrations.
 |
-Entery Gate to the Mysore Palace - much beautiful in itself.
+Entry Gate to the Mysore Palace - much beautiful in itself.
 |
 A temple brightly lit inside the palace''s premises.
 |

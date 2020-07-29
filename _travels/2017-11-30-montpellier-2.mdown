@@ -1,13 +1,13 @@
 ---
 layout: post
-title: More of Montpellier 
+title: More of Montpellier
 type: photos
 category: travel
 location: Montpellier
 country: France
 coordi: (43.7108, 3.8767)
-image: /img/2017/11-montpellier/cover-min.jpg 
-permalink: 
+image: /img/2017/11-montpellier/cover-min.jpg
+permalink:
 publish: yes
 description: Has been so long in Montpellier. Deserves another post right?
 ---
@@ -19,7 +19,7 @@ description: Has been so long in Montpellier. Deserves another post right?
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/2.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">One from those multiple dinners with @TobiasScharl and @JessicaKristin</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">State organised Wine Festival - my second - but this was at a pretty large scale and offered around 25 different wine types/taste.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">State organized Wine Festival - my second - but this was at a pretty large scale and offered around 25 different wine types/taste.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">So I tasted around 9 different wines (before I got high :( )</p>
 
@@ -40,6 +40,6 @@ On a serious note, this enabled me to create some good friends too :) so I guess
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/12.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Typical French Food. Salad, Fries, and Duck (can't eat beef :P)<br>Courtesy @ServaneRgt and @MaryemKortoba</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/13.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Christmas is aaaaalmost here. Sad that I'll leave europe before christmas, but fortunatey the decorations, markets and lightnings have already kicked in.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/13.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Christmas is aaaaalmost here. Sad that I'll leave europe before christmas, but fortunately the decorations, markets and lightnings have already kicked in.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/11-montpellier/14.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">One of the most elaborately decorated christmas shop that (atleast) I came across.</p>

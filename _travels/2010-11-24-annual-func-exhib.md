@@ -15,7 +15,7 @@ publish: yes
 description:  Our beloved school extravagantly organizes a cultural function and exhibition annually with participation of more than 2000 students (*coughs* mandatory 100% participation *coughs*)
 
 my_arr: '
-And this occurance was a special one with the 30 year anniversary special, coupled with us being the 8th standard, which was probably the most fun times.
+And this occurrence was a special one with the 30 year anniversary special, coupled with us being the 8th standard, which was probably the most fun times.
 |
 For the exhibition whole of the school is converted into a art-exhibition, with basketball court, football fields, classrooms, corridors giving space to various art forms.
 |

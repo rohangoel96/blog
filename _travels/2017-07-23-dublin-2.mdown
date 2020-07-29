@@ -35,11 +35,11 @@ description: So here comes to end my first "international trip". I couldn't trav
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/12.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">African savanah in the super cold Ireland? @ DublinZoo</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/14.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The "red" temple bar with its cobbled steets is the most famous to get drunk in Ireland</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/14.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">The "red" temple bar with its cobbled streets is the most famous to get drunk in Ireland</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/15.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Finally some real (non alcohol related) muesuems in Ireland. Whoosh!</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/15.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Finally some real (non alcohol related) museum in Ireland. Whoosh!</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/16.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Here comes another one, the wax mueseum.</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/16.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Here comes another one, the wax museum.</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/7-dublin/17.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">DIT FOCAS - my workplace :)</p>
 

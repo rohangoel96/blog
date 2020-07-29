@@ -7,9 +7,9 @@ location: Amsterdam
 country: Netherlands
 coordi: (52.3702, 4.8952)
 image: /img/2017/10-amsterdam/cover_min_400.jpg
-permalink: 
+permalink:
 publish: yes
-description: Amsterdam is colloquially known as Venice of the North because of its lovely canals that criss-cross the city, its impressive architecture and more than 1,500 bridges. 
+description: Amsterdam is colloquially known as Venice of the North because of its lovely canals that criss-cross the city, its impressive architecture and more than 1,500 bridges.
 ---
 <!-- http://compressjpeg.com -->
 <!-- http://compressimage.toolur.com/ 1024, 400-->

@@ -36,7 +36,7 @@ description: The convocation day brings with itself a roller coaster of emotions
 
 <p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/8.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}"gh monsoon is the worst time to be Goa, the free rain shower in the pool does makes up things interesting? @ ClubMahindra</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/9.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Not everyone gets an opportunity to vist Goa so often. With @Mummy @Papa @YashGoel</p>
+<p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/9.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Not everyone gets an opportunity to visit Goa so often. With @Mummy @Papa @YashGoel</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2018/8-convocation/11.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">@Killogicals :) <br> @EkanshJain @SiddhantRathore @ArnavVijayakar @YashHaritwal @ShikharSaluja @MeghrajJagtap @GouravGoel @AkshayGinodia @ShivamGupta @PulkitAgarwal </p>
 

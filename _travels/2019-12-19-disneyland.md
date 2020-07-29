@@ -17,7 +17,7 @@ description: Visiting the original Disneyland, opened well over half a century a
 my_arr: '
 The oldest of all Disney castles, the Sleeping Beauty Castle is the park''s icon.
 |
-The amazing architechture of the Anaheim Station, the city where DisneyLand sits.
+The amazing architecture of the Anaheim Station, the city where DisneyLand sits.
 |
 Main Street Railroad Depot - when the park is so big that it has train station of its own!
 |
@@ -32,7 +32,7 @@ Welcome to the Star Wars universe with 3D motioned simulated flight and ..
 |
 Along with regular talk with the darth vader
 |
-The classis Finding Nemo Submarine Voyage with views of a colorful underwater environment.
+The classic Finding Nemo Submarine Voyage with views of a colorful underwater environment.
 |
 Space mountain, a space-themed roller coaster with themed for star wars due to the release of Star Wars: The Force Awakens!
 |
@@ -80,7 +80,7 @@ Christmas Themed and lit up Sleeping Beauty Castle at the night, waiting for the
 !!raw!!<p id="30" class="center video-container"><iframe src="https://drive.google.com/file/d/1sJQsV4YNVTN0Gg8HKHHt57sT5ruMf7RV/preview" width="640" height="480"></iframe>
 <p class="center" style="margin-top:-20px;">The super famous fireworks show with the Sleeping Beauty Castle backdrop. What''s a better way to end the trip? SPECTACULAR!</p></p>
 |
-Thank you WaltDisney! This was truly a dreamy, magical and irreplacable experience!
+Thank you WaltDisney! This was truly a dreamy, magical and irreplaceable experience!
 '
 ---
 <!-- http://compressjpeg.com -->

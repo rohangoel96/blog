@@ -23,7 +23,7 @@ description: Wellknown for its breathtakingly exotic scenery, Coorg was also fam
 <p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/3.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Chamundeshwari Temple atop Chamundi Hills
 </p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">As ot turns out, the Mysore palace is the second most visited after the Taj</p>
+<p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">As it turns out, the Mysore palace is the second most visited after the Taj</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2012/3-coorg/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">New home ? :P</p>
 

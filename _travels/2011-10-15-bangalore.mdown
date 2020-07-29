@@ -23,10 +23,10 @@ description: Wellknown for its breathtakingly exotic scenery, Coorg was also fam
 
 <p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/4.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">One of the most ferocious animal. Also guess what India is the only country which is (indigenously) home to both Tigers and Lions :)</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">They also have a special greenhouse mueseum for butterflies ...</p>
+<p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/5.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">They also have a special greenhouse museum for butterflies ...</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/6.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">... which is filled up with live butterflies</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">One of the highest buiding in the city - UB Tower</p>
+<p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/7.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">One of the highest building in the city - UB Tower</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2011/10-bangalore/8.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Wonderlaaa with @Mummy @YashGoel</p>
