@@ -17,7 +17,7 @@ description: The largest city in Catalonia, Spain is best known for the works of
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/11-barcelona/1_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Interior of the Sagarada Familia. Paul Goldberger describes it as "the most extraordinary personal interpretation of Gothic architecture since the Middle Ages".</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2017/11-barcelona/1_1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">x</p>
+<p class="center"><img src="{{site.baseurl}}/img/2017/11-barcelona/1_1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Sagarada Familia with @JyotiSharma</p>
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/11-barcelona/2_min.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Amidst the protest of a "Independent Catalonia" it probably wasn't the best time to visit this part of the country. But what is life without risks, no?<br><a href="http://www.cbc.ca/news/world/catalonia-march-barcelona-leaders-referendum-release-1.4399182" target="_blank">This</a> happened the same night we reached :)</p>
 
