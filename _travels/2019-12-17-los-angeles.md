@@ -2,7 +2,7 @@
 layout: image_ext
 title: Lavish Los Angeles
 type: photos
-category: Travel
+category: travel
 location: Los Angeles
 country: USA
 coordi: (34.0522, -118.2437)

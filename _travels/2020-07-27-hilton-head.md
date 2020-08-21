@@ -2,7 +2,7 @@
 layout: image_ext
 title: Hilton Head Island
 type: photos
-category: Travel
+category: travel
 location: Hilton Head, SC
 country: USA
 coordi: (32.2163, -80.7526)

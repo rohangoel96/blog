@@ -2,7 +2,7 @@
 layout: new_post
 title: Detox @ Naukuchiatal
 type: photos
-category: memory
+category: travel
 location: Naukuchiatal, Nainital
 country: India
 coordi: (29.3461, 79.5519)

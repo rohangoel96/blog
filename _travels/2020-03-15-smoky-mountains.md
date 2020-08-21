@@ -2,7 +2,7 @@
 layout: image_ext
 title: Great Smoky Mountains
 type: photos
-category: Travel
+category: travel
 location: Gatinburg, TN
 country: USA
 coordi: (35.6143, -83.4102)

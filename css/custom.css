@@ -192,3 +192,15 @@ video{
   height: 0;
   overflow: hidden;
 }
+
+.blogthumb {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.cat_memories {
+  background: #dfdfdf
+}

@@ -2,7 +2,7 @@
 layout: image_ext
 title: Universal at Hollywood
 type: photos
-category: Travel
+category: travel
 location: Hollywood, LA
 country: USA
 coordi: (34.25, -118.33)

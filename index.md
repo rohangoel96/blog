@@ -18,6 +18,11 @@ However, remembering events is difficult because our brains are not wired for it
   {% assign last_post_year = thisyear %}
   {% assign thisyear = post.date | date: "%Y" %}
 
+  {% assign category = 'travel' %}
+  {% if post.category != 'travel' %}
+  {% assign category = 'memories' %}
+  {% endif %}
+
   {% if firstyear == true or thisyear != last_post_year %}
 
   {% if thisyear != '2001' %}
@@ -28,7 +33,7 @@ However, remembering events is difficult because our brains are not wired for it
   {% assign firstyear = false %}
 {% endif %}
 
-  <div class="blogthumb">
+  <div class="blogthumb cat_{{category}}">
     <a href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}{{ post.image }}"></a>
     <div class="blogthumb-link"><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></div>
   </div>

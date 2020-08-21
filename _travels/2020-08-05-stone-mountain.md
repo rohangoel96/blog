@@ -2,7 +2,7 @@
 layout: image_ext
 title: Stone Mountain Hike
 type: photos
-category: Travel
+category: travel
 location: DeKalb County, GA
 country: USA
 coordi: (34, -84.0702)

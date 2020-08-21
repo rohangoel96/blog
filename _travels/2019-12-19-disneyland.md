@@ -2,7 +2,7 @@
 layout: image_ext
 title: Magical Land of Disney
 type: photos
-category: Travel
+category: travel
 location: Anaheim, LA
 country: USA
 coordi: (33.78, -117.88)
