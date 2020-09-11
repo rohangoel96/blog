@@ -1,6 +1,6 @@
 ---
 layout: image_ext
-title: Laborious Panther Creek
+title: Laborious Panther
 type: photos
 category: travel
 location: Tallulah Gorge, GA
