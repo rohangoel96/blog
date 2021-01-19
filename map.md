@@ -82,11 +82,15 @@ description: Map showcasing the travelled places.
 
 		var map = L.map('mapid').setView([30, 0], 2);
 
-		L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.run-bike-hike/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoicm9oYW5nb2VsOTYiLCJhIjoiY2phbDloNWtpM253ODJ3bG9mNWdiYzQwMiJ9.jZJvg-axeL9dDxyvGVGfkQ', {
-			// attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-			noWrap: true,
+
+		L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+			attribution: '',
 			maxZoom: 8,
 			minZoom: 2,
+			id: 'mapbox/outdoors-v11',
+			tileSize: 512,
+			zoomOffset: -1,
+			accessToken: 'pk.eyJ1Ijoicm9oYW5nb2VsOTYiLCJhIjoiY2phbDloNWtpM253ODJ3bG9mNWdiYzQwMiJ9.jZJvg-axeL9dDxyvGVGfkQ'
 		}).addTo(map);
 
 		var countryList = []
