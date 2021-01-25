@@ -58,7 +58,7 @@ And we became the part of Tech Team, managing all the madness from behind and av
 |
 (Future) engineers, awkward infront of camera. <br>@BharatDevGandhi @ArchitSareen @SidhantKohli @HarshitSinghal @PushanGupta @UtkarshBindal
 |
-@NamanBhatia @ShiviJain @HiteshRaghuvanshi @RhythmTyagi @AnushkaGoyal @SaumyaAnand @NishantGupta @DakshKohli @VinayakChawla @YashGautam @HarshitKumar @AmanRai
+@NamanBhatia @ShiviJain @HiteshRaghuvanshi @RhythmTyagi @AnushkaGoyal @SaumyaAnand @NishantGupta @ShreshthKhare @DakshKohli @VinayakChawla @YashGautam @HarshitKumar @AmanRai
 |
 !!raw!!<p id="22" class="center video-container"><iframe src="https://drive.google.com/file/d/1iqEP-qYFyubbwzcnXFJZszzrXTBJw0fc/preview" width="640" height="480"></iframe>
 <p class="center" style="margin-top:-20px;">This is probably the only time, when you can break all the possinle rules possible of the school and get still survive unscathed <br> PS: Only censored content is available on this page :P</p></p>

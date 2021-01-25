@@ -5,9 +5,9 @@ type: photos
 category: travel
 location: Gatinburg, TN
 country: USA
-coordi: (35.6143, -83.4102)
+coordi: (35.62, -83.39)
 image: /img/2020/3-smoky/cover-min.jpg
-MarkerSize: large
+MarkerSize: med
 ext: jpg
 permalink:
 publish: yes
