@@ -37,13 +37,13 @@ Picture perfect?
 |
 !!GIF!! Literally ''FALL!''
 |
-Founded in 1785, UGA is one of the oldest public universities in the United States and also called as the public Ivy.
+Founded in 1785, UGA is one of the oldest public universities in the United States and also a part of the public Ivy.
 |
 It is believed that any freshman at the University of Georgia who walks underneath the Arch will be doomed to fail and never graduate from the University.
 |
 Ringing the Chapel bell after victories is one of the most cherished traditions at the University of Georgia.
 |
-Sanford Stadium is amongst the 10th largest stadiums in the USA!
+Sanford Stadium is amongst the top 10 largest stadiums in the USA!
 |
 Reflections at Lake Herrick in UGA!
 |
