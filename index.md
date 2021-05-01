@@ -6,7 +6,7 @@ description: I have built this blog as a world of photos and videos which act as
 
 <center>
 I have a weird fear of forgetting life. Often reflecting upon the past, I think what eventful happened at a specific time: like graduating in August 2018, visiting my first International destination in May 2017 - this for me is worth remembering and I love to explore all these memories again and again!<br>
-However, remembering events is difficult because our brains are not wired for it! The vast majority of our experiences are lost over time, which for me is regretful. Thus, I have built this blog as a world of photos and videos which act as a gateway for me to retrieve and explore the <strong>MemExps</strong>!
+However, remembering events is difficult because our brains are not wired for it! The vast majority of our experiences are lost over time, which for me is regretful. Thus, I have built this blog as a world of photos and videos which act as a gateway for me to retrieve and relive the <strong>MemExps</strong>!
 <br>
 <!-- <a href="{{site.baseurl}}/map" style="font-size: 0.8em; position: relative; top: 10px">Checkout the MemExps on the <strong>world map</strong></a> -->
 </center>
