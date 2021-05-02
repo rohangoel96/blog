@@ -81,7 +81,7 @@ Christmas came early at Lynchburg ...
 |
  ... which surprisingly is a dry county, haha!
 |
-To the last trip at student with @ShlokGujar @AnshulVora @SanketAgrawal @RajatBhavnani
+To the last trip as a student with @ShlokGujar @AnshulVora @SanketAgrawal @RajatBhavnani
 '
 ---
 <!-- http://compressjpeg.com -->
