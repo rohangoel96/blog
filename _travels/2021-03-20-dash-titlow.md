@@ -4,14 +4,14 @@ title: Dashing Titlow
 type: photos
 category: travel
 location: Dash Point State Park + Titlow Beach
-country: India
+country: USA
 coordi: (47.1856, -122.2425) + (47.2472, -122.5512)
 image: /img/2021/3-dash-titlow/cover-min.jpg
 MarkerSize: small
 ext: jpg
 permalink:
 publish: yes
-description: I came to seattle more than 3 weeks ago but spent most of the time (weekends) setting up the house. Finally, there came a weekend where things were in order and we couls step out and start exploring the famous pacific north west.
+description: I came to Seattle more than 3 weeks ago but spent most of the time (weekends) setting up the house. Finally, there came a weekend where things were in order and we couls step out and start exploring the famous pacific north west.
 
 my_arr: '
 Dash point state park is hidden in plain sight between Seattle and Tacoma, and  offers miles of forested hiking and biking trails, but its main draw is the beach!

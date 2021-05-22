@@ -4,7 +4,7 @@ title: Lake Wenatchee
 type: photos
 category: travel
 location: Lake Wenatchee
-country: India
+country: USA
 coordi: (47.8245, -120.7770)
 image: /img/2021/4-wenatchee/cover-min.jpeg
 MarkerSize: small
