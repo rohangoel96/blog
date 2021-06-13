@@ -25,3 +25,6 @@ collections:
     # url: /travels/
     output: true
     permalink: /:title/
+
+plugins:
+  - jekyll-redirect-from
