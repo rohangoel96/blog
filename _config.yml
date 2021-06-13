@@ -16,7 +16,7 @@ email:       rohangoel0296@gmail.com
 
 exclude:     [_site]
 
-# url: https://rohangoel.com
+url: https://rohangoel.com
 baseurl: /blog
 
 collections:

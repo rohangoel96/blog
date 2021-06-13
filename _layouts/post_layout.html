@@ -3,7 +3,13 @@ layout: page
 ---
 
 <h4 style="margin-bottom: 0px;">{{ page.title }}</h4>
+{% assign splitpage = page.url | split: "/" %}
+{% if splitpage[-1] == 'post' %}
+<div style="text-align:center"><a href="{{site.baseurl}}/map" target="_blank">{{ page.location }}, {{ page.country }} </a>  - {{ page.date | date: "%B %d, %Y"}}</div>
+<div style="text-align:center; padding: 10px 0 15px 0; font-size: 0.8em"><a href="{{site.baseurl}}/{{splitpage[-2]}}/slideshow/" target="_blank">View as slideshow</a></div>
+{% else %}
 <div style="text-align:center; padding: 0 0 30px 0"><a href="{{site.baseurl}}/map" target="_blank">{{ page.location }}, {{ page.country }} </a>  - {{ page.date | date: "%B %d, %Y"}}</div>
+{% endif %}
 <center>
 <i>
 {{ page.description }}

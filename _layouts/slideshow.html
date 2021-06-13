@@ -4,6 +4,32 @@
   <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/kenwheeler/slick/master/slick/slick.min.js"/>
 <style>
 .myimg {
+    height:90%;
+    display: block;
+    margin: 0 auto;
+	object-fit: contain;
+    width: 100%;
+}
+body {
+	background: black;
+	overflow: hidden
+}
+.text {
+	color: white;
+	text-align: center;
+	height: 9%;
+	margin: 5px auto;
+	padding: 0 5%;
+}
+.arrow-holder {
+	margin: 10px auto;
+	height: 3%;
+	text-align:center;
+}
+.auto-play-carousel{
+	height: 95%
+}
+.cont {
     height:100%;
     display: block;
     margin: 0 auto;
@@ -16,6 +42,12 @@
 
 {% assign cover_image = page.image | split: "/" %}
 {% assign img_dir = page.image | split: "/" %}
+
+<div class="arrow-holder">
+	<button type="button" class="slick-prev slick-btn">Previous</button>
+	{% comment %} <button type="button" class="slick-pauseplay slick-btn">Pause/Play</button> {% endcomment %}
+	<button type="button" class="slick-next slick-btn">Next</button>
+</div>
 
 <div class="auto-play-carousel">
 {% for post in posts %}
@@ -40,9 +72,9 @@
 	{% elsif postworkingcopy contains "!!skip!!" %}
 	{% else %}
 		{% if postworkingcopy contains "!!GIF!!"%}
-			<p id="{{forloop.index}}" class="center" style="background: black"><img class="myimg" src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.gif" alt="{{ postSpecialChar2 | slice: 0, 25}}... {{page.title}}. {{site.title}}" title="{{page.title}} - {{site.title}}">{{postSpecialChar2}}</p>
+			<div class='cont' id="{{forloop.index}}" class="center" style="background: black"><img class="myimg" src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.gif" alt="{{ postSpecialChar2 | slice: 0, 25}}... {{page.title}}. {{site.title}}" title="{{page.title}} - {{site.title}}"><div class="text">{{postSpecialChar2}}</div></div>
 		{% else %}
-			<p id="{{forloop.index}}" class="center" style="background: black"><img class="myimg" src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.{{page.ext}}" alt="{{ postworkingcopy | slice: 0, 25}}... {{page.title}}. {{site.title}}" title="{{page.title}} - {{site.title}}">{{postworkingcopy}}</p>
+			<div class='cont' id="{{forloop.index}}" class="center" style="background: black"><img class="myimg" src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.{{page.ext}}" alt="{{ postworkingcopy | slice: 0, 25}}... {{page.title}}. {{site.title}}" title="{{page.title}} - {{site.title}}"><div class="text">{{postworkingcopy}}</div></div>
 		{% endif %}
 	{% endif %}
 {% endfor %}
@@ -51,11 +83,25 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script type="text/javascript">
+{% comment %} https://kenwheeler.github.io/slick/ {% endcomment %}
     $(document).ready(function(){
       $('.auto-play-carousel').slick({
-          infinite: true,
-          slidesToShow: 1,
+		infinite: true,
+		slidesToShow: 1,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		pauseOnFocus: true,
+		pauseOnHover: false,
+		arrows: false,
       });
+
+	  $('.slick-next').on('click', function(){
+		  $('.auto-play-carousel').slick('slickNext')
+	  })
+
+	  $('.slick-prev').on('click', function(){
+		  $('.auto-play-carousel').slick('slickPrev')
+	  })
     });
 </script>
 </body>

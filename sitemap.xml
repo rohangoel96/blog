@@ -16,6 +16,7 @@ layout: null
       <priority>1.0</priority>
   </url>
   {% for post in site.travels %}
+    {% unless post.url contains 'slideshow' %}
     <url>
       <loc>{{ site.url }}{{site.baseurl}}{{ post.url }}</loc>
       {% if post.lastmod == null %}
@@ -28,5 +29,6 @@ layout: null
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
+    {% endunless %}
   {% endfor %}
 </urlset>

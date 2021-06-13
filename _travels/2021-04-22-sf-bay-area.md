@@ -10,6 +10,8 @@ image: /img/2021/4-sf/cover-min.jpg
 MarkerSize: med
 ext: jpg
 publish: yes
+redirect_from:
+  - /sf-bay-area/
 description: Known for culture, music, diversity, tech, and picturesque views, San Francisco is an eclectic city to visit. The city is super cosmopolitan and I was amazed by the diversity the city has to offer.
 
 my_arr: '
