@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Killogicals Unite @ BBQ
 type: photos
 category: memory

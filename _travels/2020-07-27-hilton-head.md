@@ -1,5 +1,7 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
+redirect_from:
+  - /hilton-head/
 title: Hilton Head Island
 type: photos
 category: travel

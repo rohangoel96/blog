@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Fisherman's Wharf
 type: photos
 category: memory

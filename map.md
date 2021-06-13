@@ -131,29 +131,31 @@ description: Map showcasing the travelled places.
 		}).addTo(map);
 
 		{% for post in site.travels reversed %}
-			var coordiList = "{{post.coordi}}".split("+");
-			var locationNames = "{{post.location}}".split("+");
-			var markersizeList = "{{post.MarkerSize}}".split("+");
+		    {% unless post.url contains 'slideshow' %}
+				var coordiList = "{{post.coordi}}".split("+");
+				var locationNames = "{{post.location}}".split("+");
+				var markersizeList = "{{post.MarkerSize}}".split("+");
 
-			if("{{post.coordi}}".length > 0){
-				coordiList.forEach(function(coordinateString, i){
-				var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
-				var locationName = locationNames[i];
-				var MarkerSize = markersizeList[i];
-				if(locationName === undefined){
-					locationName = locationNames[0]
+				if("{{post.coordi}}".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='{{site.baseurl}}{{post.url}}' target='_blank' >{{post.title}}</a><br><b>"+locationName+", {{post.country}}</b><br>{{post.date | date: '%B %d, %Y'}}").addTo(map);
+					})
 				}
-				if(MarkerSize === undefined){
-					MarkerSize = markersizeList[0];
-				}
-				var circle = L.circle(coordinate, {
-				    color: 'red',
-				    fillColor: '#f03',
-				    fillOpacity: 0.5,
-				    radius: getRadius(MarkerSize.trim())
-					}).bindPopup("<a href='{{site.baseurl}}{{post.url}}' target='_blank' >{{post.title}}</a><br><b>"+locationName+", {{post.country}}</b><br>{{post.date | date: '%B %d, %Y'}}").addTo(map);
-				})
-			}
+			{% endunless %}
 		{% endfor %}
 	</script>
 </body>

@@ -1,5 +1,7 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
+redirect-from:
+    - '/annual-func-exhib/'
 title: Celebrations at DPSG
 type: photos
 category: Memories

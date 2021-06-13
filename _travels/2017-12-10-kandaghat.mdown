@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Relaxing in Himachal
 type: photos
 category: travel

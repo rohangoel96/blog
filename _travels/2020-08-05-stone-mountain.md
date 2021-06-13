@@ -1,5 +1,7 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
+redirect_from:
+  - /stone-mountain/
 title: Stone Mountain Hike
 type: photos
 category: travel

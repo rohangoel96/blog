@@ -1,5 +1,7 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
+redirect_from:
+  - /smoky-mountains/
 title: Great Smoky Mountains
 type: photos
 category: travel

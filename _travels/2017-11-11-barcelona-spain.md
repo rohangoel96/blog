@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Gaudi's Barcelona
 type: photos
 category: travel

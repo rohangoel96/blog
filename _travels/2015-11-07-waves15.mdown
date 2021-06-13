@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Waves 2k15
 type: photos
 category: memory

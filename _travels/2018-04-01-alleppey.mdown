@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Backwaters at Alleppey
 type: photos
 category: travel

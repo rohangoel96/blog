@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Jaisalmer &amp; Thar Desert
 type: photos
 category: travel

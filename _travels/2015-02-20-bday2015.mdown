@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: First B'day at BITS
 type: photos
 category: memory

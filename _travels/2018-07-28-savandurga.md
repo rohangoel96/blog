@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Steep Trek to Savandurga
 type: photos
 category: travel

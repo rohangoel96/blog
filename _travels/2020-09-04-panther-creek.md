@@ -1,5 +1,7 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
+redirect_from:
+  - /panther-creek/
 title: Laborious Panther Creek
 type: photos
 category: travel

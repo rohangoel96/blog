@@ -1,5 +1,7 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
+redirect_from:
+  - /universal/
 title: Universal at Hollywood
 type: photos
 category: travel

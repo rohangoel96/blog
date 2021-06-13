@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: post_layout
 title: Google Developer's Group
 type: photos
 category: memory
 location: Goa
 country: India
-image: /img/2017/3-gdg/cover-min.jpg 
-permalink: 
+image: /img/2017/3-gdg/cover-min.jpg
+permalink:
 publish: yes
 description: Google Developers Group are local groups of developers who are specifically interested in Google products and APIs. Upon digging out I found out that our campus had GDG chapter until 2013 but was abruptly discountinued. Hence, along with @AbhimanyuSinghShekhawat I took the initiative of restarting that. We had our first event on October 10, 2016 followed by another event on March 18, 2017.
 ---

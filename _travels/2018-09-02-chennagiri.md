@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Hike to Chennagiri
 type: photos
 category: travel

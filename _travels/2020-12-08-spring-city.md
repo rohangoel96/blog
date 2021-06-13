@@ -1,5 +1,7 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
+redirect_from:
+  - /spring-city/
 title: Spring/Music/JD City
 type: photos
 category: travel

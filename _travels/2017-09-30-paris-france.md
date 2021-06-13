@@ -1,13 +1,13 @@
 ---
-layout: post
+layout: post_layout
 title: Paris - World's Fashion Capital
 type: photos
 category: travel
 location: Paris
 country: France
 coordi: (48.8566, 2.3522)
-image: /img/2017/9-paris/cover_min_400.jpg 
-permalink: 
+image: /img/2017/9-paris/cover_min_400.jpg
+permalink:
 publish: yes
 description: The following conversation in the film 'Midnight in Paris' aptly summarises my feelings about Paris - the most visited city in the world<br>
 Adriana: I can never decide whether Paris is more beautiful by day or by night. <br>

@@ -1,5 +1,7 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
+redirect_from:
+  - /fort-yargo-athens/
 title: Athens via Yargo
 type: photos
 category: travel

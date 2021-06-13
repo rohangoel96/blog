@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Convocation @ BPGC
 type: photos
 category: memory

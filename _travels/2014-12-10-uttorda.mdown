@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Uttorda Beach
 type: photos
 category: travel

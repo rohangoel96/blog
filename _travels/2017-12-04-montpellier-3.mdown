@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Farewell Montpellier
 type: photos
 category: memories

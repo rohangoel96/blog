@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Majorda Beach
 type: photos
 category: travel

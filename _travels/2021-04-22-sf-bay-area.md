@@ -1,5 +1,5 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
 title: The Bay Area
 type: photos
 category: travel
@@ -7,9 +7,8 @@ location: San Francisco + San Jose
 country: USA
 coordi: (37.7749, -122.4194) + (37.3382, -121.8863)
 image: /img/2021/4-sf/cover-min.jpg
-MarkerSize: small
+MarkerSize: med
 ext: jpg
-permalink:
 publish: yes
 description: Known for culture, music, diversity, tech, and picturesque views, San Francisco is an eclectic city to visit. The city is super cosmopolitan and I was amazed by the diversity the city has to offer.
 

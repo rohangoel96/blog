@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Arambol Beach
 type: photos
 category: travel
@@ -7,8 +7,8 @@ location: Goa
 country: India
 coordi: (15.6871, 73.7213)
 MarkerSize: small
-image: /img/2016/10-arambol/cover-min.jpg 
-permalink: 
+image: /img/2016/10-arambol/cover-min.jpg
+permalink:
 publish: yes
 description: Arambol is the northenmost beach of Goa which is pretty pristine and naturally attracts a lot of foreignours.
 ---

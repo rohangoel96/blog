@@ -33,10 +33,12 @@ However, remembering events is difficult because our brains are not wired for it
   {% assign firstyear = false %}
 {% endif %}
 
+  {% unless post.url contains 'slideshow' %}
   <div class="blogthumb cat_{{category}}">
     <a href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}{{ post.image }}"></a>
     <div class="blogthumb-link"><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></div>
   </div>
+  {% endunless %}
 
 {% endfor %}
 

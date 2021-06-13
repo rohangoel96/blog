@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Royal Jaipur
 category: travel
 location: Jaipur

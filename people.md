@@ -67,53 +67,55 @@ description: People whom I shared memories with
         tracker = {}
         tracker = {}
 		{% for page in site.travels reversed %}
-            {% assign post_number = forloop.index %}
-            var post_number = {{post_number}};
-            {% assign posts = page.my_arr | split: "|" %}
-            {% for post in posts %}
-                var para = {{post | jsonify }};
-                var splittedAt = para.split("@");
-                if(splittedAt.length > 1){
-                    for (let index = 1; index < splittedAt.length; index++) {
-                        const name = splittedAt[index].split(" ")[0].replace(/(^\s*,)|(,\s*$)/g, '').trim().replace(/\.+$/, "").trim();
-                        if(name.length > 0){
-                            tracking_object = {
-                                "post_number": post_number,
-                                "title": {{ page.title | jsonify }},
-                                "link": "{{ site.baseurl }}{{ page.url }}",
-                                "para_number": {{forloop.index}}
+            {% unless page.url contains 'slideshow' %}
+                {% assign post_number = forloop.index %}
+                var post_number = {{post_number}};
+                {% assign posts = page.my_arr | split: "|" %}
+                {% for post in posts %}
+                    var para = {{post | jsonify }};
+                    var splittedAt = para.split("@");
+                    if(splittedAt.length > 1){
+                        for (let index = 1; index < splittedAt.length; index++) {
+                            const name = splittedAt[index].split(" ")[0].replace(/(^\s*,)|(,\s*$)/g, '').trim().replace(/\.+$/, "").trim();
+                            if(name.length > 0){
+                                tracking_object = {
+                                    "post_number": post_number,
+                                    "title": {{ page.title | jsonify }},
+                                    "link": "{{ site.baseurl }}{{ page.url }}",
+                                    "para_number": {{forloop.index}}
+                                }
+                                if(name in tracker){
+                                    tracker[name].push(tracking_object)
+                                } else {
+                                    tracker[name] = [tracking_object]
+                                }
                             }
-                            if(name in tracker){
-                                tracker[name].push(tracking_object)
-                            } else {
-                                tracker[name] = [tracking_object]
+                        }
+                    }
+                {% endfor %}
+                if("{{page.layout}}" == "post"){
+                    var oldTypePostText = "{{ page.content | jsonify | smartify | replace: '</', ''}}";
+                    var splittedAt = oldTypePostText.split("@");
+                    if(splittedAt.length > 1){
+                        for (let index = 1; index < splittedAt.length; index++) {
+                            var name = splittedAt[index].split(" ")[0].split("&")[0].replace(/(^\s*,)|(,\s*$)/g, '').trim().replace(/\.+$/, "").trim()
+                            if(name.length > 0){
+                                tracking_object = {
+                                    "post_number": post_number,
+                                    "title": {{ page.title | jsonify }},
+                                    "link": "{{ site.baseurl }}{{ page.url }}",
+                                    "para_number": ""
+                                }
+                                if(name in tracker){
+                                    tracker[name].push(tracking_object)
+                                } else {
+                                    tracker[name] = [tracking_object]
+                                }
                             }
                         }
                     }
                 }
-            {% endfor %}
-            if("{{page.layout}}" == "post"){
-                var oldTypePostText = "{{ page.content | jsonify | smartify | replace: '</', ''}}";
-                var splittedAt = oldTypePostText.split("@");
-                if(splittedAt.length > 1){
-                    for (let index = 1; index < splittedAt.length; index++) {
-                        var name = splittedAt[index].split(" ")[0].split("&")[0].replace(/(^\s*,)|(,\s*$)/g, '').trim().replace(/\.+$/, "").trim()
-                        if(name.length > 0){
-                            tracking_object = {
-                                "post_number": post_number,
-                                "title": {{ page.title | jsonify }},
-                                "link": "{{ site.baseurl }}{{ page.url }}",
-                                "para_number": ""
-                            }
-                            if(name in tracker){
-                                tracker[name].push(tracking_object)
-                            } else {
-                                tracker[name] = [tracking_object]
-                            }
-                        }
-                    }
-                }
-            }
+            {% endunless %}
         {% endfor %}
         var body_e = $("#even_container");
         var body_o = $("#odd_container");

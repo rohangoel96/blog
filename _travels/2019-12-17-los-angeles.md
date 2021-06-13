@@ -1,5 +1,7 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
+redirect_from:
+  - /los-angeles/
 title: Lavish Los Angeles
 type: photos
 category: travel

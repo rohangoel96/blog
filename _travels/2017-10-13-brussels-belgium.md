@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Brussels - The European capital
 type: photos
 category: travel
@@ -7,7 +7,7 @@ location: Brussels
 country: Belgium
 coordi: (50.8503, 4.3517)
 image: /img/2017/10-brussels/cover_min_400.jpg
-permalink: 
+permalink:
 publish: yes
 description: Brussels, the de facto capital of the European Union was one of the most multilingual cities I have ever witnessed. Most of people spoke all of English, French and Dutch fluently.
 ---

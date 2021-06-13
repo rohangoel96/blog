@@ -1,5 +1,7 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
+redirect_from:
+  - /wenatchee/
 title: Lake Wenatchee
 type: photos
 category: travel

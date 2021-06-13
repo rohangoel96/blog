@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Amsterdam, the city of freedom?
 type: photos
 category: travel

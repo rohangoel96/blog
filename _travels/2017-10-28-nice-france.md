@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: The 'Nice' French Riviera
 type: photos
 category: travel

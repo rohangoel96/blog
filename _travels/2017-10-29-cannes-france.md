@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Cannes
 type: photos
 category: travel

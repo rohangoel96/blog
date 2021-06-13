@@ -1,5 +1,7 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
+redirect_from:
+  - /panama-city/
 title: Emerald Panama City
 type: photos
 category: travel

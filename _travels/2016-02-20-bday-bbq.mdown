@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Birthday @ BBQ
 type: photos
 category: memory

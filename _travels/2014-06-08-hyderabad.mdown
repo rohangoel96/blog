@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: Short Trip to Hyderabad
 type: photos
 category: travel

@@ -1,5 +1,7 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
+redirect_from:
+  - /disneyland/
 title: Magical Land of Disney
 type: photos
 category: travel

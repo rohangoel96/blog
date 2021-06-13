@@ -1,5 +1,7 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
+redirect_from:
+  - /commencement/
 title: Commencement 2020
 type: photos
 category: memory

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: New Year @ Shimla
 type: photos
 category: travel

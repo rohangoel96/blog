@@ -1,5 +1,7 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
+redirect_from:
+  - /dash-titlow/
 title: Dashing Titlow
 type: photos
 category: travel

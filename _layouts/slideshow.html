@@ -1,0 +1,62 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/kenwheeler/slick/master/slick/slick.min.js"/>
+<style>
+.myimg {
+    height:100%;
+    display: block;
+    margin: 0 auto;
+}
+</style>
+</head>
+<body>
+</head>
+{% assign posts = page.my_arr | split: "|" %}
+
+{% assign cover_image = page.image | split: "/" %}
+{% assign img_dir = page.image | split: "/" %}
+
+<div class="auto-play-carousel">
+{% for post in posts %}
+{% assign postworkingcopy = post %}
+{% if post contains "@" %}
+{% assign mentions = post | split:"@" %}
+{% for mention in mentions %}
+    {% if forloop.index > 1 %}
+	{% assign cleanmention = mention | strip | split: ' '%}
+	{% assign finalmention = cleanmention[0] | remove: ','  | remove: '.' | remove: '!' %}
+	{% assign basepeople = "/people#" | escape%}
+	{% assign mentionlink = "" | append: "<a href='"| append: site.baseurl | append: basepeople | append: finalmention | append: "' target='_blank'>" | append: finalmention | append: "</a>"%}
+	{% assign postworkingcopy = postworkingcopy | replace: finalmention,  mentionlink %}
+	{% endif %}
+{% endfor %}
+{% endif %}
+{% assign firstfour = postworkingcopy | slice: 0, 5 %}
+{% assign postSpecialChar = postworkingcopy | split: "!!raw!!" %}
+{% assign postSpecialChar2 = postworkingcopy | split: "!!GIF!!" %}
+	{% if post contains "!!raw!!" %}
+		{% comment %} {{ postSpecialChar }} {% endcomment %}
+	{% elsif postworkingcopy contains "!!skip!!" %}
+	{% else %}
+		{% if postworkingcopy contains "!!GIF!!"%}
+			<p id="{{forloop.index}}" class="center" style="background: black"><img class="myimg" src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.gif" alt="{{ postSpecialChar2 | slice: 0, 25}}... {{page.title}}. {{site.title}}" title="{{page.title}} - {{site.title}}">{{postSpecialChar2}}</p>
+		{% else %}
+			<p id="{{forloop.index}}" class="center" style="background: black"><img class="myimg" src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.{{page.ext}}" alt="{{ postworkingcopy | slice: 0, 25}}... {{page.title}}. {{site.title}}" title="{{page.title}} - {{site.title}}">{{postworkingcopy}}</p>
+		{% endif %}
+	{% endif %}
+{% endfor %}
+</div>
+<script type="text/javascript" src="https:/code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.auto-play-carousel').slick({
+          infinite: true,
+          slidesToShow: 1,
+      });
+    });
+</script>
+</body>
+</html>

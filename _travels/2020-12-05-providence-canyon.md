@@ -1,5 +1,7 @@
 ---
-layout: image_ext
+layout: [slideshow, post]
+redirect_from:
+  - /providence-canyon/
 title: Providence Canyon
 type: photos
 category: travel
