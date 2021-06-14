@@ -25,7 +25,7 @@ Immigrants from China first came to the west coast and set up shop in San Franci
 |
 Once the largest and most expensive bridge of its time, San Francisco-Oakland Bay Bridge doesn''t often get the attention of its famous sibling, the Golden Gate, but is spectacular in its own right!
 |
-An icon of the city, the San Francisco cable car system is the world''s last manually operated cable car system! It was again closed to due to covid though, but I was did see turnaround intersection for the sake of the checkist!
+An icon of the city, the San Francisco cable car system is the world''s last manually operated cable car system! It was again closed to due to covid though, but I was did see turnaround intersection for the sake of the checklist!
 |
 As an epicenter of activity in San Francisco, Fisherman''s Wharf offers a plethora of sights, smells, tastes, history and fun. It is one of the busiest tourist attractions in the western United States!
 |
