@@ -93,7 +93,7 @@ description: People whom I shared memories with
                         }
                     }
                 {% endfor %}
-                if("{{page.layout}}" == "post"){
+                if("{{page.layout}}" == "post_layout"){
                     var oldTypePostText = "{{ page.content | jsonify | smartify | replace: '</', ''}}";
                     var splittedAt = oldTypePostText.split("@");
                     if(splittedAt.length > 1){
