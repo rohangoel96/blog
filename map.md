@@ -139,11 +139,12 @@ description: Map showcasing the travelled places.
 				if("{{post.coordi}}".length > 0){
 					coordiList.forEach(function(coordinateString, i){
 					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
-					var locationName = locationNames[i].trim();
+					var locationName = locationNames[i];
 					var MarkerSize = markersizeList[i];
 					if(locationName === undefined){
-						locationName = locationNames[0].trim()
+						locationName = locationNames[0]
 					}
+					locationName = locationName.trim()
 					if(MarkerSize === undefined){
 						MarkerSize = markersizeList[0];
 					}
