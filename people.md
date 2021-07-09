@@ -65,7 +65,6 @@ description: People whom I shared memories with
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript">
         tracker = {}
-        tracker = {}
 		{% for page in site.travels reversed %}
             {% unless page.url contains 'slideshow' %}
                 {% assign post_number = forloop.index %}
