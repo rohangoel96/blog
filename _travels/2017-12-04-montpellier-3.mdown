@@ -36,5 +36,9 @@ description: Okay so I don't typically do this, but I met such nice and kind peo
 
 <p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/11.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Can't thank you enough @ServaneRgt, @MaryemKortoba for the chocolate cake surprise just few hours before my flight :). Will always cherish the time spent together.</p>
 
+
+<p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/12.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">There sure was one more surprise left that night, caught perfectly in the act on camera by @AntoineCavallera</p>
+
+
 <p class="center"><img src="{{site.baseurl}}/img/2017/12-montpellier/1.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">I really didn't expect France to be this much fun. Literally everyone that I came across told me that France wouldn't be as nice, especially with my zero knowledge of French - but I am so very lucky to meet all these people, and the fact that I am taking back so many good memories should be attributed to each one of them. Thanks a ton everyone :) <br>
 PS: The nature at its colorful best is probably the only thing I liked about the otherwise suuuuper cold winters there.</p>

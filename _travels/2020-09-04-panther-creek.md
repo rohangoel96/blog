@@ -51,6 +51,8 @@ We underestimated the 12km hike and it got a little late to head back ...
 |
 But guess the upside? With no light pollution, I saw the most star studded sky (yet!)
 |
+Edit: Not to forget me doing my presentation from car and also meeting an accident mid-presentation. Achievement unlocked?
+|
 Memories shared with @SanketAgrawal @AnshulVora @SushrutKulkarni @ChaitraHegde
 '
 ---
