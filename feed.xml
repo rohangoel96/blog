@@ -9,6 +9,7 @@ layout: none
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}{{site.baseurl}}/feed.xml" rel="self" type="application/rss+xml" />
     {% for post in site.travels reversed %}
+      {% unless post.url contains 'slideshow' %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.description | xml_escape }}</description>
@@ -17,6 +18,7 @@ layout: none
         <guid>{{ site.url }}{{site.baseurl}}{{ post.image }}</guid>
         <category>{{post.category}}</category>
       </item>
+      {% endunless %}
     {% endfor %}
   </channel>
 </rss>
