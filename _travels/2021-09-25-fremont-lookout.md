@@ -45,7 +45,7 @@ There are no words that can truly describe the feeling of sitting on rocks, with
 |
 Seemingly infinite wave of verdant ridges succumbing to Puget Sound and apparently the Olympics rise in the very far.
 |
-Ah the poses!! All for the gram?
+Ah the poses!! All for the gram? More IG dance <a href="https://www.instagram.com/reel/CUrDMkbjKJI/" target="_blank">here</a>
 |
 Memories with @NanditaGupta @AnishGupta
 '
