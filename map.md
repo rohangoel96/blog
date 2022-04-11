@@ -112,9 +112,9 @@ description: Map showcasing the travelled places.
 
 		function getRadius(MarkerSize){
 			if (MarkerSize=="small") return 5000;
-			if (MarkerSize=="small+") return 10000;
+			if (MarkerSize=="smallx") return 10000;
 			if (MarkerSize=="med") return 15000;
-			if (MarkerSize=="med+") return 22500;
+			if (MarkerSize=="medx") return 22500;
 			else if(MarkerSize=="large") return 30000;
 			else return 20000;
 		}
