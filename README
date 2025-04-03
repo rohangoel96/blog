@@ -1,1 +1,33 @@
 https://github.com/wicker/wicker.github.io
+
+## Running Jekyll
+Local test environment:
+```
+bundle exec jekyll serve
+```
+
+Local test environment showing the drafts as if they were published:
+```
+bundle exec jekyll serve --drafts
+```
+
+## Using the Instagram downloader script
+1. In the root directory of this project, set up a Python virtual environment:
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+```
+2. Run the script.  Use -u flag for username (defaults to "goelrohan" if not provided), -p or "INSTA_PASSWORD" env variable for password, and -c to provide an authenticator code if 2-factor is enabled.
+```
+python3 get_data.py -u <username> -p <password> -c <code>
+```
+3. Media is downloaded to the `img` directory, blog posts are saved to the `_drafts` folder. Edit the post and move to `_travels` to publish the post.
+4. Deactivate virtual env when necessary.
+```
+deactivate
+```
+
+### Known issues
+The instagrapi api has a bug where it prints out `Status 201: JSONDecodeError in public_request` when connecting to the API.
