@@ -2,12 +2,44 @@
 layout: post_layout
 ---
 
-{% assign posts = page.my_arr | split: "|" %}
-
 {% assign cover_image = page.image | split: "/" %}
 {% assign img_dir = page.image | split: "/" %}
 
+{% assign posts = page.photos %}
 {% for post in posts %}
+
+{% assign workingcaption = post.caption %}
+{% if post.caption contains "@" %}
+{% assign mentions = post.caption | split:"@" %}
+{% for mention in mentions %}
+    {% if forloop.index > 1 %}
+	{% assign cleanmention = mention | strip | split: ' '%}
+	{% assign finalmention = cleanmention[0] | remove: ','  | remove: '.' | remove: '!' %}
+	{% assign basepeople = "/people#" | escape%}
+	{% assign mentionlink = "" | append: "<a href='"| append: site.baseurl | append: basepeople | append: finalmention | append: "' target='_blank'>" | append: finalmention | append: "</a>"%}
+	{% assign workingcaption = workingcaption | replace: finalmention,  mentionlink %}
+	{% endif %}
+{% endfor %}
+{% endif %}
+
+
+{% if post.image != nil %}
+
+  <p id="{{forloop.index}}" class="center"><img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{post.image}}" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}">{{workingcaption}}</p>
+
+{% elsif post.raw != nil %}
+  {{post.raw}}
+  <p class="center">{{workingcaption}}</p>
+
+{% endif %}
+ 
+{% endfor %}
+
+
+
+{% assign legacy_posts = page.my_arr | split: "|" %}
+
+{% for post in legacy_posts %}
 {% assign postworkingcopy = post %}
 {% if post contains "@" %}
 {% assign mentions = post | split:"@" %}
@@ -22,14 +54,14 @@ layout: post_layout
 {% endfor %}
 {% endif %}
 {% assign firstfour = postworkingcopy | slice: 0, 5 %}
-{% assign postSpecialChar = postworkingcopy | split: "!!raw!!" %}
-{% assign postSpecialChar2 = postworkingcopy | split: "!!GIF!!" %}
+{% assign legacy_postspecialChar = postworkingcopy | split: "!!raw!!" %}
+{% assign legacy_postspecialChar2 = postworkingcopy | split: "!!GIF!!" %}
 	{% if post contains "!!raw!!" %}
-		{{ postSpecialChar }}
+		{{ legacy_postspecialChar }}
 	{% elsif postworkingcopy contains "!!skip!!" %}
 	{% else %}
 		{% if postworkingcopy contains "!!GIF!!"%}
-			<p id="{{forloop.index}}" class="center"><img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.gif" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}">{{postSpecialChar2}}</p>
+			<p id="{{forloop.index}}" class="center"><img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.gif" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}">{{legacy_postspecialChar2}}</p>
 		{% else %}
 			<p id="{{forloop.index}}" class="center"><img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.{{page.ext}}" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}">{{postworkingcopy}}</p>
 		{% endif %}
