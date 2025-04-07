@@ -38,7 +38,11 @@ body {
 </head>
 <body>
 </head>
-{% assign posts = page.my_arr | split: "|" %}
+{% if page.photos %}
+  {% assign posts = page.photos | reject: 'image', nil | map: 'caption' %}
+{% else %}
+  {% assign posts = page.my_arr | split: "|" %}
+{% endif %}
 
 {% assign cover_image = page.image | split: "/" %}
 {% assign img_dir = page.image | split: "/" %}
@@ -72,9 +76,13 @@ body {
 	{% elsif postworkingcopy contains "!!skip!!" %}
 	{% else %}
 		{% if postworkingcopy contains "!!GIF!!"%}
-			<div class='cont' id="{{forloop.index}}" class="center" style="background: black"><img class="myimg" src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.gif" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}"><div class="text">{{postSpecialChar2}}</div></div>
+			<div class='cont' id="{{forloop.index}}" class="center" style="background: black"><img class="myimg" src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index0}}.gif" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}"><div class="text">{{postSpecialChar2}}</div></div>
 		{% else %}
+		  {% if page.photos[forloop.index0].image %}
+            <div class='cont' id="{{forloop.index}}" class="center" style="background: black"><img class="myimg" src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.{{page.ext}}" alt="={{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}"><div class="text">{{postworkingcopy}}</div></div>
+		  {% elsif page.my_arr %}
 			<div class='cont' id="{{forloop.index}}" class="center" style="background: black"><img class="myimg" src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.{{page.ext}}" alt="={{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}"><div class="text">{{postworkingcopy}}</div></div>
+		  {% endif %}
 		{% endif %}
 	{% endif %}
 {% endfor %}
