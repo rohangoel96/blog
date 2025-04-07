@@ -1,0 +1,4309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114821832-1"></script>
+  <script>
+  if (document.location.hostname.search("rohangoel.com") !== -1) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    // ga('require', 'linkid');
+    gtag('config', 'UA-114821832-1');
+    ga('send', 'pageview', {
+      'page': location.pathname + location.search  + location.hash
+    });
+  }
+  </script>
+  <meta charset="utf-8">
+  
+  <title>MemExp on Map</title>
+  
+
+  <meta name="description" content="MemExp Blog. Rohan Goel. Map showcasing the travelled places.">
+  <meta name="author" content="Rohan Goel">
+
+  <meta name="date.created" content="">
+  <meta name="date.available" content="">
+
+      <!-- Facebook and Twitter integration -->
+  <meta property="fb:app_id" content="1294731970631473">
+  <meta property="og:title" content="MemExp on Map"/>
+  <meta property="og:url" content="https://rohangoel.com/blog"/>
+  <meta property="og:site_name" content="MemExp"/>
+  <meta property="og:description" content="Map showcasing the travelled places."/>
+  <meta name="twitter:title" content="MemExp on Map" />
+  <meta name="twitter:url" content="https://rohangoel.com/blog" />
+  <meta name="twitter:card" content="Map showcasing the travelled places." />
+  
+  <meta property="og:image" content="https://www.shareicon.net/download/2016/08/31/821514_earth_512x512.png"/>
+  <meta name="twitter:image" content="https://www.shareicon.net/download/2016/08/31/821514_earth_512x512.png" />
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="/blog/css/normalize.css">
+  <link rel="stylesheet" href="/blog/css/skeleton.css">
+  <link rel="stylesheet" href="/blog/css/custom.css">
+  </head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns header">
+        <h1>MemExp Blog</h1>
+        <p style="text-align: center;">Memories and Experiences</p>
+        <!-- <h2></h2> -->
+      </div>
+    </div>
+    <div class="row rownav">
+      <ul class="twelve columns nav">
+        <li><a href="/blog/">Home</a></li>
+        <li><a href="/blog/map">Map</a></li>
+        <li><a href="/blog/people">People</a></li>
+        <li><a href="https://rohangoel.com" target="_blank">About Me</a></li>
+        <!-- <li><a href="mailto:rohangoel0296@gmail.com" target="_blank">Contact Me</a></li> -->
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+  <div class="row">
+
+  <div class="two columns">&nbsp;</div>
+  <div class="eight columns">
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/flags/flag-icon.min.css" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
+	<script src="/blog/js/country.js"></script>
+	<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
+	<style type="text/css">
+		#mapid {
+			height: 500px;
+			width: 100%;
+		}
+		.leaflet-container {
+			background-color: #8BD1E3 !important
+		}
+		.two{
+			width: 0% !important;
+		}
+		.eight{
+			width: 92% !important;
+		}
+		@media (max-width: 550px){
+			.eight{
+				width: 100% !important;
+			}
+		}
+
+	.tooltip-inner {
+		padding: 0 5px;
+		border-radius: 6px;
+		font-family: Arial, Helvetica, sans-serif;
+	  	background-color: #191919;
+  		color: #FFFFFF;
+  		font-size: 0.75em;
+	}
+
+	</style>
+</head>
+<body>
+	<center>
+		<!-- <h1 style="margin-top: 0px; font-size: 1.5em">8/29 Indian States. 0/7 Indian Union Territories.<br>7/193 Countries.<br>2/7 Continents.</h1> -->
+		<span style="font-size: 1em;"><strong>Tip:</strong> You can see the respective photos of the MemExps by zooming in and <strong>clicking on the points</strong></span>
+	</center>
+	<div id="mapid" style="margin-top: 10px;"></div>
+	<div id="countries" style="margin-top: 3%;">
+		<center>
+			<!-- https://github.com/lipis/flag-icon-css/tree/master/flags/4x3 -->
+			<!-- https://www.nationsonline.org/oneworld/country_code_list.htm -->
+			<span title="1.India" class="flag-icon flag-icon-in" data-toggle="tooltip"></span>
+			<span title="2.Ireland" class="flag-icon flag-icon-ie" data-toggle="tooltip"></span>
+			<span title="3.France" class="flag-icon flag-icon-fr" data-toggle="tooltip"></span>
+			<span title="4.Belgium" class="flag-icon flag-icon-be" data-toggle="tooltip"></span>
+			<span title="5.Netherlands" class="flag-icon flag-icon-nl" data-toggle="tooltip"></span>
+			<span title="6.Monaco" class="flag-icon flag-icon-mc" data-toggle="tooltip"></span>
+			<span title="7.Spain" class="flag-icon flag-icon-es" data-toggle="tooltip"></span>
+			<span title="8.Thailand" class="flag-icon flag-icon-th" data-toggle="tooltip"></span>
+			<span title="9.USA" class="flag-icon flag-icon-us" data-toggle="tooltip"></span>
+		</center>
+		<center>
+        <span style="font-size: 0.8em;">Count = 9</span>
+		</center>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+		    $('[data-toggle="tooltip"]').tooltip({
+		        placement : 'top'
+		    });
+		});
+
+		var map = L.map('mapid').setView([30, 0], 2);
+
+
+		L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+			attribution: '',
+			maxZoom: 8,
+			minZoom: 2,
+			id: 'mapbox/outdoors-v11',
+			tileSize: 512,
+			zoomOffset: -1,
+			accessToken: 'pk.eyJ1Ijoicm9oYW5nb2VsOTYiLCJhIjoiY2phbDloNWtpM253ODJ3bG9mNWdiYzQwMiJ9.jZJvg-axeL9dDxyvGVGfkQ'
+		}).addTo(map);
+
+		var countryList = []
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "USA".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "Thailand".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "Thailand".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "France".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "France".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "Spain".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "France".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "France".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "Monaco".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "Netherlands".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "Belgium".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "France".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "France".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "France".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "Ireland".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "Ireland".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "Ireland".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "Ireland".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+			var countryName = "India".trim().toLowerCase();
+			if(countryList.indexOf(countryName) == -1 && countryName.length > 0){
+				countryList.push(countryName)
+			}
+		
+
+		function getOpacity(feature) {
+			var countryName = feature.properties.name.toLowerCase();
+			if(countryList.indexOf(countryName) > -1){
+				return 0.2;
+			} else{
+				return 0;
+			}
+		}
+
+		function getRadius(MarkerSize){
+			if (MarkerSize=="small") return 5000;
+			if (MarkerSize=="smallx") return 10000;
+			if (MarkerSize=="med") return 15000;
+			if (MarkerSize=="medx") return 22500;
+			else if(MarkerSize=="large") return 30000;
+			else return 20000;
+		}
+
+		countriesLater = L.geoJson(countriesGeoJSON, { style: function(feature) {
+		    return {
+		      fillColor: "red",
+		      fillOpacity: getOpacity(feature),
+		      stroke: true,
+		      color: "grey",
+		      weight: 0
+		    };
+		  }
+		}).addTo(map);
+
+		
+		    
+				var coordiList = "(47.5214, -121.3914)".split("+");
+				var locationNames = "Wallace Falls, QA".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(47.5214, -121.3914)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/wallace/post/' target='_blank' >Wondeful Wallace Falls</a><br><b>"+locationName+", USA</b><br>January 16, 2022").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(41.1234, -124.0043) + (41.4016, -124.0650) + (41.7558, -124.2026)".split("+");
+				var locationNames = "Redwood NP + Fern Canyon + Crescent City, CA".split("+");
+				var markersizeList = "smallx + smallx + small".split("+");
+
+				if("(41.1234, -124.0043) + (41.4016, -124.0650) + (41.7558, -124.2026)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/redwoods/post/' target='_blank' >Ravishing Redwoods</a><br><b>"+locationName+", USA</b><br>January 01, 2022").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(43.1190, -124.4084) + (43.7023, -124.0968) + (42.1899, -124.3660) + (42.0651, -124.3123)".split("+");
+				var locationNames = "Bandon + Oregon Dunes + Natural Bridges + Arch Rock".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(43.1190, -124.4084) + (43.7023, -124.0968) + (42.1899, -124.3660) + (42.0651, -124.3123)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/south-oregon-cost/post/' target='_blank' >Stellar South Oregon</a><br><b>"+locationName+", USA</b><br>December 31, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(47.5911, -120.7672)".split("+");
+				var locationNames = "Leavenworth, WA".split("+");
+				var markersizeList = "small+".split("+");
+
+				if("(47.5911, -120.7672)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/icicle-ridge/post/' target='_blank' >Icy Icicle Ridge</a><br><b>"+locationName+", USA</b><br>November 20, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(40.7831, -73.9712)".split("+");
+				var locationNames = "New York City".split("+");
+				var markersizeList = "large".split("+");
+
+				if("(40.7831, -73.9712)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/nyc/post/' target='_blank' >Numinous NYC</a><br><b>"+locationName+", USA</b><br>October 12, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(42.3601, -71.0589)".split("+");
+				var locationNames = "Boston, MA".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(42.3601, -71.0589)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/boston/post/' target='_blank' >Bustling Boston</a><br><b>"+locationName+", USA</b><br>October 11, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(44.1421, -71.6813) + (44.0380, -71.6725) + (44.0537, -71.1284) + (43.0718, -70.7626)".split("+");
+				var locationNames = "Franconia Notch + Lincoln + Cornway + Portsmouth".split("+");
+				var markersizeList = "small + small + med + small".split("+");
+
+				if("(44.1421, -71.6813) + (44.0380, -71.6725) + (44.0537, -71.1284) + (43.0718, -70.7626)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/hamsphire/post/' target='_blank' >Heavenly Hamsphire</a><br><b>"+locationName+", USA</b><br>October 10, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(44.4654, -72.6874) + (43.6242, -72.5185) + (43.2265, -72.8065) + (44.3286, -72.1704)".split("+");
+				var locationNames = "Stowe + Woodstock + Londonderry + Peacham, VT".split("+");
+				var markersizeList = "med + med + small + small".split("+");
+
+				if("(44.4654, -72.6874) + (43.6242, -72.5185) + (43.2265, -72.8065) + (44.3286, -72.1704)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/vermont/post/' target='_blank' >Vibrant Vermont</a><br><b>"+locationName+", USA</b><br>October 09, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(42.3565, -73.2849) + (42.6376, -73.1662)".split("+");
+				var locationNames = "Berkshires, MA + Mt. Greylock, MA".split("+");
+				var markersizeList = "small + med".split("+");
+
+				if("(42.3565, -73.2849) + (42.6376, -73.1662)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/berkshires/post/' target='_blank' >Mt. Greylock &amp; The Berkshires</a><br><b>"+locationName+", USA</b><br>October 08, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(46.5602, -121.4028)".split("+");
+				var locationNames = "Sunrise, Mt Rainer NP, WA".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(46.5602, -121.4028)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/fremont-lookout/post/' target='_blank' >Fascinating Fremont Lookout</a><br><b>"+locationName+", USA</b><br>September 25, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(47.4154, -121.5188)".split("+");
+				var locationNames = "Talapus and Olallie Lakes, WA".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(47.4154, -121.5188)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/talapus/post/' target='_blank' >Amongst Alpine Lakes</a><br><b>"+locationName+", USA</b><br>September 12, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(46.1813, -123.8175) + (45.8841, -123.9686) + (45.4898, -123.9587) + (45.3395, -123.9929) + (45.2191, -123.9754) + (45.0062, -124.0071) + (44.7847, -124.0719) + (44.6768, -124.0795) + (44.2784, -124.1135) + (42.9446, -122.1090) + (45.3600, -122.6750)".split("+");
+				var locationNames = "Astoria Column + Cannon Beach + Cape Meares + Cape Lookout + Cape Kiwanda + Roads End + Rocky Creek + Yaquina Lighthouse + Thor's Well + Crater's Lake + Portland, OR".split("+");
+				var markersizeList = "small + small + small + small + small + small + small + small + small + med + small".split("+");
+
+				if("(46.1813, -123.8175) + (45.8841, -123.9686) + (45.4898, -123.9587) + (45.3395, -123.9929) + (45.2191, -123.9754) + (45.0062, -124.0071) + (44.7847, -124.0719) + (44.6768, -124.0795) + (44.2784, -124.1135) + (42.9446, -122.1090) + (45.3600, -122.6750)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/oregon-coast/post/' target='_blank' >Oregon Coast</a><br><b>"+locationName+", USA</b><br>September 04, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(47.4308, -121.7751)".split("+");
+				var locationNames = "Snoqualmie Region, WA".split("+");
+				var markersizeList = "small+".split("+");
+
+				if("(47.4308, -121.7751)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/rattlesnake/post/' target='_blank' >Rattling Rattlesnake</a><br><b>"+locationName+", USA</b><br>August 21, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(48.7767, -121.8144)".split("+");
+				var locationNames = "Mount Baker, WA".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(48.7767, -121.8144)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/mtbaker/post/' target='_blank' >Boisterous Baker</a><br><b>"+locationName+", USA</b><br>August 15, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(47.4671, -121.4551)".split("+");
+				var locationNames = "Snoqualmie Region, WA".split("+");
+				var markersizeList = "small+".split("+");
+
+				if("(47.4671, -121.4551)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/snow-lake/post/' target='_blank' >Pristine Snow Lake</a><br><b>"+locationName+", USA</b><br>July 31, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(47.5077, -121.7398)".split("+");
+				var locationNames = "North Bend, WA".split("+");
+				var markersizeList = "small+".split("+");
+
+				if("(47.5077, -121.7398)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/little-si/post/' target='_blank' >Hiking Little Si</a><br><b>"+locationName+", USA</b><br>July 25, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(46.8523, -121.7603)".split("+");
+				var locationNames = "Mount Rainier National Park, WA".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(46.8523, -121.7603)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/rainier/post/' target='_blank' >Paradise in Rainier</a><br><b>"+locationName+", USA</b><br>July 05, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(45.5051, -122.6750) + (45.7974, -121.4848)".split("+");
+				var locationNames = "Portland + Columbia River Gorge, OR".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(45.5051, -122.6750) + (45.7974, -121.4848)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/portland/post/' target='_blank' >Keep Portland Weird</a><br><b>"+locationName+", USA</b><br>July 03, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(47.98, -123.5178)".split("+");
+				var locationNames = "Olympic Peninsula, WA".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(47.98, -123.5178)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/olympicmt/post/' target='_blank' >Olympic Peninsula</a><br><b>"+locationName+", USA</b><br>June 27, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(48.7122, -121.1133)".split("+");
+				var locationNames = "Northern Cascades National Park, WA".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(48.7122, -121.1133)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/cascades/post/' target='_blank' >Northern Cascades</a><br><b>"+locationName+", USA</b><br>June 26, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(48.6096, -122.4264) + (47.9983, -122.4395)".split("+");
+				var locationNames = "Oyster Dome, WA + Whidbey Island, WA".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(48.6096, -122.4264) + (47.9983, -122.4395)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/oyster-dome/post/' target='_blank' >Oyster Dome Trail</a><br><b>"+locationName+", USA</b><br>June 19, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(36.1699, -115.1398) + (36.0161, -114.7377)".split("+");
+				var locationNames = "Las Vegas, NV + Hoover Dam".split("+");
+				var markersizeList = "med + small".split("+");
+
+				if("(36.1699, -115.1398) + (36.0161, -114.7377)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/vegas/post/' target='_blank' >Fabulous Vegas</a><br><b>"+locationName+", USA</b><br>June 02, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(37.2982, -113.0263)".split("+");
+				var locationNames = "Zion Canyon, UT".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(37.2982, -113.0263)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/zion-canyon/post/' target='_blank' >Zion Narrows</a><br><b>"+locationName+", USA</b><br>June 01, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(37.5930, -112.1871)".split("+");
+				var locationNames = "Bryce Canyon, UT".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(37.5930, -112.1871)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/bryce-canyon/post/' target='_blank' >Bryce Amphitheater</a><br><b>"+locationName+", USA</b><br>May 30, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(37.0683, -111.2433)".split("+");
+				var locationNames = "Lake Powell, AZ".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(37.0683, -111.2433)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/antelope-kayak-canyon/post/' target='_blank' >Antelope Canyon Kayak</a><br><b>"+locationName+", USA</b><br>May 30, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(36.0604, -112.1076)".split("+");
+				var locationNames = "Grand Canyon, AZ".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(36.0604, -112.1076)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/grand-canyon/post/' target='_blank' >Graaand Canyon</a><br><b>"+locationName+", USA</b><br>May 29, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(48.0768, -121.7457)".split("+");
+				var locationNames = "North Cascades, WA".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(48.0768, -121.7457)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/lake22/post/' target='_blank' >Lake 22</a><br><b>"+locationName+", USA</b><br>May 09, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(36.2704, -121.8081) + (36.5552, -121.9233) + (36.1578, -121.6722)".split("+");
+				var locationNames = "Big Sur + Carmel by the Sea + McWay Falls".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(36.2704, -121.8081) + (36.5552, -121.9233) + (36.1578, -121.6722)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/bigsur/post/' target='_blank' >PCH Big Sur</a><br><b>"+locationName+", USA</b><br>April 24, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(37.7749, -122.4194) + (37.3382, -121.8863)".split("+");
+				var locationNames = "San Francisco + San Jose".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(37.7749, -122.4194) + (37.3382, -121.8863)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/sf-bay-area/post/' target='_blank' >The Bay Area</a><br><b>"+locationName+", USA</b><br>April 22, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(38.9399, -119.9772) + (39.2005, -119.9305) + (38.5025, -122.2654) + (39.5296, -119.8138)".split("+");
+				var locationNames = "Lake Tahoe + Sand Harbour Beach + Napa Valley + Reno".split("+");
+				var markersizeList = "med + small + med + small".split("+");
+
+				if("(38.9399, -119.9772) + (39.2005, -119.9305) + (38.5025, -122.2654) + (39.5296, -119.8138)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/lake-tahoe/post/' target='_blank' >Spectacular Tahoe</a><br><b>"+locationName+", USA</b><br>April 17, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(48.4873, -122.2471) + (48.9937, -122.7471)".split("+");
+				var locationNames = "Skagit Valley + Blaine".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(48.4873, -122.2471) + (48.9937, -122.7471)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/skagit/post/' target='_blank' >Skagit Tulip Festival</a><br><b>"+locationName+", USA</b><br>April 11, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(47.8245, -120.7770)".split("+");
+				var locationNames = "Lake Wenatchee".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(47.8245, -120.7770)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/wenatchee/post/' target='_blank' >Lake Wenatchee</a><br><b>"+locationName+", USA</b><br>April 04, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(47.1856, -122.2425) + (47.2472, -122.5512)".split("+");
+				var locationNames = "Dash Point State Park + Titlow Beach".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(47.1856, -122.2425) + (47.2472, -122.5512)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/dash-titlow/post/' target='_blank' >Dashing Titlow</a><br><b>"+locationName+", USA</b><br>March 20, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(27.1767, 78.0081) + (27.0945, 77.6679)".split("+");
+				var locationNames = "Agra + Fatehpur Sikri".split("+");
+				var markersizeList = "med + small".split("+");
+
+				if("(27.1767, 78.0081) + (27.0945, 77.6679)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/agra/post/' target='_blank' >Wah Taj!</a><br><b>"+locationName+", India</b><br>January 04, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(28.5355, 77.3910) + (28.6692, 77.4538) + (29.9680, 77.5552)".split("+");
+				var locationNames = "Noida + Ghaziabad + Saharanpur".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(28.5355, 77.3910) + (28.6692, 77.4538) + (29.9680, 77.5552)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/backhome/post/' target='_blank' >Back2Home</a><br><b>"+locationName+", India</b><br>January 01, 2021").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(33.7826, -84.42)".split("+");
+				var locationNames = "Bobby Dodd Stadium".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(33.7826, -84.42)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/commencement/post/' target='_blank' >Commencement 2020</a><br><b>"+locationName+", USA</b><br>December 12, 2020").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(35.6920, -84.8608) + (36.1627, -86.7816) + (35.2830, -86.3740)".split("+");
+				var locationNames = "Spring City, TN + Nashville, TN, Lynchburg, TN".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(35.6920, -84.8608) + (36.1627, -86.7816) + (35.2830, -86.3740)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/spring-city/post/' target='_blank' >Spring/Music/JD City</a><br><b>"+locationName+", USA</b><br>December 08, 2020").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(32.0667, -84.9047)".split("+");
+				var locationNames = "Lumpkin, GA".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(32.0667, -84.9047)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/providence-canyon/post/' target='_blank' >Providence Canyon</a><br><b>"+locationName+", USA</b><br>December 05, 2020").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(30.1588, -85.6602) + (32.3792, -86.3077)".split("+");
+				var locationNames = "Panama City Beach, Florida + Montgomery, Alabama".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(30.1588, -85.6602) + (32.3792, -86.3077)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/panama-city/post/' target='_blank' >Emerald Panama City</a><br><b>"+locationName+", USA</b><br>November 28, 2020").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(33.7, -84.42) + (34.2219, -83.9691) + (35.0640, -84.3241)".split("+");
+				var locationNames = "Atlanta + Bufford Dam/Lake Lanier + Blue Ridge".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(33.7, -84.42) + (34.2219, -83.9691) + (35.0640, -84.3241)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/fall20/post/' target='_blank' >Finale @ Tech</a><br><b>"+locationName+", USA</b><br>November 25, 2020").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(35.56, -83.49)".split("+");
+				var locationNames = "Clingsman Dome, Smoky Mountains".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(35.56, -83.49)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/smoky2/post/' target='_blank' >Smoky Halloween</a><br><b>"+locationName+", USA</b><br>October 31, 2020").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(33.9684, -83.7300) + (33.9519, -83.3576)".split("+");
+				var locationNames = "Fort Yargo + Athens, USA".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(33.9684, -83.7300) + (33.9519, -83.3576)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/fort-yargo-athens/post/' target='_blank' >Athens via Yargo</a><br><b>"+locationName+", USA</b><br>October 27, 2020").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(33.61, -84.3880)".split("+");
+				var locationNames = "Atlanta, GA".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(33.61, -84.3880)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/covid/' target='_blank' >Summer, Spring & COVID</a><br><b>"+locationName+", USA</b><br>October 01, 2020").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(34.8932, -84.5907)".split("+");
+				var locationNames = "Tallulah Gorge, GA".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(34.8932, -84.5907)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/panther-creek/post/' target='_blank' >Laborious Panther Creek</a><br><b>"+locationName+", USA</b><br>September 04, 2020").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(34, -84.0702)".split("+");
+				var locationNames = "DeKalb County, GA".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(34, -84.0702)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/stone-mountain/post/' target='_blank' >Stone Mountain Hike</a><br><b>"+locationName+", USA</b><br>August 05, 2020").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(32.2163, -80.7526)".split("+");
+				var locationNames = "Hilton Head, SC".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(32.2163, -80.7526)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/hilton-head/post/' target='_blank' >Hilton Head Island</a><br><b>"+locationName+", USA</b><br>July 27, 2020").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(35.62, -83.39)".split("+");
+				var locationNames = "Gatinburg, TN".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(35.62, -83.39)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/smoky-mountains/post/' target='_blank' >Great Smoky Mountains</a><br><b>"+locationName+", USA</b><br>March 15, 2020").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(33.7490, -84.57)".split("+");
+				var locationNames = "Atlanta, GA".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(33.7490, -84.57)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/winter-2020/post/' target='_blank' >Chilly Tech!</a><br><b>"+locationName+", USA</b><br>February 28, 2020").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(32.0809, -81.0912)".split("+");
+				var locationNames = "Savannah, GA".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(32.0809, -81.0912)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/savannah/post/' target='_blank' >Haunted Savannah</a><br><b>"+locationName+", USA</b><br>January 19, 2020").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(34.1747105, -84.754135)".split("+");
+				var locationNames = "Cartersville, GA".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(34.1747105, -84.754135)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/pine-hike/post/' target='_blank' >Pine Mountain Hike</a><br><b>"+locationName+", USA</b><br>January 05, 2020").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(34.25, -118.33)".split("+");
+				var locationNames = "Hollywood, LA".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(34.25, -118.33)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/universal/post/' target='_blank' >Universal at Hollywood</a><br><b>"+locationName+", USA</b><br>December 24, 2019").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(33.85, -117.98)".split("+");
+				var locationNames = "Anaheim, LA".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(33.85, -117.98)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/cal-adv/post/' target='_blank' >Adventure in California</a><br><b>"+locationName+", USA</b><br>December 20, 2019").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(33.78, -117.88)".split("+");
+				var locationNames = "Anaheim, LA".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(33.78, -117.88)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/disneyland/post/' target='_blank' >Magical Land of Disney</a><br><b>"+locationName+", USA</b><br>December 19, 2019").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(34.0522, -118.2437)".split("+");
+				var locationNames = "Los Angeles".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(34.0522, -118.2437)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/los-angeles/post/' target='_blank' >Lavish Los Angeles</a><br><b>"+locationName+", USA</b><br>December 17, 2019").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(33.7490, -84.2)".split("+");
+				var locationNames = "Atlanta".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(33.7490, -84.2)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/gatech2/post/' target='_blank' >Fall @ GaTech</a><br><b>"+locationName+", USA</b><br>December 03, 2019").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(33.7490, -84.36)".split("+");
+				var locationNames = "Atlanta".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(33.7490, -84.36)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/Atlanta/post/' target='_blank' >Unexpected Atlanta</a><br><b>"+locationName+", USA</b><br>December 02, 2019").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(33.9, -84.3880)".split("+");
+				var locationNames = "Atlanta".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(33.9, -84.3880)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/gatech-1/' target='_blank' >Grinding Grad School</a><br><b>"+locationName+", USA</b><br>October 10, 2019").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(19.1860, 73) + (18.5204, 73.8567) + (12.9716, 77.8846) + (28.7041, 77.1025)".split("+");
+				var locationNames = "Mumbai + Pune + Bangalore + Delhi".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(19.1860, 73) + (18.5204, 73.8567) + (12.9716, 77.8846) + (28.7041, 77.1025)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/farewell-gt-usa/' target='_blank' >Farewell India?</a><br><b>"+locationName+", India</b><br>August 01, 2019").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(29.3461, 79.5519)".split("+");
+				var locationNames = "Naukuchiatal, Nainital".split("+");
+				var markersizeList = "".split("+");
+
+				if("(29.3461, 79.5519)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/naukuchiatal/' target='_blank' >Detox @ Naukuchiatal</a><br><b>"+locationName+", India</b><br>July 21, 2019").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(12.6518, 77.2086)".split("+");
+				var locationNames = "Kadu Winery near Bangalore".split("+");
+				var markersizeList = "".split("+");
+
+				if("(12.6518, 77.2086)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/kadu/' target='_blank' >Wine Tasting at Kadu</a><br><b>"+locationName+", India</b><br>June 30, 2019").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(13.7563, 100.5018) + (14.3692, 100.5877)".split("+");
+				var locationNames = "Bangkok + Ayutthaya".split("+");
+				var markersizeList = "".split("+");
+
+				if("(13.7563, 100.5018) + (14.3692, 100.5877)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/bangkok/' target='_blank' >Blissful Bangkok</a><br><b>"+locationName+", Thailand</b><br>February 24, 2019").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(7.8966, 98.3021) + (7.7407, 98.7784) + (8.2745, 98.5012)".split("+");
+				var locationNames = "Phuket + Phi Phi Islands + Phang Nga Bay".split("+");
+				var markersizeList = "med + med + med".split("+");
+
+				if("(7.8966, 98.3021) + (7.7407, 98.7784) + (8.2745, 98.5012)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/phuket/' target='_blank' >Phenomenal Phuket</a><br><b>"+locationName+", Thailand</b><br>February 21, 2019").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(15.3350, 76.4600)".split("+");
+				var locationNames = "Hampi, Karnataka".split("+");
+				var markersizeList = "".split("+");
+
+				if("(15.3350, 76.4600)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/hampi/' target='_blank' >Ruins of Hampi</a><br><b>"+locationName+", India</b><br>December 22, 2018").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(12.2958, 76.7394)".split("+");
+				var locationNames = "Mysore, Karnataka".split("+");
+				var markersizeList = "small+".split("+");
+
+				if("(12.2958, 76.7394)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/mysore-dasara/' target='_blank' >Mysore Dasara</a><br><b>"+locationName+", India</b><br>October 19, 2018").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(13.8623, 74.8752)".split("+");
+				var locationNames = "Kodachadri, Karnataka".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(13.8623, 74.8752)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/kodachadri/' target='_blank' >Arduous Kodachadri</a><br><b>"+locationName+", India</b><br>October 06, 2018").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(13.3702, 77.6835)".split("+");
+				var locationNames = "Nandi Hills, Bangalore".split("+");
+				var markersizeList = "small+".split("+");
+
+				if("(13.3702, 77.6835)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/chennagiri/' target='_blank' >Hike to Chennagiri</a><br><b>"+locationName+", India</b><br>September 02, 2018").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "".split("+");
+				var locationNames = "Goa".split("+");
+				var markersizeList = "".split("+");
+
+				if("".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/convocation/' target='_blank' >Convocation @ BPGC</a><br><b>"+locationName+", India</b><br>August 05, 2018").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(12.9206, 77.2944)".split("+");
+				var locationNames = "Savandurga".split("+");
+				var markersizeList = "small+".split("+");
+
+				if("(12.9206, 77.2944)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/savandurga/' target='_blank' >Steep Trek to Savandurga</a><br><b>"+locationName+", India</b><br>July 28, 2018").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(9.4981, 76.3388) + (9.9312, 76.2673)".split("+");
+				var locationNames = "Alleppey + Kochi".split("+");
+				var markersizeList = "med + med".split("+");
+
+				if("(9.4981, 76.3388) + (9.9312, 76.2673)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/alleppey/' target='_blank' >Backwaters at Alleppey</a><br><b>"+locationName+", India</b><br>April 01, 2018").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(11.9139, 79.8145) + (11.4226, 79.7748)".split("+");
+				var locationNames = "Pondicherry + Pichavaram".split("+");
+				var markersizeList = "med + small".split("+");
+
+				if("(11.9139, 79.8145) + (11.4226, 79.7748)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/pondy/' target='_blank' >Indo-French Pondy</a><br><b>"+locationName+", India</b><br>March 18, 2018").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(16.0370, 73.4848)".split("+");
+				var locationNames = "Malvan".split("+");
+				var markersizeList = "".split("+");
+
+				if("(16.0370, 73.4848)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/tarkali-malvan/' target='_blank' >Adventurous Malvan</a><br><b>"+locationName+", India</b><br>February 25, 2018").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(15.5553, 73.7517)".split("+");
+				var locationNames = "Goa".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(15.5553, 73.7517)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/tito-goa/' target='_blank' >New Year @ Tito Goa</a><br><b>"+locationName+", India</b><br>January 01, 2018").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(30.9702, 77.1054) + (31.2578, 77.4602) + (31.2488, 77.0895) + (31.1798, 77.2394)".split("+");
+				var locationNames = "Kandhaghat + Narkanda + Tattapani + Shimla".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(30.9702, 77.1054) + (31.2578, 77.4602) + (31.2488, 77.0895) + (31.1798, 77.2394)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/kandaghat/' target='_blank' >Relaxing in Himachal</a><br><b>"+locationName+", India</b><br>December 10, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(43.5108, 3.8767)".split("+");
+				var locationNames = "Montpellier".split("+");
+				var markersizeList = "".split("+");
+
+				if("(43.5108, 3.8767)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/montpellier-3/' target='_blank' >Farewell Montpellier</a><br><b>"+locationName+", France</b><br>December 04, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(43.7108, 3.8767)".split("+");
+				var locationNames = "Montpellier".split("+");
+				var markersizeList = "".split("+");
+
+				if("(43.7108, 3.8767)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/montpellier-2/' target='_blank' >More of Montpellier</a><br><b>"+locationName+", France</b><br>November 30, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(41.3851, 2.1734)".split("+");
+				var locationNames = "Barcelona".split("+");
+				var markersizeList = "".split("+");
+
+				if("(41.3851, 2.1734)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/barcelona-spain/' target='_blank' >Gaudi's Barcelona</a><br><b>"+locationName+", Spain</b><br>November 11, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(43.5528, 7.0174)".split("+");
+				var locationNames = "Cannes".split("+");
+				var markersizeList = "small+".split("+");
+
+				if("(43.5528, 7.0174)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/cannes-france/' target='_blank' >Cannes</a><br><b>"+locationName+", France</b><br>October 29, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(43.7102, 7.2620)".split("+");
+				var locationNames = "Nice".split("+");
+				var markersizeList = "small+".split("+");
+
+				if("(43.7102, 7.2620)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/nice-france/' target='_blank' >The 'Nice' French Riviera</a><br><b>"+locationName+", France</b><br>October 28, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(43.7384, 7.4246)".split("+");
+				var locationNames = "Monte-Carlo".split("+");
+				var markersizeList = "small+".split("+");
+
+				if("(43.7384, 7.4246)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/monaco/' target='_blank' >Bond's Monaco</a><br><b>"+locationName+", Monaco</b><br>October 28, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(52.3702, 4.8952)".split("+");
+				var locationNames = "Amsterdam".split("+");
+				var markersizeList = "".split("+");
+
+				if("(52.3702, 4.8952)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/amsterdam-netherlands/' target='_blank' >Amsterdam, the city of freedom?</a><br><b>"+locationName+", Netherlands</b><br>October 14, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(50.8503, 4.3517)".split("+");
+				var locationNames = "Brussels".split("+");
+				var markersizeList = "".split("+");
+
+				if("(50.8503, 4.3517)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/brussels-belgium/' target='_blank' >Brussels - The European capital</a><br><b>"+locationName+", Belgium</b><br>October 13, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(43.8367, 4.3601)".split("+");
+				var locationNames = "Nimes".split("+");
+				var markersizeList = "small+".split("+");
+
+				if("(43.8367, 4.3601)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/nimes-france/' target='_blank' >Nimes - The French Rome</a><br><b>"+locationName+", France</b><br>October 08, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(48.8566, 2.3522)".split("+");
+				var locationNames = "Paris".split("+");
+				var markersizeList = "".split("+");
+
+				if("(48.8566, 2.3522)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/paris-france/' target='_blank' >Paris - World's Fashion Capital</a><br><b>"+locationName+", France</b><br>September 30, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(43.6108, 3.6767)".split("+");
+				var locationNames = "Montpellier".split("+");
+				var markersizeList = "".split("+");
+
+				if("(43.6108, 3.6767)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/montpellier-1/' target='_blank' >Mediterranean Montpellier</a><br><b>"+locationName+", France</b><br>September 01, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(53.2498, -6.2903)".split("+");
+				var locationNames = "Dublin".split("+");
+				var markersizeList = "".split("+");
+
+				if("(53.2498, -6.2903)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/dublin-2/' target='_blank' >Buh bye Dublin</a><br><b>"+locationName+", Ireland</b><br>July 23, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(51.8969, -8.4863)".split("+");
+				var locationNames = "Cork".split("+");
+				var markersizeList = "".split("+");
+
+				if("(51.8969, -8.4863)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/cork/' target='_blank' >Cork and its Vikings</a><br><b>"+locationName+", Ireland</b><br>July 08, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(53.2707, -9.0568)".split("+");
+				var locationNames = "Galway".split("+");
+				var markersizeList = "".split("+");
+
+				if("(53.2707, -9.0568)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/galway/' target='_blank' >Pretty Little 'Galway' girl</a><br><b>"+locationName+", Ireland</b><br>July 01, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(53.4498, -6.1203)".split("+");
+				var locationNames = "Dublin".split("+");
+				var markersizeList = "".split("+");
+
+				if("(53.4498, -6.1203)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/dublin-1/' target='_blank' >Dublin - The Beer Capital?</a><br><b>"+locationName+", Ireland</b><br>May 21, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "".split("+");
+				var locationNames = "Goa".split("+");
+				var markersizeList = "".split("+");
+
+				if("".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/farewell-bits/' target='_blank' >Farewell @ BPGC</a><br><b>"+locationName+", India</b><br>April 16, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "".split("+");
+				var locationNames = "Goa".split("+");
+				var markersizeList = "".split("+");
+
+				if("".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/gdg/' target='_blank' >Google Developer's Group</a><br><b>"+locationName+", India</b><br>March 18, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(19.0760, 72.8777)".split("+");
+				var locationNames = "Mumbai".split("+");
+				var markersizeList = "".split("+");
+
+				if("(19.0760, 72.8777)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/mumbai/' target='_blank' >Short Trip to Mumbai</a><br><b>"+locationName+", India</b><br>March 14, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "".split("+");
+				var locationNames = "Goa, India".split("+");
+				var markersizeList = "".split("+");
+
+				if("".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/fishermans-wharf/' target='_blank' >Fisherman's Wharf</a><br><b>"+locationName+", </b><br>January 28, 2017").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(15.6871, 73.7213)".split("+");
+				var locationNames = "Goa".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(15.6871, 73.7213)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/arambol-goa/' target='_blank' >Arambol Beach</a><br><b>"+locationName+", India</b><br>October 10, 2016").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(15.0456, 73.9889)".split("+");
+				var locationNames = "Goa".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(15.0456, 73.9889)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/agonda-goa/' target='_blank' >Agonda Beach</a><br><b>"+locationName+", India</b><br>August 07, 2016").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "".split("+");
+				var locationNames = "Goa, India".split("+");
+				var markersizeList = "".split("+");
+
+				if("".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/bday-bbq/' target='_blank' >Birthday @ BBQ</a><br><b>"+locationName+", </b><br>February 20, 2016").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(26.9157, 70.9083) + (27.7960, 70.3523)".split("+");
+				var locationNames = "Jaisalmer + Tanot Border".split("+");
+				var markersizeList = "".split("+");
+
+				if("(26.9157, 70.9083) + (27.7960, 70.3523)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/jaisalmer/' target='_blank' >Jaisalmer &amp; Thar Desert</a><br><b>"+locationName+", India</b><br>December 18, 2015").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "".split("+");
+				var locationNames = "Goa".split("+");
+				var markersizeList = "".split("+");
+
+				if("".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/waves15/' target='_blank' >Waves 2k15</a><br><b>"+locationName+", India</b><br>November 07, 2015").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(15.4909, 73.8278)".split("+");
+				var locationNames = "Goa".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(15.4909, 73.8278)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/bbq1/' target='_blank' >Killogicals Unite @ BBQ</a><br><b>"+locationName+", India</b><br>September 05, 2015").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(15.3978, 73.9506)".split("+");
+				var locationNames = "Goa".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(15.3978, 73.9506)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/kesarval/' target='_blank' >Kesarval Spring</a><br><b>"+locationName+", India</b><br>August 10, 2015").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(15.6021, 73.7434)".split("+");
+				var locationNames = "Goa".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(15.6021, 73.7434)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/chapora/' target='_blank' >Chapora &amp; Vagator</a><br><b>"+locationName+", India</b><br>August 02, 2015").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(34.083656, 74.797371) + (32.7266, 74.8570) + (33.0308, 74.9490)".split("+");
+				var locationNames = "Kashmir + Jammu + VaishnoDevi".split("+");
+				var markersizeList = "large".split("+");
+
+				if("(34.083656, 74.797371) + (32.7266, 74.8570) + (33.0308, 74.9490)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/kashmir/' target='_blank' >Kashmir - Paradise on Earth</a><br><b>"+locationName+", India</b><br>June 18, 2015").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(15.0100, 74.0232)".split("+");
+				var locationNames = "Goa".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(15.0100, 74.0232)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/palolem/' target='_blank' >Pristine Palolem</a><br><b>"+locationName+", India</b><br>March 01, 2015").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "".split("+");
+				var locationNames = "Goa".split("+");
+				var markersizeList = "".split("+");
+
+				if("".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/bday2015/' target='_blank' >First B'day at BITS</a><br><b>"+locationName+", India</b><br>February 20, 2015").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(31.1048, 77.1734)".split("+");
+				var locationNames = "Shimla".split("+");
+				var markersizeList = "small+".split("+");
+
+				if("(31.1048, 77.1734)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/shimla/' target='_blank' >New Year @ Shimla</a><br><b>"+locationName+", India</b><br>January 01, 2015").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(15.3062, 73.9951)".split("+");
+				var locationNames = "Goa".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(15.3062, 73.9951)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/uttorda/' target='_blank' >Uttorda Beach</a><br><b>"+locationName+", India</b><br>December 10, 2014").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(15.0858, 74.2297)".split("+");
+				var locationNames = "Netravali, Goa".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(15.0858, 74.2297)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/netravali/' target='_blank' >Netravali Fall Trek</a><br><b>"+locationName+", India</b><br>October 02, 2014").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(15.3112, 73.9018)".split("+");
+				var locationNames = "Goa".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(15.3112, 73.9018)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/majorda/' target='_blank' >Majorda Beach</a><br><b>"+locationName+", India</b><br>September 17, 2014").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(15.2209, 73.9290) + (15.5009, 73.9116)".split("+");
+				var locationNames = "Goa".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(15.2209, 73.9290) + (15.5009, 73.9116)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/goa/' target='_blank' >Init Goa</a><br><b>"+locationName+", India</b><br>August 02, 2014").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(17.3850, 78.4867)".split("+");
+				var locationNames = "Hyderabad".split("+");
+				var markersizeList = "".split("+");
+
+				if("(17.3850, 78.4867)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/hyderabad/' target='_blank' >Short Trip to Hyderabad</a><br><b>"+locationName+", India</b><br>June 08, 2014").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(26.2183, 78.1828)".split("+");
+				var locationNames = "Gwalior".split("+");
+				var markersizeList = "".split("+");
+
+				if("(26.2183, 78.1828)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/gwalior/' target='_blank' >Gwalior</a><br><b>"+locationName+", India</b><br>March 26, 2013").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(12.3375, 75.8069) + (12.2958, 76.5394)".split("+");
+				var locationNames = "Coorg + Mysore".split("+");
+				var markersizeList = "med".split("+");
+
+				if("(12.3375, 75.8069) + (12.2958, 76.5394)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/coorg-mysore/' target='_blank' >Coorg via Mysore</a><br><b>"+locationName+", India</b><br>March 25, 2012").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(12.9716, 77.5946)".split("+");
+				var locationNames = "Bangalore".split("+");
+				var markersizeList = "".split("+");
+
+				if("(12.9716, 77.5946)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/bangalore/' target='_blank' >Bangalore</a><br><b>"+locationName+", India</b><br>October 15, 2011").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(26.9124, 75.7873)".split("+");
+				var locationNames = "Jaipur".split("+");
+				var markersizeList = "".split("+");
+
+				if("(26.9124, 75.7873)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/jaipur/' target='_blank' >Royal Jaipur</a><br><b>"+locationName+", India</b><br>January 02, 2011").addTo(map);
+					})
+				}
+			
+		
+		    
+				var coordiList = "(28.6692, 77.4538)".split("+");
+				var locationNames = "Ghaziabad".split("+");
+				var markersizeList = "small".split("+");
+
+				if("(28.6692, 77.4538)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/annual-func-exhib/post/' target='_blank' >Celebrations at DPSG</a><br><b>"+locationName+", India</b><br>November 24, 2010").addTo(map);
+					})
+				}
+			
+		
+		    
+		
+		    
+				var coordiList = "(25.1528, 73.5870) + (24.8887, 74.6269) + (24.5854, 73.7125)".split("+");
+				var locationNames = "Kumbalgarh + Chittorgarh + Udaipur".split("+");
+				var markersizeList = "".split("+");
+
+				if("(25.1528, 73.5870) + (24.8887, 74.6269) + (24.5854, 73.7125)".length > 0){
+					coordiList.forEach(function(coordinateString, i){
+					var coordinate = coordinateString.replace(/[{()}]/g, '').trim().split(",").map(Number);
+					var locationName = locationNames[i];
+					var MarkerSize = markersizeList[i];
+					if(locationName === undefined){
+						locationName = locationNames[0]
+					}
+					locationName = locationName.trim()
+					if(MarkerSize === undefined){
+						MarkerSize = markersizeList[0];
+					}
+					var circle = L.circle(coordinate, {
+						color: 'red',
+						fillColor: '#f03',
+						fillOpacity: 0.5,
+						radius: getRadius(MarkerSize.trim())
+						}).bindPopup("<a href='/blog/kumbalgarh/' target='_blank' >Forts of Rajasthan</a><br><b>"+locationName+", India</b><br>October 10, 2010").addTo(map);
+					})
+				}
+			
+		
+	</script>
+</body>
+</html>
+
+
+  </div>
+  <div class="two columns">&nbsp;</div>
+
+  </div>
+</div>
+
+
+
+  <div class="container">
+    <div class="row rownav" style="margin-top: 0px;">
+      <ul class="twelve columns nav">
+        <li><a href="/blog/">Home</a></li>
+        <!-- <li><a href="/blog/people">People</a></li> -->
+        <li><a href="https://rohangoel.com" target="_blank">About Me</a></li>
+        <li><a href="mailto:rohangoel0296@gmail.com" target="_blank">Contact Me</a></li>
+        <!-- <li><a href="/blog/software/">Software</a></li> -->
+      </ul>
+    </div>
+    <div class="row" style="margin-bottom: 0px;padding-bottom: 30px;">
+      <div class="two columns">&nbsp;</div>
+      <div class="eight columns" id="contact" style="text-align:center;">
+        Made with ❤ by <a href="/">Rohan Goel</a>
+        </div>
+      <div class="two columns">&nbsp;</div>
+    </div>
+  </div>
+     <div id="fb-root"></div>
+   <script>(function(d, s, id) {
+   var js, fjs = d.getElementsByTagName(s)[0];
+   if (d.getElementById(id)) return;
+   js = d.createElement(s); js.id = id;
+   js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=1294731970631473";
+   fjs.parentNode.insertBefore(js, fjs);
+   }(document, "script", "facebook-jssdk"));</script>
+</body>
+
+</html>
