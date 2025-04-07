@@ -204,14 +204,15 @@ def main(args: argparse.Namespace):
             current_post_date = current_post.taken_at.date()
 
             if date_to_search_for:
-                if date_to_search_for < current_post_date:
+                if date_to_search_for != current_post_date:
                     logger.info("Found post with date {}, continuing on until we find {}".format(current_post_date, date_to_search_for))
                     continue
-                if date_to_search_for > current_post_date:
-                    logger.info("Found post with date {}, which is after {}, the date we were searching for. Exiting..".format(current_post_date,
-                                                                                           date_to_search_for))
-                    should_get_next_page = False
-                    break
+                # comment since post in timeline are not strictly decreasing - when there are pinned posts
+                # if date_to_search_for > current_post_date:
+                #     logger.info("Found post with date {}, which is after {}, the date we were searching for. Exiting..".format(current_post_date,
+                #                                                                            date_to_search_for))
+                #     should_get_next_page = False
+                #     break
 
             logger.info("\nProcessing post {} from {} with description: {}".format(current_post.pk, current_post_date.isoformat(), current_post.caption_text))
 
@@ -308,6 +309,11 @@ def main(args: argparse.Namespace):
 
             # If we made it this far successfully, let's prevent ourselves from processing this post again
             add_to_exclusion_file(current_post.pk)
+
+            if date_to_search_for:
+                # processed date to search for, break
+                logger.info("Finished requested date")
+                break
 
         if media_found_count >= total_media_count:
             logger.info("Reached last post in the feed.")
