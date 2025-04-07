@@ -5,3 +5,6 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+#Ignore files from the Instagram download script
+.insta_session.json

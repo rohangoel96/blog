@@ -14,7 +14,7 @@ author:      Rohan Goel
 email:       rohangoel0296@gmail.com
 # qoute:       High on Travelling
 
-exclude:     [_site, .insta_exclude_list]
+exclude:     [_site, .insta_exclude_list.txt, .insta_session.json]
 
 url: https://rohangoel.com
 baseurl: /blog

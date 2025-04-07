@@ -70,12 +70,16 @@ description: People whom I shared memories with
                 {% assign post_number = forloop.index %}
                 var post_number = {{post_number}};
 
-                {% if page.my_arr == nil %}
-                  {% assign posts = page.photos | map: 'caption' %}
+                {% if page.photos %}
+                    {% assign posts = page.photos | map: "caption" %}
                 {% else %}
-                  {% assign posts = page.my_arr | split: "|" %}
+                    {% assign posts = page.my_arr | split: "|" %}
                 {% endif %}
+
                 {% for post in posts %}
+                    {% if post == nil %}
+                        {% continue %}
+                    {% endif %}
                     var para = {{post | jsonify }};
                     var splittedAt = para.split("@");
                     if(splittedAt.length > 1){
