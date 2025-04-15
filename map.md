@@ -64,9 +64,32 @@ description: Map showcasing the travelled places.
 			<span title="7.Spain" class="flag-icon flag-icon-es" data-toggle="tooltip"></span>
 			<span title="8.Thailand" class="flag-icon flag-icon-th" data-toggle="tooltip"></span>
 			<span title="9.USA" class="flag-icon flag-icon-us" data-toggle="tooltip"></span>
+			<span title="10.Malaysia" class="flag-icon flag-icon-my" data-toggle="tooltip"></span>
+			<span title="11.UAE" class="flag-icon flag-icon-ae" data-toggle="tooltip"></span>
+			<span title="12.Canada" class="flag-icon flag-icon-ca" data-toggle="tooltip"></span>
+			<span title="13.Mexico" class="flag-icon flag-icon-mx" data-toggle="tooltip"></span>
+			<span title="14.Turkey" class="flag-icon flag-icon-tr" data-toggle="tooltip"></span>
+			<span title="15.Singapore" class="flag-icon flag-icon-sg" data-toggle="tooltip"></span>
+			<span title="16.Qatar" class="flag-icon flag-icon-qa" data-toggle="tooltip"></span>
+			<span title="17.Vatican" class="flag-icon flag-icon-va" data-toggle="tooltip"></span>
+			<span title="18.Italy" class="flag-icon flag-icon-it" data-toggle="tooltip"></span>
+			<span title="19.San Marino" class="flag-icon flag-icon-sm" data-toggle="tooltip"></span>
+			<span title="20.Portugal" class="flag-icon flag-icon-pt" data-toggle="tooltip"></span>
+			<span title="21.South Korea" class="flag-icon flag-icon-kr" data-toggle="tooltip"></span>
+			<span title="22.Ethiopia" class="flag-icon flag-icon-et" data-toggle="tooltip"></span>
+			<span title="23.HongKong" class="flag-icon flag-icon-hk" data-toggle="tooltip"></span>
+			<span title="24.Germany" class="flag-icon flag-icon-de" data-toggle="tooltip"></span>
+			<span title="25.Czech Republic" class="flag-icon flag-icon-cz" data-toggle="tooltip"></span>
+			<span title="26.Slovakia" class="flag-icon flag-icon-sk" data-toggle="tooltip"></span>
+			<span title="27.Austria" class="flag-icon flag-icon-at" data-toggle="tooltip"></span>
+			<span title="28.Crotia" class="flag-icon flag-icon-hr" data-toggle="tooltip"></span>
+			<span title="29.Slovenia" class="flag-icon flag-icon-si" data-toggle="tooltip"></span>
+			<span title="30.Hungary" class="flag-icon flag-icon-hu" data-toggle="tooltip"></span>
+			<span title="31.Greece" class="flag-icon flag-icon-gr" data-toggle="tooltip"></span>
+
 		</center>
 		<center>
-        <span style="font-size: 0.8em;">Count = 9</span>
+        <span style="font-size: 0.8em;">Count = 31</span>
 		</center>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

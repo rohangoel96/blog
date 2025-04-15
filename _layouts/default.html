@@ -22,7 +22,9 @@
   <title>{{ page.title }}</title>
   {% endif %}
 
-  <meta name="description" content="{{ site.title }}. {{ site.author }}. {{ page.description }}">
+  {% assign cleandesc = page.description | strip_html %}
+
+  <meta name="description" content="{{ site.title }}. {{ site.author }}. {{ cleandesc }}">
   <meta name="author" content="{{ site.author }}">
 
   <meta name="date.created" content="{{ page.date | date: '%Y-%m-%d' }}">
@@ -33,10 +35,10 @@
   <meta property="og:title" content="{{ page.title }}"/>
   <meta property="og:url" content="https://rohangoel.com/blog"/>
   <meta property="og:site_name" content="MemExp"/>
-  <meta property="og:description" content="{{ page.description }}"/>
+  <meta property="og:description" content="{{ cleandesc }}"/>
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:url" content="https://rohangoel.com/blog" />
-  <meta name="twitter:card" content="{{ page.description }}" />
+  <meta name="twitter:card" content="{{ cleandesc }}" />
   {% if page.image == null %}
   <meta property="og:image" content="https://www.shareicon.net/download/2016/08/31/821514_earth_512x512.png"/>
   <meta name="twitter:image" content="https://www.shareicon.net/download/2016/08/31/821514_earth_512x512.png" />
