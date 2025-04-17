@@ -7,7 +7,7 @@ location: Mumbai + Pune + Bangalore + Delhi
 country: India
 coordi: (19.1860, 73) + (18.5204, 73.8567) + (12.9716, 77.8846) + (28.7041, 77.1025)
 image: /img/2019/7-farewell/cover-min.jpg
-MarkerSize: med
+MarkerSize: small
 permalink:
 publish: yes
 
