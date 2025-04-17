@@ -1,0 +1,172 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/kenwheeler/slick/master/slick/slick.min.js"/>
+<style>
+.myimg {
+    height:90%;
+    display: block;
+    margin: 0 auto;
+	object-fit: contain;
+    width: 100%;
+}
+body {
+	background: black;
+	overflow: hidden
+}
+.text {
+	color: white;
+	text-align: center;
+	height: 9%;
+	margin: 5px auto;
+	padding: 0 5%;
+}
+.arrow-holder {
+	margin: 10px auto;
+	height: 3%;
+	text-align:center;
+}
+.auto-play-carousel{
+	height: 95%
+}
+.cont {
+    height:100%;
+    display: block;
+    margin: 0 auto;
+}
+</style>
+</head>
+<body>
+</head>
+
+
+
+
+
+<div class="arrow-holder">
+	<button type="button" class="slick-prev slick-btn">Previous</button>
+	
+	<button type="button" class="slick-next slick-btn">Next</button>
+</div>
+
+<div class="auto-play-carousel">
+
+
+
+
+
+
+	
+		
+		  
+			<div class='cont' id="1" class="center" style="background: black"><img class="myimg" src="/blog/img/2021/8-rattlesnake/1.jpg" alt="=Rattling Rattlesnake. MemExp Blog. Rohan Goel" title="Rattling Rattlesnake - MemExp Blog"><div class="text"> Just as we arrive at the trailhead we saw the view of Rattlesnake Ledge's sheer rock face hiding amongst the clouds across Rattlesnake Lake. </div></div>
+		  
+		
+	
+
+
+
+
+
+
+	
+		
+		  
+			<div class='cont' id="2" class="center" style="background: black"><img class="myimg" src="/blog/img/2021/8-rattlesnake/2.jpg" alt="=Rattling Rattlesnake. MemExp Blog. Rohan Goel" title="Rattling Rattlesnake - MemExp Blog"><div class="text"> Famously called "greeter" boulder, welcomes you as you start the hike! </div></div>
+		  
+		
+	
+
+
+
+
+
+
+	
+		
+		  
+			<div class='cont' id="3" class="center" style="background: black"><img class="myimg" src="/blog/img/2021/8-rattlesnake/3.jpg" alt="=Rattling Rattlesnake. MemExp Blog. Rohan Goel" title="Rattling Rattlesnake - MemExp Blog"><div class="text"> As we climbed up, the fog started to set in and we found ourselves amongst clouds and long moss covered trees! </div></div>
+		  
+		
+	
+
+
+
+
+
+
+	
+		
+		  
+			<div class='cont' id="4" class="center" style="background: black"><img class="myimg" src="/blog/img/2021/8-rattlesnake/4.jpg" alt="=Rattling Rattlesnake. MemExp Blog. Rohan Goel" title="Rattling Rattlesnake - MemExp Blog"><div class="text"> Wallpaper material? </div></div>
+		  
+		
+	
+
+
+
+
+
+
+	
+		
+		  
+			<div class='cont' id="5" class="center" style="background: black"><img class="myimg" src="/blog/img/2021/8-rattlesnake/5.jpg" alt="=Rattling Rattlesnake. MemExp Blog. Rohan Goel" title="Rattling Rattlesnake - MemExp Blog"><div class="text"> Nice view of Rattlesnake Lake from the Rattlesnake ledge. I would definitely want to come back on a sunny/ clear day here haha! </div></div>
+		  
+		
+	
+
+
+
+
+
+
+	
+		
+		  
+			<div class='cont' id="6" class="center" style="background: black"><img class="myimg" src="/blog/img/2021/8-rattlesnake/6.jpg" alt="=Rattling Rattlesnake. MemExp Blog. Rohan Goel" title="Rattling Rattlesnake - MemExp Blog"><div class="text"> Above the clouds, lol? </div></div>
+		  
+		
+	
+
+
+
+
+
+
+	
+		
+		  
+			<div class='cont' id="7" class="center" style="background: black"><img class="myimg" src="/blog/img/2021/8-rattlesnake/7.jpg" alt="=Rattling Rattlesnake. MemExp Blog. Rohan Goel" title="Rattling Rattlesnake - MemExp Blog"><div class="text"> Memories shared with @<a href='/blog/people#ShlokGujar' target='_blank'>ShlokGujar</a> @<a href='/blog/people#AyushSharma' target='_blank'>AyushSharma</a> @<a href='/blog/people#PadmaCheruvu' target='_blank'>PadmaCheruvu</a> <br> Call out to Ayush for his first hike in PNW! </div></div>
+		  
+		
+	
+
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function(){
+      $('.auto-play-carousel').slick({
+		infinite: true,
+		slidesToShow: 1,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		pauseOnFocus: true,
+		pauseOnHover: false,
+		arrows: false,
+      });
+
+	  $('.slick-next').on('click', function(){
+		  $('.auto-play-carousel').slick('slickNext')
+	  })
+
+	  $('.slick-prev').on('click', function(){
+		  $('.auto-play-carousel').slick('slickPrev')
+	  })
+    });
+</script>
+</body>
+</html>
