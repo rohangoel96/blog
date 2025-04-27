@@ -9,7 +9,7 @@ location: Hollywood, LA
 country: USA
 coordi: (34.25, -118.33)
 image: /img/2019/12-universal/cover-min.jpg
-MarkerSize: med
+MarkerSize: small
 ext: jpg
 permalink:
 publish: yes

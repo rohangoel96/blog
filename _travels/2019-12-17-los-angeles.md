@@ -7,9 +7,9 @@ type: photos
 category: travel
 location: Los Angeles
 country: USA
-coordi: (34.0522, -118.2437)
+coordi: (34.1, -118.18)
 image: /img/2019/12-la/cover-min.jpg
-MarkerSize: med
+MarkerSize: small
 ext: jpg
 permalink:
 publish: yes

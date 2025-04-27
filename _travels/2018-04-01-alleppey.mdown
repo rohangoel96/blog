@@ -5,7 +5,7 @@ type: photos
 category: travel
 location: Alleppey + Kochi
 country: India
-MarkerSize: med + med
+MarkerSize: med + small
 coordi: (9.4981, 76.3388) + (9.9312, 76.2673)
 image: /img/2018/4-alleppey/cover-min.jpg
 permalink:

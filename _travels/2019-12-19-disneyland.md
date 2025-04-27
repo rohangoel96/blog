@@ -9,7 +9,7 @@ location: Anaheim, LA
 country: USA
 coordi: (33.78, -117.88)
 image: /img/2019/12-disneyland/cover-min.jpg
-MarkerSize: med
+MarkerSize: small
 ext: jpg
 permalink:
 publish: yes
