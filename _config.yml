@@ -12,12 +12,26 @@ permalink:   /:year/:month/:title
 title:       MemExp Blog
 author:      Rohan Goel
 email:       rohangoel0296@gmail.com
+description: A travel blog documenting memories and experiences from around the world
+language:    en-us
 # qoute:       High on Travelling
 
 exclude:     [_site, .insta_exclude_list.txt, .insta_session.json]
 
 url: https://rohangoel.com
 baseurl: /blog
+
+# Social media profiles
+social:
+  instagram: goelrohan
+  facebook: rohangoel96
+  linkedin: rohangoel96
+  github: rohangoel96
+
+# SEO settings
+seo:
+  name: MemExp Blog
+  type: BlogPosting
 
 collections:
   travels:

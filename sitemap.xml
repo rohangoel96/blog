@@ -2,32 +2,51 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+      <loc>{{ site.url }}{{site.baseurl}}/</loc>
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+  </url>
   <url>
       <loc>{{ site.url }}{{site.baseurl}}/map</loc>
       <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
       <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
+      <priority>0.9</priority>
   </url>
   <url>
-      <loc>{{ site.url }}</loc>
+      <loc>{{ site.url }}{{site.baseurl}}/people</loc>
       <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
   </url>
   {% for post in site.travels %}
     {% unless post.url contains 'slideshow' %}
     <url>
-      <loc>{{ site.url }}{{site.baseurl}}{{ post.url }}</loc>
+      <loc>{{ site.url }}{{site.baseurl}}{{ post.url | split: '/post' | first }}</loc>
       {% if post.lastmod == null %}
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-        <!-- <lastmod>{{ post.date | date_to_xmlschema }}</lastmod> -->
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
       {% else %}
-         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-        <!-- <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod> -->
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
       {% endif %}
-      <changefreq>weekly</changefreq>
+      <changefreq>monthly</changefreq>
       <priority>0.8</priority>
+      
+      {% assign img_dir = post.url | split: '/' %}
+      {% if img_dir[1] and img_dir[2] %}
+        {% assign year = img_dir[1] | slice: 0, 4 %}
+        {% assign month = img_dir[1] | slice: 5, 2 %}
+        {% assign img_path = 'img/' | append: year | append: '/' | append: month | append: '-' | append: img_dir[2] | append: '/1.jpg' %}
+        <image:image>
+          <image:loc>{{ site.url }}{{site.baseurl}}/{{ img_path }}</image:loc>
+          <image:title>{{ post.title }}</image:title>
+          <image:caption>{{ post.title }} - {{ site.title }}</image:caption>
+        </image:image>
+      {% endif %}
     </url>
     {% endunless %}
   {% endfor %}

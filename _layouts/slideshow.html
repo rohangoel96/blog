@@ -162,9 +162,12 @@
   </style>
 </head>
 <body>
-  <!-- Return to post link - Fixed to use direct URL -->
-  {% assign post_url = page.url | split: "/slideshow" | first %}
-  <a href="{{site.baseurl}}{{post_url}}" class="return-link">
+  <!-- Return to post link - Simplified -->
+  {% assign post_name = page.url | split: '/' | last | split: 'slideshow' | first %}
+  {% if post_name == '' %}
+    {% assign post_name = page.url | split: '/' | slice: -2, 1 | first %}
+  {% endif %}
+  <a href="{{site.baseurl}}/{{post_name}}" class="return-link">
     <i class="fas fa-arrow-left"></i> Return to post
   </a>
   

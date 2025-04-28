@@ -1,0 +1,10 @@
+# robots.txt for https://rohangoel.com/blog
+
+User-agent: *
+Allow: /
+
+# Don't index slideshow versions of posts
+Disallow: */slideshow
+
+# Allow all bots to access the sitemap
+Sitemap: https://rohangoel.com/blog/sitemap.xml

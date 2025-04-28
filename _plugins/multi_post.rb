@@ -8,16 +8,22 @@ module Jekyll
       layout_path = CGI.escape(layout)
       url = resource.url
       ext = File.extname(url)
-
+      
+      # Extract the post name (last part of the URL)
+      post_name = url.split('/').last
+      post_name = post_name.gsub(ext, '') if !ext.empty?
+      
       if url.include?(':layout')
         return url.gsub(/:layout/, layout_path)
       end
 
-      if ext.empty?
-        "#{url}/#{layout_path}/"
-      else
-        url.gsub(/\/$|#{ext}$/) { |url_end| "/#{layout_path}#{url_end}" }
+      # Special case for 'post' layout - use clean URL
+      if layout == 'post'
+        return "/#{post_name}/"
       end
+
+      # For other layouts like slideshow, append the layout name
+      return "/#{post_name}/#{layout_path}/"
     end
   end
 

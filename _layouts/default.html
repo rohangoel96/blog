@@ -8,10 +8,8 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    // ga('require', 'linkid');
-    gtag('config', 'UA-114821832-1');
-    ga('send', 'pageview', {
-      'page': location.pathname + location.search  + location.hash
+    gtag('config', 'UA-114821832-1', {
+      'page_path': location.pathname + location.search + location.hash
     });
   }
   </script>
@@ -24,21 +22,25 @@
 
   {% assign cleandesc = page.description | strip_html %}
 
-  <meta name="description" content="{{ site.title }}. {{ site.author }}. {{ cleandesc }}">
+  <meta name="description" content="{% if cleandesc %}{{ cleandesc }}{% else %}{{ site.title }} - Travel blog by {{ site.author }}{% endif %}">
   <meta name="author" content="{{ site.author }}">
+  <meta name="keywords" content="{% if page.location %}{{ page.location }}, {{ page.country }}, travel, blog, photography{% if page.title %}, {{ page.title }}{% endif %}{% else %}travel, blog, photography, memories, experiences{% endif %}">
 
   <meta name="date.created" content="{{ page.date | date: '%Y-%m-%d' }}">
   <meta name="date.available" content="{{ page.date | date: '%Y-%m-%d' }}">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' | split: '/post' | first }}">
 
   <!-- Facebook and Twitter integration -->
   <meta property="fb:app_id" content="1294731970631473">
-  <meta property="og:title" content="{{ page.title }}"/>
-  <meta property="og:url" content="https://rohangoel.com/blog"/>
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' | split: '/post' | first }}"/>
   <meta property="og:site_name" content="MemExp"/>
   <meta property="og:description" content="{{ cleandesc }}"/>
-  <meta name="twitter:title" content="{{ page.title }}" />
-  <meta name="twitter:url" content="https://rohangoel.com/blog" />
-  <meta name="twitter:card" content="{{ cleandesc }}" />
+  <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}"/>
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' | split: '/post' | first }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:description" content="{{ cleandesc }}" />
   {% if page.image == null %}
   <meta property="og:image" content="https://www.shareicon.net/download/2016/08/31/821514_earth_512x512.png"/>
   <meta name="twitter:image" content="https://www.shareicon.net/download/2016/08/31/821514_earth_512x512.png" />
@@ -48,6 +50,47 @@
   {% endif %}
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Structured Data for Travel Blog Posts -->
+  {% if page.layout == 'post' or page.layout == 'post_layout' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ page.title }}",
+    "image": "{{ site.url }}{{ site.baseurl }}{{ page.image }}",
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.date | date_to_xmlschema }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ site.author }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.title }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.shareicon.net/download/2016/08/31/821514_earth_512x512.png"
+      }
+    },
+    "description": "{{ cleandesc }}",
+    {% if page.location %}
+    "contentLocation": {
+      "@type": "Place",
+      "name": "{{ page.location }}",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "{{ page.country }}"
+      }
+    },
+    {% endif %}
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' | split: '/post' | first }}"
+    }
+  }
+  </script>
+  {% endif %}
 
   <!-- Modern fonts from Google -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">

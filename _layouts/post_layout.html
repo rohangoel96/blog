@@ -18,9 +18,10 @@ layout: page
         <i class="far fa-calendar-alt"></i> {{ page.date | date: "%B %d, %Y"}}
       </div>
       
-      {% if splitpage[-1] == 'post' %}
+      {% if page.layout == 'post' %}
       <div class="slideshow-link">
-        <a href="{{site.baseurl}}/{{splitpage[-2]}}/slideshow/" target="_blank">
+        {% assign post_name = page.url | split: '/' | last %}
+        <a href="{{site.baseurl}}/{{post_name}}/slideshow/" target="_blank">
           <i class="fas fa-play-circle"></i> View as slideshow
         </a>
       </div>
@@ -39,9 +40,4 @@ layout: page
 <!-- Post Content -->
 <div class="post-content">
   {{ content }}
-</div>
-
-<!-- Comments Section -->
-<div class="comments-section">
-  <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}"></div>
 </div>
