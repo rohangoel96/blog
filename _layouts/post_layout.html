@@ -9,7 +9,7 @@ layout: page
   {% assign splitpage = page.url | split: "/" %}
   <div class="post-meta">
     <div class="post-location">
-      <a href="{{site.baseurl}}/map" target="_blank">
+      <a href="{{site.baseurl}}/map?location={{ page.location | url_encode }}&country={{ page.country | url_encode }}&coordi={{ page.coordi | url_encode }}" target="_blank">
         <i class="fas fa-map-marker-alt"></i> {{ page.location }}, {{ page.country }}
       </a>
     </div>
