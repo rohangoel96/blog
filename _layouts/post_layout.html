@@ -2,20 +2,46 @@
 layout: page
 ---
 
-<h4 style="margin-bottom: 0px;">{{ page.title }}</h4>
-{% assign splitpage = page.url | split: "/" %}
-{% if splitpage[-1] == 'post' %}
-<div style="text-align:center"><a href="{{site.baseurl}}/map" target="_blank">{{ page.location }}, {{ page.country }} </a>  - {{ page.date | date: "%B %d, %Y"}}</div>
-<div style="text-align:center; padding: 10px 0 15px 0; font-size: 0.8em"><a href="{{site.baseurl}}/{{splitpage[-2]}}/slideshow/" target="_blank">View as slideshow</a></div>
-{% else %}
-<div style="text-align:center; padding: 0 0 30px 0"><a href="{{site.baseurl}}/map" target="_blank">{{ page.location }}, {{ page.country }} </a>  - {{ page.date | date: "%B %d, %Y"}}</div>
-{% endif %}
-<center>
-<i>
-{{ page.description }}
-</i>
-</center>
-<br>
-{{ content }}
+<!-- Post Header with Location and Date -->
+<div class="post-header">
+  <h2 class="post-title">{{ page.title }}</h2>
+  
+  {% assign splitpage = page.url | split: "/" %}
+  <div class="post-meta">
+    <div class="post-location">
+      <a href="{{site.baseurl}}/map" target="_blank">
+        <i class="fas fa-map-marker-alt"></i> {{ page.location }}, {{ page.country }}
+      </a>
+    </div>
+    <div class="date-slideshow-container">
+      <div class="post-date">
+        <i class="far fa-calendar-alt"></i> {{ page.date | date: "%B %d, %Y"}}
+      </div>
+      
+      {% if splitpage[-1] == 'post' %}
+      <div class="slideshow-link">
+        <a href="{{site.baseurl}}/{{splitpage[-2]}}/slideshow/" target="_blank">
+          <i class="fas fa-play-circle"></i> View as slideshow
+        </a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  
+  <!-- Post Description -->
+  {% if page.description %}
+  <div class="post-description">
+    {{ page.description }}
+  </div>
+  {% endif %}
+</div>
 
-<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}"></div>
+<!-- Post Content -->
+<div class="post-content">
+  {{ content }}
+</div>
+
+<!-- Comments Section -->
+<div class="comments-section">
+  <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}"></div>
+</div>

@@ -1,116 +1,285 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} - Slideshow</title>
+  
+  <!-- Simplified slideshow styling -->
+  
+  <!-- Modern fonts from Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+  <!-- Slick Carousel CSS -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/kenwheeler/slick/master/slick/slick.min.js"/>
-<style>
-.myimg {
-    height:90%;
-    display: block;
-    margin: 0 auto;
-	object-fit: contain;
-    width: 100%;
-}
-body {
-	background: black;
-	overflow: hidden
-}
-.text {
-	color: white;
-	text-align: center;
-	height: 9%;
-	margin: 5px auto;
-	padding: 0 5%;
-}
-.arrow-holder {
-	margin: 10px auto;
-	height: 3%;
-	text-align:center;
-}
-.auto-play-carousel{
-	height: 95%
-}
-.cont {
-    height:100%;
-    display: block;
-    margin: 0 auto;
-}
-</style>
+  
+  <style>
+    /* Modern slideshow styling */
+    body {
+      background: #111;
+      overflow: auto;
+      margin: 0;
+      padding: 0;
+      font-family: 'Open Sans', sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .myimg {
+      max-height: 80vh; /* Use viewport height instead of percentage */
+      display: block;
+      margin: 0 auto;
+      object-fit: contain;
+      width: auto; /* Allow width to adjust based on aspect ratio */
+      max-width: 95%; /* Prevent image from overflowing container */
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    
+    .text {
+      color: white;
+      text-align: center;
+      min-height: 60px; /* Minimum height for text */
+      margin: 20px auto;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      line-height: 1.6;
+      background-color: rgba(0,0,0,0.7); /* Darker background for better visibility */
+      border-radius: 6px;
+      padding: 15px 10%;
+      max-width: 90%;
+    }
+    
+    .arrow-holder {
+      margin: 15px auto;
+      height: 3%;
+      text-align: center;
+    }
+    
+    .auto-play-carousel {
+      height: auto;
+      min-height: 80vh;
+      padding-bottom: 20px;
+    }
+    
+    .cont {
+      height: auto;
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+    
+    /* Modern button styling */
+    .slick-btn {
+      background: rgba(255,255,255,0.2);
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      margin: 0 5px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .slick-btn:hover {
+      background: rgba(255,255,255,0.4);
+    }
+    
+    /* Return to post link */
+    .return-link {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: white;
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      background: rgba(0,0,0,0.5);
+      padding: 5px 10px;
+      border-radius: 4px;
+      z-index: 100;
+      transition: background 0.3s ease;
+    }
+    
+    .return-link:hover {
+      background: rgba(0,0,0,0.7);
+    }
+    
+    /* Responsive styles for different screen sizes */
+    @media only screen and (max-width: 768px) {
+      .myimg {
+        max-height: 70vh;
+      }
+      
+      .text {
+        font-size: 14px;
+        padding: 8px;
+        margin: 10px auto;
+      }
+      
+      .cont {
+        padding: 10px 0;
+      }
+      
+      .arrow-holder {
+        margin: 10px auto;
+      }
+      
+      .slick-btn {
+        padding: 6px 12px;
+        font-size: 14px;
+      }
+    }
+    
+    @media only screen and (max-width: 480px) {
+      .myimg {
+        max-height: 60vh;
+      }
+      
+      .text {
+        font-size: 12px;
+        padding: 5px;
+      }
+      
+      .slick-btn {
+        padding: 5px 10px;
+        font-size: 12px;
+      }
+      
+      .return-link {
+        font-size: 12px;
+        padding: 4px 8px;
+      }
+    }
+  </style>
 </head>
 <body>
-</head>
-{% if page.photos %}
-  {% assign posts = page.photos | reject: 'image', nil | map: 'caption' %}
-{% else %}
-  {% assign posts = page.my_arr | split: "|" %}
-{% endif %}
+  <!-- Return to post link - Fixed to use direct URL -->
+  {% assign post_url = page.url | split: "/slideshow" | first %}
+  <a href="{{site.baseurl}}{{post_url}}" class="return-link">
+    <i class="fas fa-arrow-left"></i> Return to post
+  </a>
+  
+  <!-- Simplified slideshow with no headers -->
 
-{% assign cover_image = page.image | split: "/" %}
-{% assign img_dir = page.image | split: "/" %}
+  <!-- Process photos for slideshow -->
+  {% if page.photos %}
+    {% assign posts = page.photos | reject: 'image', nil | map: 'caption' %}
+  {% else %}
+    {% assign posts = page.my_arr | split: "|" %}
+  {% endif %}
 
-<div class="arrow-holder">
-	<button type="button" class="slick-prev slick-btn">Previous</button>
-	{% comment %} <button type="button" class="slick-pauseplay slick-btn">Pause/Play</button> {% endcomment %}
-	<button type="button" class="slick-next slick-btn">Next</button>
-</div>
+  {% assign cover_image = page.image | split: "/" %}
+  {% assign img_dir = page.image | split: "/" %}
 
-<div class="auto-play-carousel">
-{% for post in posts %}
-{% assign postworkingcopy = post %}
-{% if post contains "@" %}
-{% assign mentions = post | split:"@" %}
-{% for mention in mentions %}
-    {% if forloop.index > 1 %}
-	{% assign cleanmention = mention | strip | split: ' '%}
-	{% assign finalmention = cleanmention[0] | remove: ','  | remove: '.' | remove: '!' %}
-	{% assign basepeople = "/people#" | escape%}
-	{% assign mentionlink = "" | append: "<a href='"| append: site.baseurl | append: basepeople | append: finalmention | append: "' target='_blank'>" | append: finalmention | append: "</a>"%}
-	{% assign postworkingcopy = postworkingcopy | replace: finalmention,  mentionlink %}
-	{% endif %}
-{% endfor %}
-{% endif %}
-{% assign firstfour = postworkingcopy | slice: 0, 5 %}
-{% assign postSpecialChar = postworkingcopy | split: "!!raw!!" %}
-{% assign postSpecialChar2 = postworkingcopy | split: "!!GIF!!" %}
-	{% if post contains "!!raw!!" %}
-		{% comment %} {{ postSpecialChar }} {% endcomment %}
-	{% elsif postworkingcopy contains "!!skip!!" %}
-	{% else %}
-		{% if postworkingcopy contains "!!GIF!!"%}
-			<div class='cont' id="{{forloop.index}}" class="center" style="background: black"><img class="myimg" src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index0}}.gif" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}"><div class="text">{{postSpecialChar2}}</div></div>
-		{% else %}
-		  {% if page.photos[forloop.index0].image %}
-            <div class='cont' id="{{forloop.index}}" class="center" style="background: black"><img class="myimg" src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.{{page.ext}}" alt="={{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}"><div class="text">{{postworkingcopy}}</div></div>
-		  {% elsif page.my_arr %}
-			<div class='cont' id="{{forloop.index}}" class="center" style="background: black"><img class="myimg" src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.{{page.ext}}" alt="={{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}"><div class="text">{{postworkingcopy}}</div></div>
-		  {% endif %}
-		{% endif %}
-	{% endif %}
-{% endfor %}
-</div>
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script type="text/javascript">
-{% comment %} https://kenwheeler.github.io/slick/ {% endcomment %}
+  <!-- Navigation buttons -->
+  <div class="arrow-holder">
+    <button type="button" class="slick-prev slick-btn"><i class="fas fa-chevron-left"></i> Previous</button>
+    <button type="button" class="slick-next slick-btn">Next <i class="fas fa-chevron-right"></i></button>
+  </div>
+
+  <!-- Slideshow carousel -->
+  <div class="auto-play-carousel">
+    {% for post in posts %}
+      {% assign postworkingcopy = post %}
+      {% if post contains "@" %}
+        {% assign mentions = post | split:"@" %}
+        {% for mention in mentions %}
+          {% if forloop.index > 1 %}
+            {% assign cleanmention = mention | strip | split: ' '%}
+            {% assign finalmention = cleanmention[0] | remove: ','  | remove: '.' | remove: '!' %}
+            {% assign basepeople = "/people#" | escape%}
+            {% assign mentionlink = "" | append: "<a href='"| append: site.baseurl | append: basepeople | append: finalmention | append: "' target='_blank'>" | append: finalmention | append: "</a>"%}
+            {% assign postworkingcopy = postworkingcopy | replace: finalmention,  mentionlink %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% assign firstfour = postworkingcopy | slice: 0, 5 %}
+      {% assign postSpecialChar = postworkingcopy | split: "!!raw!!" %}
+      {% assign postSpecialChar2 = postworkingcopy | split: "!!GIF!!" %}
+      
+      {% if post contains "!!raw!!" %}
+        {% comment %} {{ postSpecialChar }} {% endcomment %}
+      {% elsif postworkingcopy contains "!!skip!!" %}
+        <!-- Skip this slide -->
+      {% else %}
+        {% if postworkingcopy contains "!!GIF!!"%}
+          <div class='cont' id="{{forloop.index}}">
+            <img class="myimg" src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.gif" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}">
+            <div class="text">{{postSpecialChar2}}</div>
+          </div>
+        {% else %}
+          {% if page.photos %}
+            {% if page.photos[forloop.index0].image %}
+              {% assign img_path = page.photos[forloop.index0].image %}
+              <div class='cont' id="{{forloop.index}}">
+                <img class="myimg" src="{{site.baseurl}}/{{img_path}}" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}">
+                <div class="text">{{postworkingcopy}}</div>
+              </div>
+            {% endif %}
+          {% elsif page.my_arr %}
+            <div class='cont' id="{{forloop.index}}">
+              <img class="myimg" src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.{{page.ext}}" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}">
+              <div class="text">{{postworkingcopy}}</div>
+            </div>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <!-- JavaScript libraries -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  
+  <!-- Initialize slideshow -->
+  <script type="text/javascript">
     $(document).ready(function(){
+      // Initialize slick carousel
       $('.auto-play-carousel').slick({
-		infinite: true,
-		slidesToShow: 1,
-		autoplay: true,
-		autoplaySpeed: 3000,
-		pauseOnFocus: true,
-		pauseOnHover: false,
-		arrows: false,
+        infinite: true,
+        slidesToShow: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnFocus: true,
+        pauseOnHover: false,
+        arrows: false,
+        fade: true,
+        cssEase: 'ease-in-out'
       });
 
-	  $('.slick-next').on('click', function(){
-		  $('.auto-play-carousel').slick('slickNext')
-	  })
+      // Navigation button handlers
+      $('.slick-next').on('click', function(){
+        $('.auto-play-carousel').slick('slickNext');
+      });
 
-	  $('.slick-prev').on('click', function(){
-		  $('.auto-play-carousel').slick('slickPrev')
-	  })
+      $('.slick-prev').on('click', function(){
+        $('.auto-play-carousel').slick('slickPrev');
+      });
+      
+      // Keyboard navigation
+      $(document).keydown(function(e) {
+        if (e.keyCode == 37) { // Left arrow
+          $('.auto-play-carousel').slick('slickPrev');
+        }
+        if (e.keyCode == 39) { // Right arrow
+          $('.auto-play-carousel').slick('slickNext');
+        }
+        if (e.keyCode == 32) { // Space bar
+          e.preventDefault();
+          $('.auto-play-carousel').slick('slickPause');
+        }
+      });
     });
-</script>
+  </script>
 </body>
 </html>

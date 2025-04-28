@@ -4,42 +4,47 @@ title: MemExp
 description: I have built this blog as a world of photos and videos which act as a gateway for me to retrieve and explore the memories and experiences. Often reflecting upon the past, I think what eventful happened at a specific time - like graduating in August 2018, visiting my first International destination in May 2017 - this for me is worth remembering and I love to explore all these memories again and again!
 ---
 
-<center>
-I have a weird fear of forgetting life. Often reflecting upon the past, I think what eventful happened at a specific time: like graduating in August 2018, visiting my first International destination in May 2017 - this for me is worth remembering and I love to explore all these memories again and again!<br>
-However, remembering events is difficult because our brains are not wired for it! The vast majority of our experiences are lost over time, which for me is regretful. Thus, I have built this blog as a world of photos and videos which act as a gateway for me to retrieve and relive the <strong>MemExps</strong>!
-<br>
-<!-- <a href="{{site.baseurl}}/map" style="font-size: 0.8em; position: relative; top: 10px">Checkout the MemExps on the <strong>world map</strong></a> -->
-</center>
+<!-- Introduction Section -->
+<div class="home-intro">
+  <p>
+    I have a weird fear of forgetting life. Often reflecting upon the past, I think what eventful happened at a specific time: like graduating in August 2018, visiting my first International destination in May 2017 - this for me is worth remembering and I love to explore all these memories again and again!
+  </p>
+  <p>
+    However, remembering events is difficult because our brains are not wired for it! The vast majority of our experiences are lost over time, which for me is regretful. Thus, I have built this blog as a world of photos and videos which act as a gateway for me to retrieve and relive the <strong>MemExps</strong>!
+  </p>
+  <!-- <a href="{{site.baseurl}}/map" class="map-link">Checkout the MemExps on the <strong>world map</strong> <i class="fas fa-map-marked-alt"></i></a> -->
+</div>
 
-{% assign thisyear = 'now' | date: "%Y" %}
-{% assign firstyear = true %}
+<!-- Travel Posts by Year -->
+<div class="posts-container">
+  {% assign thisyear = 'now' | date: "%Y" %}
+  {% assign firstyear = true %}
 
-{% for post in site.travels reversed %}
-  {% assign last_post_year = thisyear %}
-  {% assign thisyear = post.date | date: "%Y" %}
+  {% for post in site.travels reversed %}
+    {% assign last_post_year = thisyear %}
+    {% assign thisyear = post.date | date: "%Y" %}
 
-  {% assign category = 'travel' %}
-  {% if post.category != 'travel' %}
-  {% assign category = 'memories' %}
-  {% endif %}
+    {% if firstyear == true or thisyear != last_post_year %}
+      {% if thisyear != '2001' %}
+      <div class="clear"></div>
+      {% endif %}
 
-  {% if firstyear == true or thisyear != last_post_year %}
+      <h4 class="years">{{ thisyear }}</h4>
+      {% assign firstyear = false %}
+    {% endif %}
 
-  {% if thisyear != '2001' %}
-  <div class="clear">&nbsp;</div>
-  {% endif %}
+    {% unless post.url contains 'slideshow' %}
+    <!-- Post thumbnail with consistent styling -->
+    <div class="blogthumb fade-in">
+      <a href="{{site.baseurl}}{{post.url}}" class="thumb-link">
+        <img src="{{site.baseurl}}{{ post.image }}" alt="{{ post.title }}">
+      </a>
+      <div class="blogthumb-link">
+        <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+      </div>
+    </div>
+    {% endunless %}
+  {% endfor %}
 
-  <h4 class="years">{{ thisyear }}</h4>
-  {% assign firstyear = false %}
-{% endif %}
-
-  {% unless post.url contains 'slideshow' %}
-  <div class="blogthumb cat_{{category}}">
-    <a href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}{{ post.image }}"></a>
-    <div class="blogthumb-link"><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></div>
-  </div>
-  {% endunless %}
-
-{% endfor %}
-
-<div class="clear">&nbsp;</div>
+  <div class="clear"></div>
+</div>
