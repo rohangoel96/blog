@@ -82,6 +82,13 @@
         "@type": "PostalAddress",
         "addressCountry": "{{ page.country }}"
       }
+      {% if page.coordi %}
+      ,"geo": {
+        "@type": "GeoCoordinates",
+        "latitude": {{ page.coordi | split: "," | first | remove: "(" }},
+        "longitude": {{ page.coordi | split: "," | last | remove: ")" }}
+      }
+      {% endif %}
     },
     {% endif %}
     "mainEntityOfPage": {

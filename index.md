@@ -37,7 +37,7 @@ description: I have built this blog as a world of photos and videos which act as
     <!-- Post thumbnail with consistent styling -->
     <div class="blogthumb fade-in">
       <a href="{{site.baseurl}}{{post.url}}" class="thumb-link">
-        <img src="{{site.baseurl}}{{ post.image }}" alt="{{ post.title }}">
+        <img src="{{site.baseurl}}{{ post.image }}" alt="{{ post.title }} in {{ post.location }}, {{ post.country }}" loading="lazy">
       </a>
       <div class="blogthumb-link">
         <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>

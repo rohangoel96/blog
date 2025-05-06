@@ -30,9 +30,9 @@ layout: post_layout
 	{% elsif postworkingcopy contains "!!skip!!" %}
 	{% else %}
 		{% if postworkingcopy contains "!!GIF!!"%}
-			<p id="{{forloop.index}}" class="center"><img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.gif" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}">{{postSpecialChar2}}</p>
+			<p id="{{forloop.index}}" class="center"><img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.gif" alt="{{page.title}} in {{page.location}}, {{page.country}} - Travel photography by {{site.author}}" title="{{page.title}} - {{site.title}}" loading="lazy">{{postSpecialChar2}}</p>
 		{% else %}
-			<p id="{{forloop.index}}" class="center"><img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.{{page.ext}}" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}">{{postworkingcopy}}</p>
+			<p id="{{forloop.index}}" class="center"><img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.{{page.ext}}" alt="{{page.title}} in {{page.location}}, {{page.country}} - Travel photography by {{site.author}}" title="{{page.title}} - {{site.title}}" loading="lazy">{{postworkingcopy}}</p>
 		{% endif %}
 	{% endif %}
 {% endfor %}

@@ -27,7 +27,7 @@ layout: post_layout
 	{% if post contains "!!raw!!" %}
 		{{ postSpecialChar }}
 	{% else %}
-		<p id="{{forloop.index}}" class="center"><img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.jpg" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}">{{postworkingcopy}}</p>
+		<p id="{{forloop.index}}" class="center"><img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.jpg" alt="{{page.title}} in {{page.location}}, {{page.country}} - Travel photography by {{site.author}}" title="{{page.title}} - {{site.title}}" loading="lazy">{{postworkingcopy}}</p>
 	<!-- need to slice because alt can have a href also like pileh lagoon in 2019-02-21-phuket post -->
 	{% endif %}
 {% endfor %}

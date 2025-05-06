@@ -30,7 +30,7 @@ layout: post_layout
     {% if post.image != nil %}
       <!-- Regular image post -->
       <div class="post-image-item" id="{{forloop.index}}">
-        <img src="{{site.baseurl}}/{{post.image}}" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}">
+        <img src="{{site.baseurl}}/{{post.image}}" alt="{{page.title}} in {{page.location}}, {{page.country}} - Travel photography by {{site.author}}" title="{{page.title}} - {{site.title}}" loading="lazy">
         {% if workingcaption %}
           <div class="image-caption">{{workingcaption}}</div>
         {% endif %}
@@ -80,12 +80,12 @@ layout: post_layout
     {% else %}
       {% if postworkingcopy contains "!!GIF!!"%}
         <div class="post-image-item" id="{{forloop.index}}">
-          <img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.gif" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}">
+          <img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.gif" alt="{{page.title}} in {{page.location}}, {{page.country}} - Travel photography by {{site.author}}" title="{{page.title}} - {{site.title}}" loading="lazy">
           <div class="image-caption">{{legacy_postspecialChar2}}</div>
         </div>
       {% else %}
         <div class="post-image-item" id="{{forloop.index}}">
-          <img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.{{page.ext}}" alt="{{page.title}}. {{site.title}}. Rohan Goel" title="{{page.title}} - {{site.title}}">
+          <img src="{{site.baseurl}}/{{img_dir[1]}}/{{img_dir[2]}}/{{img_dir[3]}}/{{forloop.index}}.{{page.ext}}" alt="{{page.title}} in {{page.location}}, {{page.country}} - Travel photography by {{site.author}}" title="{{page.title}} - {{site.title}}" loading="lazy">
           <div class="image-caption">{{postworkingcopy}}</div>
         </div>
       {% endif %}
