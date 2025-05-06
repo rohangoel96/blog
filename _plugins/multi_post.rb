@@ -48,6 +48,18 @@ module Jekyll
         Page.new(page.site, page.site.source, dir, page.name).tap do |new_page|
           new_page.data["layout"] = layout
           new_page.data["permalink"] = PermalinkBuilder.get_adjusted_permalink(page, layout)
+          
+          # Add redirect from /post_name/post/ to /post_name/ for backward compatibility
+          if layout == 'post'
+            # Extract post_name from permalink
+            post_name = new_page.data["permalink"].split('/').reject(&:empty?).last
+            
+            # Initialize redirect_from array if it doesn't exist
+            new_page.data["redirect_from"] ||= []
+            
+            # Add redirect from /post_name/post/ to /post_name/
+            new_page.data["redirect_from"] << "/#{post_name}/post/"
+          end
         end
       end
     end
@@ -76,6 +88,18 @@ module Jekyll
           new_doc.read
           new_doc.data["layout"] = layout
           new_doc.data["permalink"] = PermalinkBuilder.get_adjusted_permalink(doc, layout)
+          
+          # Add redirect from /post_name/post/ to /post_name/ for backward compatibility
+          if layout == 'post'
+            # Extract post_name from permalink
+            post_name = new_doc.data["permalink"].split('/').reject(&:empty?).last
+            
+            # Initialize redirect_from array if it doesn't exist
+            new_doc.data["redirect_from"] ||= []
+            
+            # Add redirect from /post_name/post/ to /post_name/
+            new_doc.data["redirect_from"] << "/#{post_name}/post/"
+          end
         end
       end
     end
