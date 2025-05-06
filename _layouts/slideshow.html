@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, follow">
+  {% assign post_url = page.url | remove: '/slideshow/' %}
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ post_url }}">
   <title>{{ page.title }} - Slideshow</title>
   
   <!-- Simplified slideshow styling -->
@@ -163,11 +166,8 @@
 </head>
 <body>
   <!-- Return to post link - Simplified -->
-  {% assign post_name = page.url | split: '/' | last | split: 'slideshow' | first %}
-  {% if post_name == '' %}
-    {% assign post_name = page.url | split: '/' | slice: -2, 1 | first %}
-  {% endif %}
-  <a href="{{site.baseurl}}/{{post_name}}" class="return-link">
+  {% assign post_url = page.url | remove: '/slideshow/' %}
+  <a href="{{site.baseurl}}{{post_url}}" class="return-link">
     <i class="fas fa-arrow-left"></i> Return to post
   </a>
   

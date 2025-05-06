@@ -356,7 +356,7 @@ crossorigin=""></script>
                 var layerCountryName = layer.feature.properties.name.toLowerCase();
                 if (layerCountryName === countryName) {
                     layer.setStyle({
-                        fillOpacity: 0.7,
+                        fillOpacity: 0.5,
                         weight: 2,
                         color: '#FF7D45'
                     });
@@ -383,8 +383,8 @@ crossorigin=""></script>
                     
                     // Highlight the country
                     layer.setStyle({
-                        fillOpacity: 0.7,
-                        weight: 3,
+                        fillOpacity: 0.5,
+                        weight: 2,
                         color: '#FF7D45'
                     });
                     
@@ -532,7 +532,7 @@ crossorigin=""></script>
                         var countryName = feature.properties.name.toLowerCase();
                         if(countryList.indexOf(countryName) > -1) {
                             layer.setStyle({
-                                fillOpacity: 0.7,
+                                fillOpacity: 0.5,
                                 weight: 2,
                                 color: '#FF7D45'
                             });
@@ -582,7 +582,7 @@ crossorigin=""></script>
                             
                             // Highlight the country
                             layer.setStyle({
-                                fillOpacity: 0.7,
+                                fillOpacity: 0.5,
                                 weight: 3,
                                 color: '#FF7D45'
                             });
@@ -722,16 +722,16 @@ crossorigin=""></script>
             }
         });
         
-        // Always use heatmap view
+        // Reset country styles to default (not highlighted)
         countriesLayer.setStyle(function(feature) {
             var countryName = feature.properties.name.toLowerCase();
             if(countryList.indexOf(countryName) > -1) {
                 return {
                     fillColor: "#FF7D45",
-                    fillOpacity: 0.6,
+                    fillOpacity: 0.3, // Lower opacity by default
                     stroke: true,
-                    color: "#1A7B88",
-                    weight: 1
+                    color: "grey",
+                    weight: 0
                 };
             } else {
                 return {
