@@ -147,6 +147,36 @@ description: People whom I shared memories with
         color: #FF7D45;
     }
     
+    /* Hidden posts and toggle styling */
+    .hidden-posts {
+        display: none;
+    }
+    
+    .posts-toggle {
+        display: inline-block;
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        color: #1A7B88;
+        cursor: pointer;
+        padding: 0.3rem 0.5rem;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+        text-align: center;
+        border-top: 1px dashed rgba(26, 123, 136, 0.3);
+        width: 100%;
+    }
+    
+    .posts-toggle:hover {
+        background-color: rgba(26, 123, 136, 0.05);
+    }
+    
+    .posts-toggle .arrow-icon {
+        display: inline-block;
+        margin-right: 0.3rem;
+        width: 1em;
+        text-align: center;
+    }
+    
     /* Highlight target person when linked directly */
     :target, .highlight-target {
         background-color: rgba(255, 125, 69, 0.15);
@@ -217,6 +247,14 @@ description: People whom I shared memories with
 <script type="text/javascript">
     // Object to track all people mentions
     var tracker = {};
+    
+    // Configuration
+    var postsToShowInitially = 10; // Number of posts to show by default
+    
+    // Name overrides for specific people
+    var nameOverrides = {
+        "randomdroneguy)</a>": "RandomDroneGuy"
+    };
     
     // Process all travel posts to find @ mentions
     {% for page in site.travels reversed %}
@@ -300,7 +338,7 @@ description: People whom I shared memories with
             var name = names[index];
             var post_numbers = [];
             var post_for_name = 0;
-            var postLinks = '';
+            var postLinks = [];
             
             // First, group mentions by post to find the last paragraph number for each post
             var postMentions = {};
@@ -343,14 +381,62 @@ description: People whom I shared memories with
                     linkText += " #" + allParaNums.join(", #");
                 }
                 
-                postLinks += "<a href='" + linkUrl + "'>" + linkText + "</a>";
+                var linkElement = $("<a></a>").attr("href", linkUrl).text(linkText);
+                postLinks.push(linkElement);
                 post_for_name += 1;
             }
             
+            // Apply name override if exists, otherwise use the original name
+            var displayName = nameOverrides[name.toLowerCase()] || name;
+
             // Create person card with name and post links
-            var personCard = $('<div class="person-card" id="' + name + '" data-name="' + name.toLowerCase() + '"></div>');
-            personCard.append('<div class="person-name"><a href="#' + name + '">' + name + '</a><span class="person-count">' + post_for_name + '</span></div>');
-            personCard.append('<div class="person-posts">' + postLinks + '</div>');
+            var personCard = $('<div class="person-card" id="' + displayName + '" data-name="' + displayName.toLowerCase() + '"></div>');
+        
+            
+            personCard.append('<div class="person-name"><a href="#' + displayName + '">' + displayName + '</a><span class="person-count">' + post_for_name + '</span></div>');
+            
+            // Create posts container
+            var postsContainer = $('<div class="person-posts"></div>');
+            
+            // Add initial posts (limited by postsToShowInitially)
+            var visiblePosts = Math.min(postsToShowInitially, postLinks.length);
+            for (var j = 0; j < visiblePosts; j++) {
+                postsContainer.append(postLinks[j]);
+            }
+            
+            // If there are more posts than the initial limit, add the rest in a hidden div
+            if (postLinks.length > postsToShowInitially) {
+                var hiddenPostsDiv = $('<div class="hidden-posts"></div>');
+                for (var j = postsToShowInitially; j < postLinks.length; j++) {
+                    hiddenPostsDiv.append(postLinks[j]);
+                }
+                postsContainer.append(hiddenPostsDiv);
+                
+                // Store the remaining count for this specific card
+                var remainingCount = postLinks.length - postsToShowInitially;
+                
+                // Add a subtle toggle link with Unicode arrow instead of Font Awesome
+                var toggleLink = $('<div class="posts-toggle"><span class="arrow-icon">▼</span> ' + remainingCount + ' more</div>');
+                postsContainer.append(toggleLink);
+                
+                // Add click handler for toggle with fixed count
+                (function(fixedCount) {
+                    toggleLink.on('click', function() {
+                        var $this = $(this);
+                        var hiddenPosts = $this.siblings('.hidden-posts');
+                        
+                        if (hiddenPosts.is(':visible')) {
+                            hiddenPosts.slideUp(200);
+                            $this.html('<span class="arrow-icon">▼</span> ' + fixedCount + ' more');
+                        } else {
+                            hiddenPosts.slideDown(200);
+                            $this.html('<span class="arrow-icon">▲</span> less');
+                        }
+                    });
+                })(remainingCount); // Pass the count as a parameter to the IIFE
+            }
+            
+            personCard.append(postsContainer);
             
             // Store the card for filtering
             allPersonCards.push({
