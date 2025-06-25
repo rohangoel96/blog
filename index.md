@@ -12,7 +12,7 @@ description: I have built this blog as a world of photos and videos which act as
   <p>
     However, remembering events is difficult because our brains are not wired for it! The vast majority of our experiences are lost over time, which for me is regretful. Thus, I have built this blog as a world of photos and videos which act as a gateway for me to retrieve and relive the <strong>MemExps</strong>!
   </p>
-  <!-- <a href="{{site.baseurl}}/map" class="map-link">Checkout the MemExps on the <strong>world map</strong> <i class="fas fa-map-marked-alt"></i></a> -->
+  <!-- <a href="{{ site.url }}{{site.baseurl}}/map" class="map-link">Checkout the MemExps on the <strong>world map</strong> <i class="fas fa-map-marked-alt"></i></a> -->
 </div>
 
 <!-- Travel Posts by Year -->
@@ -36,11 +36,11 @@ description: I have built this blog as a world of photos and videos which act as
     {% unless post.url contains 'slideshow' %}
     <!-- Post thumbnail with consistent styling -->
     <div class="blogthumb fade-in">
-      <a href="{{site.baseurl}}{{post.url}}" class="thumb-link">
-        <img src="{{site.baseurl}}{{ post.image }}" alt="{{ post.title }} in {{ post.location }}, {{ post.country }}" loading="lazy">
+      <a href="{{ site.url }}{{site.baseurl}}{{post.url}}" class="thumb-link">
+        <img src="{{ site.url }}{{site.baseurl}}{{ post.image }}" alt="{{ post.title }} in {{ post.location }}, {{ post.country }}" loading="lazy">
       </a>
       <div class="blogthumb-link">
-        <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+        <a href="{{ site.url }}{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
       </div>
     </div>
     {% endunless %}

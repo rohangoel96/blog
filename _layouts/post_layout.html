@@ -9,7 +9,7 @@ layout: page
   {% assign splitpage = page.url | split: "/" %}
   <div class="post-meta">
     <div class="post-location">
-      <a href="{{site.baseurl}}/map?location={{ page.location | url_encode }}&country={{ page.country | url_encode }}&coordi={{ page.coordi | url_encode }}" target="_blank">
+      <a href="{{ site.url }}{{site.baseurl}}/map?location={{ page.location | url_encode }}&country={{ page.country | url_encode }}&coordi={{ page.coordi | url_encode }}" target="_blank">
         <i class="fas fa-map-marker-alt"></i> {{ page.location }}, {{ page.country }}
       </a>
     </div>
@@ -21,7 +21,7 @@ layout: page
       {% if page.layout == 'post' %}
       <div class="slideshow-link">
       {% assign post_name = page.url | split: '/' | last %}
-      <a href="{{site.baseurl}}{{ page.url | remove: '/post' | split: '/' | reverse | rest | reverse | join: '/' }}/slideshow/">
+      <a href="{{ site.url }}{{site.baseurl}}{{ page.url | remove: '/post' | split: '/' | reverse | rest | reverse | join: '/' }}/slideshow/">
           <i class="fas fa-play-circle"></i> View as slideshow
         </a>
       </div>

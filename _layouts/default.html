@@ -46,8 +46,8 @@
   <meta property="og:image" content="https://www.shareicon.net/download/2016/08/31/821514_earth_512x512.png"/>
   <meta name="twitter:image" content="https://www.shareicon.net/download/2016/08/31/821514_earth_512x512.png" />
   {% else %}
-  <meta property="og:image" content="{{site.baseurl}}{{page.image}}"/>
-  <meta name="twitter:image" content="{{site.baseurl}}{{page.image}}" />
+  <meta property="og:image" content="{{ site.url }}{{site.baseurl}}{{page.image}}"/>
+  <meta name="twitter:image" content="{{ site.url }}{{site.baseurl}}{{page.image}}" />
   {% endif %}
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -122,9 +122,9 @@
     <!-- Navigation -->
     <div class="row rownav">
       <ul class="twelve columns nav">
-        <li><a href="{{site.baseurl}}/"><i class="fas fa-home"></i> Home</a></li>
-        <li><a href="{{site.baseurl}}/map"><i class="fas fa-map-marked-alt"></i> Map</a></li>
-        <li><a href="{{site.baseurl}}/people"><i class="fas fa-users"></i> People</a></li>
+        <li><a href="{{ site.url }}{{site.baseurl}}"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="{{ site.url }}{{site.baseurl}}/map"><i class="fas fa-map-marked-alt"></i> Map</a></li>
+        <li><a href="{{ site.url }}{{site.baseurl}}/people"><i class="fas fa-users"></i> People</a></li>
         <li><a href="https://rohangoel.com" target="_blank"><i class="fas fa-user"></i> About Me</a></li>
       </ul>
     </div>
@@ -137,7 +137,7 @@
   <div class="container">
     <div class="row rownav" style="margin-top: 0px;">
       <ul class="twelve columns nav">
-        <li><a href="{{site.baseurl}}/"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="{{ site.url }}{{site.baseurl}}"><i class="fas fa-home"></i> Home</a></li>
         <li><a href="https://rohangoel.com" target="_blank"><i class="fas fa-user"></i> About</a></li>
         <li><a href="mailto:rohangoel0296@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Contact</a></li>
       </ul>
