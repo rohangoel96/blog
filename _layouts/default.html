@@ -28,17 +28,18 @@
 
   <meta name="date.created" content="{{ page.date | date: '%Y-%m-%d' }}">
   <meta name="date.available" content="{{ page.date | date: '%Y-%m-%d' }}">
-  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' | split: '/post' | first }}">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' | remove: '/post' }}">
 
   <!-- Facebook and Twitter integration -->
   <meta property="fb:app_id" content="1294731970631473">
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
-  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' | split: '/post' | first }}"/>
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' | remove: '/post' }}"/>
   <meta property="og:site_name" content="MemExp"/>
   <meta property="og:description" content="{{ cleandesc }}"/>
   <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}"/>
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta name="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' | split: '/post' | first }}" />
+  <meta name="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' | remove: '/post' }}" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:description" content="{{ cleandesc }}" />
   {% if page.image == null %}
@@ -93,7 +94,7 @@
     {% endif %}
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' | split: '/post' | first }}"
+      "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' | remove: '/post' }}"
     }
   }
   </script>

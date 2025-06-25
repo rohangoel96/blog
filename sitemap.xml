@@ -27,7 +27,7 @@ layout: null
   {% for post in site.travels %}
     {% unless post.url contains 'slideshow' %}
     <url>
-      <loc>{{ site.url }}{{site.baseurl}}{{ post.url | split: '/post' | first }}</loc>
+      <loc>{{ site.url }}{{site.baseurl}}{{ post.url | remove: '/post' }}</loc>
       {% if post.lastmod == null %}
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
       {% else %}
@@ -35,18 +35,6 @@ layout: null
       {% endif %}
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      
-      {% assign img_dir = post.url | split: '/' %}
-      {% if img_dir[1] and img_dir[2] %}
-        {% assign year = img_dir[1] | slice: 0, 4 %}
-        {% assign month = img_dir[1] | slice: 5, 2 %}
-        {% assign img_path = 'img/' | append: year | append: '/' | append: month | append: '-' | append: img_dir[2] | append: '/1.jpg' %}
-        <image:image>
-          <image:loc>{{ site.url }}{{site.baseurl}}/{{ img_path }}</image:loc>
-          <image:title>{{ post.title }}</image:title>
-          <image:caption>{{ post.title }} - {{ site.title }}</image:caption>
-        </image:image>
-      {% endif %}
     </url>
     {% endunless %}
   {% endfor %}
