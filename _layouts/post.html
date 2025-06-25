@@ -93,5 +93,57 @@ layout: post_layout
   {% endfor %}
 </div>
 
+<!-- Post Navigation -->
+<div class="post-navigation">
+  <div class="nav-links">
+    {% comment %} Sort posts by date {% endcomment %}
+    {% assign posts_by_date = site.travels | sort: 'date' | reverse %}
+    
+    {% assign prev_post = nil %}
+    {% for post in posts_by_date %}
+      {% if post.layout == 'slideshow' or post.url contains '/slideshow/' %}
+        {% continue %}
+      {% endif %}
+      
+      {% if post.url == page.url %}
+        {% break %}
+      {% endif %}
+      
+      {% assign prev_post = post %}
+    {% endfor %}
+    
+    {% assign next_post = nil %}
+    {% assign found_current = false %}
+    {% for post in posts_by_date %}
+      {% if post.layout == 'slideshow' or post.url contains '/slideshow/' %}
+        {% continue %}
+      {% endif %}
+      
+      {% if found_current %}
+        {% assign next_post = post %}
+        {% break %}
+      {% endif %}
+      
+      {% if post.url == page.url %}
+        {% assign found_current = true %}
+      {% endif %}
+    {% endfor %}
+    
+    {% if next_post %}
+    <a href="{{ site.url }}{{site.baseurl}}{{ next_post.url }}" class="nav-previous">
+      <i class="fas fa-chevron-left"></i>
+      <span class="nav-title">{{ next_post.title }}</span>
+    </a>
+    {% endif %}
+    
+    {% if prev_post %}
+    <a href="{{ site.url }}{{site.baseurl}}{{ prev_post.url }}" class="nav-next">
+      <span class="nav-title">{{ prev_post.title }}</span>
+      <i class="fas fa-chevron-right"></i>
+    </a>
+    {% endif %}
+  </div>
+</div>
+
 <!-- Load Instagram embed script -->
 <script async src="//www.instagram.com/embed.js"></script>
