@@ -506,6 +506,7 @@ crossorigin=""></script>
         
         // Get marker radius based on size
         function getRadius(MarkerSize){
+            if (MarkerSize=="smaller") return 2000;
             if (MarkerSize=="small") return 5000;
             if (MarkerSize=="smallx") return 10000;
             if (MarkerSize=="med") return 15000;

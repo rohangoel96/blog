@@ -7,7 +7,7 @@ location: Snoqualmie Region, WA
 country: USA
 coordi: (47.4308, -121.7751)
 image: /img/2021/8-rattlesnake/cover-min.jpg
-MarkerSize: small+
+MarkerSize: smaller
 ext: jpg
 publish: yes
 redirect_from:

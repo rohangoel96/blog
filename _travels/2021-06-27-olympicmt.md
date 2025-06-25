@@ -1,13 +1,13 @@
 ---
 layout: [slideshow, post]
-title: Olympic Peninsula
+title: Hurricane Ridge
 type: photos
 category: travel
 location: Olympic Peninsula, WA
 country: USA
 coordi: (47.98, -123.5178)
 image: /img/2021/6-olympicmt/cover-min.jpg
-MarkerSize: med
+MarkerSize: small
 ext: jpg
 publish: yes
 redirect_from:
