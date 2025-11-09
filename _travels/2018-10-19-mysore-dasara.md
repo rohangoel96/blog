@@ -44,7 +44,7 @@ That moment when you successfully capture the palace (reflection :p) and feel li
 |
 Faking candids.
 |
-Memories shared with @MayankAnchlia @BhuvanGupta @NandanThakur @PriyankLodha @Ankit
+Memories shared with @MayankAnchlia @BhuvanGupta @NandanThakur @PriyankLodha @AnkitKumar
 '
 ---
 <!-- http://compressjpeg.com -->

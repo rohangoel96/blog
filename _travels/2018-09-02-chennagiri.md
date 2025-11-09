@@ -54,5 +54,5 @@ description: Set amidst the amazing Nandi Hills, we chose to start the month of 
 
 <p class="center"><img src="{{site.baseurl}}/img/2018/9-chennagiri/17.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Another panaromic view from the hill-top</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2018/9-chennagiri/18.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">With @AnishKumar @VarunGoyal @DebadityaBasu @Divakar @Ankit @ShivamGupta @ArnavVijayakar @Nagbhusan @Amulya @RamKumar @Swetha @Divya and @Nirmalya</p>
+<p class="center"><img src="{{site.baseurl}}/img/2018/9-chennagiri/18.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">With @AnishKumar @VarunGoyal @DebadityaBasu @Divakar @AnkitKumar @ShivamGupta @ArnavVijayakar @Nagbhusan @Amulya @RamKumar @Swetha @Divya and @Nirmalya</p>
 

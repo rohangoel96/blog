@@ -44,7 +44,7 @@ Last trip with @Family before USA! Don''t remember the last time when EVERYONE w
 |
 The partaaaaaay I have always dreamt of throwing with over 25 people, special mentions of people from Mumbai and Hyderabad.
 |
-With @VarunGoyal, @NikharBajaj, @IshantGupta, @Ankit, @ArnavVijayakar, @AbhinavSingh, @DebadityaBasu, @AmitAggarwal, @AshkandPrasad, @BhuvanGupta, @EkanshJain, @ShikharSaluja, @PriyankLodha, @AbhijeetPratapSinghTomar, @ChiragPabbaraju
+With @VarunGoyal, @NikharBajaj, @IshantGupta, @AnkitKumar, @ArnavVijayakar, @AbhinavSingh, @DebadityaBasu, @AmitAggarwal, @AshkandPrasad, @BhuvanGupta, @EkanshJain, @ShikharSaluja, @PriyankLodha, @AbhijeetPratapSinghTomar, @ChiragPabbaraju
 |
 Preperations..
 |

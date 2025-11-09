@@ -48,5 +48,5 @@ description: We chose Savandurga - the largest monolith in Asia, as our first tr
 
 <p class="center"><img src="{{site.baseurl}}/img/2018/7-savandurga/17.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">Difficult to believe but the descend is probably more difficult than the ascend where the chances of slipping increases manifold.</p>
 
-<p class="center"><img src="{{site.baseurl}}/img/2018/7-savandurga/18.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">With @EkanshJain @Ankit @NeelRevanikar @MayankAnchlia @DebadityaBasu @GouravGoel</p>
+<p class="center"><img src="{{site.baseurl}}/img/2018/7-savandurga/18.jpg" alt="{{page.title}}. {{page.location}}. {{site.title}}" title="{{page.title}}">With @EkanshJain @AnkitKumar @NeelRevanikar @MayankAnchlia @DebadityaBasu @GouravGoel</p>
 

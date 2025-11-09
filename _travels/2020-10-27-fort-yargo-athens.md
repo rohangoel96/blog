@@ -5,7 +5,7 @@ redirect_from:
 title: Athens via Yargo
 type: photos
 category: travel
-location: Fort Yargo + Athens, USA
+location: Fort Yargo + Athens
 country: USA
 coordi: (33.9684, -83.7300) + (33.9519, -83.3576)
 image: /img/2020/10-yargo/cover-min.jpg
