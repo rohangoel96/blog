@@ -1,0 +1,38 @@
+https://github.com/wicker/wicker.github.io
+
+## Running Jekyll
+Local test environment:
+```
+bundle exec jekyll serve
+```
+
+Local test environment showing the drafts as if they were published:
+```
+bundle exec jekyll serve --drafts
+```
+
+## Using the Instagram downloader script
+1. In the root directory of this project, set up a Python virtual environment:
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+```
+2. Run the script.  Use -u flag for username (defaults to "goelrohan" if not provided), -p or "INSTA_PASSWORD" env variable for password, and -c to provide an authenticator code if 2-factor is enabled.
+```
+python3 get_data.py -u <username> -p <password> -c <code>
+```
+* Add post by date - There is a new flag on the script -d or --date that you can put in a YYYY-mm-dd date and it will override the exclusion list to get any posts from that date. It goes through the regular nickname/slug prompt once it finds a post/posts for that date.
+* Option to change post date - I didn't want to make the interactive script too cumbersome with a lot of prompts, so as it prompts you for the nickname/slug, you can input an optional date, separate by a comma e.g. "athens,2025-01-01" or you could just use "athens" to use the date it was posted to Instagram
+
+3. Media is downloaded to the `img` directory, blog posts are saved to the `_drafts` folder. Edit the post and move to `_travels` to publish the post.
+4. Deactivate virtual env when necessary.
+```
+deactivate
+```
+
+
+
+### Known issues
+The instagrapi api has a bug where it prints out `Status 201: JSONDecodeError in public_request` when connecting to the API.
