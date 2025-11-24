@@ -49,7 +49,7 @@ coordi: {coordinates}
 image: {cover_image}
 MarkerSize: small
 ext: {ext}
-publish: yes
+published: false
 redirect_from:  
   - /{slug}/       
 description: {description}
