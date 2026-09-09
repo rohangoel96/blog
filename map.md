@@ -317,7 +317,9 @@ crossorigin=""></script>
             { code: "hr", name: "Croatia" },
             { code: "si", name: "Slovenia" },
             { code: "hu", name: "Hungary" },
-            { code: "gr", name: "Greece" }
+            { code: "gr", name: "Greece" },
+            { code: "ch", name: "Switzerland"},
+            { code: "li", name: "Liechtenstein"}
         ];
         
         // Generate flag items without index
