@@ -1,0 +1,18 @@
+# robots.txt for https://rohangoel.com/blog
+
+User-agent: *
+Allow: /
+
+# Don't index slideshow versions of posts (both with and without trailing slash)
+Disallow: */slideshow
+Disallow: */slideshow/
+
+# Don't index post URLs ending with /post (both with and without trailing slash)
+Disallow: */post
+Disallow: */post/
+
+# Don't index map with location parameters
+Disallow: */map?location=*
+
+# Allow all bots to access the sitemap
+Sitemap: https://rohangoel.com/blog/sitemap.xml

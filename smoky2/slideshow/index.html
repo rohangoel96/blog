@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, follow">
+  
+  <link rel="canonical" href="https://rohangoel.com/blog/smoky2">
+  <title>Smoky Halloween - Slideshow</title>
+  
+  <!-- Simplified slideshow styling -->
+  
+  <!-- Modern fonts from Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+  <!-- Slick Carousel CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  
+  <style>
+    /* Modern slideshow styling */
+    body {
+      background: #111;
+      overflow: auto;
+      margin: 0;
+      padding: 0;
+      font-family: 'Open Sans', sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .myimg {
+      max-height: 80vh; /* Use viewport height instead of percentage */
+      display: block;
+      margin: 0 auto;
+      object-fit: contain;
+      width: auto; /* Allow width to adjust based on aspect ratio */
+      max-width: 95%; /* Prevent image from overflowing container */
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    
+    .text {
+      color: white;
+      text-align: center;
+      min-height: 60px; /* Minimum height for text */
+      margin: 20px auto;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      line-height: 1.6;
+      background-color: rgba(0,0,0,0.7); /* Darker background for better visibility */
+      border-radius: 6px;
+      padding: 15px 10%;
+      max-width: 90%;
+    }
+    
+    .arrow-holder {
+      margin: 15px auto;
+      height: 3%;
+      text-align: center;
+    }
+    
+    .auto-play-carousel {
+      height: auto;
+      min-height: 80vh;
+      padding-bottom: 20px;
+    }
+    
+    .cont {
+      height: auto;
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+    
+    /* Modern button styling */
+    .slick-btn {
+      background: rgba(255,255,255,0.2);
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      margin: 0 5px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .slick-btn:hover {
+      background: rgba(255,255,255,0.4);
+    }
+    
+    /* Return to post link */
+    .return-link {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: white;
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      background: rgba(0,0,0,0.5);
+      padding: 5px 10px;
+      border-radius: 4px;
+      z-index: 100;
+      transition: background 0.3s ease;
+    }
+    
+    .return-link:hover {
+      background: rgba(0,0,0,0.7);
+    }
+    
+    /* Responsive styles for different screen sizes */
+    @media only screen and (max-width: 768px) {
+      .myimg {
+        max-height: 70vh;
+      }
+      
+      .text {
+        font-size: 14px;
+        padding: 8px;
+        margin: 10px auto;
+      }
+      
+      .cont {
+        padding: 10px 0;
+      }
+      
+      .arrow-holder {
+        margin: 10px auto;
+      }
+      
+      .slick-btn {
+        padding: 6px 12px;
+        font-size: 14px;
+      }
+    }
+    
+    @media only screen and (max-width: 480px) {
+      .myimg {
+        max-height: 60vh;
+      }
+      
+      .text {
+        font-size: 12px;
+        padding: 5px;
+      }
+      
+      .slick-btn {
+        padding: 5px 10px;
+        font-size: 12px;
+      }
+      
+      .return-link {
+        font-size: 12px;
+        padding: 4px 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Return to post link - Simplified -->
+  
+  <a href="/blog/smoky2" class="return-link">
+    <i class="fas fa-arrow-left"></i> Return to post
+  </a>
+  
+  <!-- Simplified slideshow with no headers -->
+
+  <!-- Process photos for slideshow -->
+  
+
+  
+  
+
+  <!-- Navigation buttons -->
+  <div class="arrow-holder">
+    <button type="button" class="slick-prev slick-btn"><i class="fas fa-chevron-left"></i> Previous</button>
+    <button type="button" class="slick-next slick-btn">Next <i class="fas fa-chevron-right"></i></button>
+  </div>
+
+  <!-- Slideshow carousel -->
+  <div class="auto-play-carousel">
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="1">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/1.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> That famous fog that surrounds the Smoky Mountains actually is produced by native vegetation in the area. Not only do volatile organic compounds explain the foggy appearance, but they are also the reason for the blue tint. </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="2">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/2.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> Interestingly my <a href="/blog/smoky-mountains"> previous trip to the Smokies</a> was just before COVID struck and this one is just after we decided to break quarantine. But still bored with all the masks! </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="3">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/3.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> Trying to find my motivation to complete the semester, but it was all smoky! </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="4">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/4.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> The history of the Appalachian Mountains is a precious thing and the Great Smoky Mountains National Park preserves this story </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="5">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/5.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> First sunroof experience.. aaaaah! </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="6">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/6.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> Harbor some of the finest temperate forests on the planet, leaf show in the Smokies is EYE-POPPING to say the least. </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="8">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/8.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> At 6,643 feet, Clingmans Dome boasts the highest point in the Great Smoky Mountains National Park. The half-mile trail to the summit of Clingmans Dome is paved, but very steep - During the short hike, we gained 332 feet, which makes the climb gradient almost 13%! </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="9">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/9.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> How trekking in COVID look like :) </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="10">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/10.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> The helical walkway ramp to the top of the observation tower </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="11">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/11.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> The spaceship styled observation tower atop the summit.  Perched high above the tree line, the tower allows for panoramic views  and on a clear day, the visibility can provide stunning 100-mile views! </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="12">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/12.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> The Dome (which is the mountain and not the observation tower) actually lies within both Tennessee and North Carolina and is the highest point in Tennessee. </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="13">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/13.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> Literally have no idea about what I am doing with my life </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="14">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/14.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> Oh and the drone shooting was simply exhilarating. <a href="https://www.instagram.com/p/CHGEkCVHFf9/" target="_blank">Check this out? </a> </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="15">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/15.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> At nearly a mile high, Newfound Gap is the lowest drivable pass through the Great Smoky Mountains National Park. </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="16">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/16.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> The noteworthy, Appalachian Trail also crosses here which is the longest hiking-only trail in the world. </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="17">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/17.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> The trail straddles between the NC and TN state border for a long time. </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="19">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/19.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> Starting from Cherokee, climb approximately 3,000 feet elevation in 18 miles, ascending through cove hardwood, pine, oak, and northern hardwood forest to attain the evergreen spruce-fir forest at the gap. This fragrant evergreen woodland is similar to the boreal forests of New England and eastern Canada </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="20">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/20.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> Being a party town that it is, a lot of people say that the best time to visit Gatlinburg is during Halloween. So here we are :) </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="21">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/21.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> The whole town was painted with halloween colors and spookiness, along with ... </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="23">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/23.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> The best of the lot! </div>
+            </div>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+      
+    
+      
+      
+      
+      
+      
+      
+      
+        
+          
+            <div class='cont' id="25">
+              <img class="myimg" src="/blog/img/2020/10-smoky2/25.jpg" alt="Smoky Halloween. MemExp Blog. Rohan Goel" title="Smoky Halloween - MemExp Blog">
+              <div class="text"> @<a href='/blog/people#KrishnaYalamarthy' target='_blank'>KrishnaYalamarthy</a> @<a href='/blog/people#RajatBhavnani' target='_blank'>RajatBhavnani</a> @<a href='/blog/people#AkhileshSiddhanti' target='_blank'>AkhileshSiddhanti</a> @<a href='/blog/people#SanketAgrawal' target='_blank'>SanketAgrawal</a> @<a href='/blog/people#AnshulVora' target='_blank'>AnshulVora</a> @<a href='/blog/people#ShlokGujar' target='_blank'>ShlokGujar</a> @<a href='/blog/people#SushrutKulkarni' target='_blank'>SushrutKulkarni</a> @<a href='/blog/people#KathanKashiparekh' target='_blank'>KathanKashiparekh</a> @<a href='/blog/people#ChaitraHegde' target='_blank'>ChaitraHegde</a> </div>
+            </div>
+          
+        
+      
+    
+  </div>
+
+  <!-- JavaScript libraries -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  
+  <!-- Initialize slideshow -->
+  <script type="text/javascript">
+    $(document).ready(function(){
+      // Initialize slick carousel
+      $('.auto-play-carousel').slick({
+        infinite: true,
+        slidesToShow: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnFocus: true,
+        pauseOnHover: false,
+        arrows: false,
+        fade: true,
+        cssEase: 'ease-in-out'
+      });
+
+      // Navigation button handlers
+      $('.slick-next').on('click', function(){
+        $('.auto-play-carousel').slick('slickNext');
+      });
+
+      $('.slick-prev').on('click', function(){
+        $('.auto-play-carousel').slick('slickPrev');
+      });
+      
+      // Keyboard navigation
+      $(document).keydown(function(e) {
+        if (e.keyCode == 37) { // Left arrow
+          $('.auto-play-carousel').slick('slickPrev');
+        }
+        if (e.keyCode == 39) { // Right arrow
+          $('.auto-play-carousel').slick('slickNext');
+        }
+        if (e.keyCode == 32) { // Space bar
+          e.preventDefault();
+          $('.auto-play-carousel').slick('slickPause');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
